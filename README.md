@@ -1,6 +1,6 @@
 # Merrittocracy — Content
 
-Drafts and published pieces for the [Merrittocracy](https://merrittocracy.substack.com) Substack and X account. Claude writes the initial drafts; I edit and publish.
+Drafts and published pieces for the [Merrittocracy](https://substack.com/@themerrittocracy) Substack and X account. Claude writes the initial drafts; I edit and publish.
 
 ## Structure
 
