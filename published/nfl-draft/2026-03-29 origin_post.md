@@ -1,4 +1,3 @@
-
 ### FINAL — Short thread (3 tweets, pin tweet 1)
 
 **1/3**
@@ -18,18 +17,18 @@ The draft is the start of the race, not the finish line. Wherever the consensus 
 
 Coming soon: narrative-checks on the 2026 class, position group deep dives, and a model-based mock before April 23.
 
-Full story: [Substack link]
+Full story: [Substack link](https://open.substack.com/pub/themerrittocracy/p/sports-narratives-are-broken-the?r=2327xj&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true)
 Code: [GitHub link](https://github.com/merrittocratic/nfl-draft-model)
 
 ---
 
 ## POST 2: SUBSTACK ORIGIN POST
 
-# Sports Narratives are broken. It's time for receipts.
+# Sports Narratives are broken. The only fix, Receipts!
 
 Every sport comes equipped with a narrative-building machine.
 
-The NFL has it's draft cycle beginning right after the Super Bowl.  Every year, analysts begin repeating each other's evaluations until mock drafts harden into consensus, a team picks the guy everyone expected, and three years later nobody goes back to grade the pre-draft analysis. In the NBA, the narratives center around "Is this team really good enough to win the Finals", or my favorite, "Who will be the next Face of the League". In golf, "Who will be the next Tiger Woods?", and is it their time to win the Masters?  Gotta be honest though, right now, being the next Tiger Woods doens't too appealing.  
+The NFL has it's draft cycle beginning right after the Super Bowl.  Every year, analysts begin repeating each other's evaluations until mock drafts harden into consensus, a team picks the guy everyone expected, and three years later nobody goes back to grade the pre-draft analysis. In the NBA, the narratives center around "Is this team really good enough to win the Finals", or my favorite, "Who will be the next Face of the League". In golf, "Who will be the next Tiger Woods?", and is it their time to win the Masters?  Gotta be honest though, right now, being the next Tiger Woods doens't feel too appealing.  
 
 The cycle works the same across the entire sports landscape: narratives are created, audiences consume them, the moment passes, and accountability expires. The experts just move on to create the next cycle.
 
@@ -115,35 +114,3 @@ First analysis piece drops this week.
 ---
 
 *Data via nflverse/nflreadr and Pro Football Reference.*
-
----
-
-## NOTES FOR REVIEW
-
-### X post
-- **Option A vs B:** I still lean Option B for the pin. New followers who land on your profile get the full picture from the pinned thread — what you are, what the model does, what's coming. Option A works if you prefer cleaner aesthetics and plan to let the Substack link do the heavy lifting.
-- **"First analysis drops this week"** — adjust timing to match when the Simpson/Pickett piece is ready to publish.
-
-### Substack post
-- ~1,600 words. Tight for a methodology post, but this is an origin piece, not a full methods paper. The detailed methodology deep dive (CV strategy, feature engineering, AV residual computation) should be its own follow-up once the model is producing output.
-- The opening paragraph now name-checks NFL, NBA, and golf in one sweep — establishes multi-sport scope without committing to a specific timeline for any of them.
-- "Beyond the draft" section is deliberately vague on future sport specifics. You don't want to promise NBA playoff content in the origin post and not deliver if the draft model runs long. Better to let future content arrive and speak for itself.
-
-### Personal angle
-- The "Why Merrittocracy" closer is short and punny. You may want to expand it with a brief personal hook — the analytics community responds well to knowing there's a real person behind the model, not a faceless brand. A sentence or two about being a data scientist who follows the draft closely, without connecting to the day job. Your call on how much to share.
-
-### Pre-publish checklist
-- GitHub repo should be public with at least a README before this goes live. An empty or private repo undercuts the transparency claim on launch day.
-- Make sure the Substack URL is live and the X handle is set up before publishing.
-
-### Open questions for you
-- **NBA playoffs (May–June):** Model or data-backed commentary? A lighter-weight approach (public stats + narrative-checking) ships faster and still fits the brand. Worth deciding soon so you can plan the pipeline.
-- **Masters (April 2027):** Golf has excellent public data (strokes gained, course history splits) that practically begs for narrative-checking without heavy custom modeling. Model or commentary?
-- **Content repo:** Create `merrittocratic/content` on GitHub before launch if possible. First files will be the published versions of these posts.
-
-### Launch sequence
-1. **Substack origin post** (this piece) — publish first, get the URL
-2. **X intro thread** — publish same day, link to Substack
-3. **Simpson/Pickett Substack + X thread** — 2–4 days later
-4. Position group deep dives begin after that
-5. NBA playoff narrative-checks begin late May
