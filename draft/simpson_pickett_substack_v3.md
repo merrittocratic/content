@@ -1,24 +1,27 @@
-# The Ghost of Kenny Pickett: Why the Ty Simpson Hype Should Sound Familiar
-
-## STATUS: DRAFT FOR REVIEW — do not publish without edits
+# REALLY! Ty Simpson?
 
 ---
 
-It's happening again.
+Since the late 1990s only one quarterback has hit in the draft with 15 or fewer NFL starts.
+I think we can all agree Ty Simpson is not Cam Newton...
 
-A quarterback class everyone agrees is weak. One clear QB1 at the top (Fernando Mendoza, this time). And behind him, a prospect who's being talked into the first round on processing ability, arm talent, and the simple, desperate math of NFL teams that need a quarterback more than they need to be right.
+Here we go again!
+
+A quarterback class everyone agrees is weak. One clear QB1 at the top, or at times no clear top QB prospect. And then there is a prospect who's being talked into the first round on being a coach's son, arm talent, and the simple, desperate math of NFL teams that need a quarterback more than they need to be right.
 
 In 2022, that prospect was Kenny Pickett. In 2026, it's Ty Simpson.
 
-Daniel Jeremiah went on The Rich Eisen Show last month and said flatly: "I like Ty Simpson more than Kenny Pickett." Adam Schefter told Pat McAfee he's confident Simpson will be a first-round pick. The machinery is humming. The draft-industrial complex has found its narrative.
+Daniel Jeremiah went on The Rich Eisen Show last month and said flatly: "I like Ty Simpson more than Kenny Pickett." Adam Schefter told Pat McAfee he's confident Simpson will be a first-round pick. The narrative machine has narrowed its focus and the draft-industrial complex is dialing up the pressure.
 
-But here's the thing about narratives — they don't have to survive contact with a spreadsheet. Let's check.
+But here's the thing about narratives, for some reason we've decided they don't have to survive contact with the data. 
+
+Merrittocracy time!
 
 ## The table nobody wants to see
 
 The argument for Simpson as a prospect usually starts with the scouting report: elite processor, football IQ, pocket manipulation. It never starts with the numbers. There's a reason for that.
 
-Since 2010, four quarterbacks have been drafted in the first round with fewer than 15 career Division I starts. Kenny Pickett wasn't technically in that group — he had 52 career games at Pitt — but he's the direct comparison everyone's making to Simpson, so he belongs in the conversation. Here's the full picture, including the only low-experience quarterback who actually succeeded in the NFL:
+Since 2010, four quarterbacks have been drafted in the first round with fewer than 15 career Division I starts. Kenny Pickett wasn't technically in that group — he had 52 career games at Pitt — but since everyone wants to bring up Pickett, we'll keep him in the conversation. Here's the full picture, including the only low-experience quarterback who actually succeeded in the NFL:
 
 | Metric | Newton (2010) | Haskins (2018) | Pickett (2021) | Simpson (2025) |
 |--------|--------------|---------------|----------------|----------------|
@@ -59,6 +62,8 @@ That is the minimum viable product for a low-experience quarterback to succeed i
 ## And when great production wasn't enough
 
 If Newton shows what it takes for this archetype to work, Dwayne Haskins shows how it fails even when the numbers are historic.
+
+I loved Dwayne Haskins at Ohio State.  There's video of him at 10 or 11 year old walking around the facility wearing a number 7 jersey. I just wish he had stayed another year.  Who knows what might have happened and how things could have gone differently for him....
 
 In 2018, Haskins completed 70% of his passes for 4,831 yards — leading the entire FBS — with 50 touchdowns and 8 interceptions. He set or tied 28 Ohio State records and seven Big Ten conference records. He won the Big Ten Championship, earned conference Offensive Player of the Year, and finished third in Heisman voting. Fourteen starts, one year, the best single starting season by a college quarterback in recent memory.
 

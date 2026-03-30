@@ -15,7 +15,7 @@ library(tibble)
 
 qb_comp <- tibble::tribble(
   ~metric,             ~newton,                                          ~haskins,                             ~pickett,                          ~simpson,
-  "FBS starts",        "14 (one year)",                                  "14 (one year)",                      "13 (52 career games)",            "15 (one year)",
+  "Draft Year starts", "14 (one year)",                                  "14 (one year)",                      "13 (four years)",                 "15 (one year)",
   "Comp %",            "66.1%",                                          "70.0%",                              "67.2%",                           "64.5%",
   "Pass yards",        "2,854",                                          "4,831",                              "4,319",                           "3,567",
   "Pass TDs",          "30",                                             "50",                                 "42",                              "28",
@@ -25,8 +25,8 @@ qb_comp <- tibble::tribble(
   "Total TDs",         "51",                                             "54",                                 "47",                              "30",
   "Total offense",     "4,327",                                          "4,939",                              "4,552",                           "3,660",
   "Size",              "6-6, 250",                                       "6-3, 214",                           "6-3, 220",                        "6-2, 208",
-  "Prior experience",  "JUCO season\n(natl title, 38 total TDs)",        "Backup reps only",                   "52 career games",                 "50 career pass attempts",
-  "Awards",            "Heisman, national title,\nMaxwell, Davey O'Brien", "Heisman finalist,\nBig Ten OPoY, 28 records", "Heisman finalist,\nACC OPoY, ACC Champion", "\u2014",
+  "Prior experience",  "JUCO season\n(Natl Title, 38 total TDs)",        "Backup reps only",                   "52 career games",                 "50 career pass attempts",
+  "Awards",            "Heisman, National Title,\nMaxwell, Davey O'Brien", "Heisman finalist,\nBig Ten OPoY, 28 records", "Heisman finalist,\nACC OPoY, ACC Champion", "\u2014",
   "NFL outcome",       "MVP, 3x Pro Bowl,\n11-year career",              "Released after\n2 years",            "4th team\nin 4 years",            "TBD"
 )
 
@@ -35,6 +35,7 @@ qb_comp <- tibble::tribble(
 rush_rows <- which(qb_comp$metric %in% c("Rush yards", "Rush TDs"))
 total_rows <- which(qb_comp$metric %in% c("Total TDs", "Total offense"))
 outcome_row <- which(qb_comp$metric == "NFL outcome")
+experience_row <- which(qb_comp$metric == "Prior experience")
 
 # --- Build table --------------------------------------------------------------
 
@@ -53,7 +54,7 @@ tbl <- qb_comp |>
   # -- Title and subtitle ------------------------------------------------------
   tab_header(
     title    = md("**The Low-Start QB Comparison**"),
-    subtitle = md("Every one-year or low-experience starting QB drafted in Round 1 since 2010 — plus Pickett")
+    subtitle = md("One-year or low-experience starting QBs drafted in Round 1 since 2010 — plus Pickett")
   ) |>
 
   # -- Source footer -----------------------------------------------------------
@@ -105,6 +106,12 @@ tbl <- qb_comp |>
       cell_text(style = "italic")
     ),
     locations = cells_body(rows = outcome_row)
+  ) |>
+
+  # -- Newton and Pickett: green tint on prior experience ----------------------
+  tab_style(
+    style = cell_fill(color = "#F1F8E9"),
+    locations = cells_body(columns = c(newton, pickett), rows = experience_row)
   ) |>
 
   # -- Newton column: success = green tint on outcome --------------------------
