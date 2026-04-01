@@ -7,7 +7,7 @@ I think we can all agree Ty Simpson is not Cam Newton...
 
 Here we go again!
 
-A quarterback class everyone agrees is weak. One clear QB1 at the top, or at times no clear top QB prospect. And then there is a prospect who's being talked into the first round on being a coach's son, arm talent, and the simple, desperate math of NFL teams that need a quarterback more than they need to be right.
+A quarterback class everyone agrees is weak. One clear QB1 at the top, or in other years, no clear top QB prospect. Then comes the prospect who's being talked into the first round on being a coach's son, arm talent, and the simple, desperate math of NFL teams that need a quarterback more than they need to be right.
 
 In 2022, that prospect was Kenny Pickett. In 2026, it's Ty Simpson.
 
@@ -15,7 +15,7 @@ Daniel Jeremiah went on The Rich Eisen Show last month and said flatly: "I like 
 
 But here's the thing about narratives, for some reason we've decided they don't have to survive contact with the data. 
 
-Merrittocracy time!
+It's Merrittocracy time!
 
 ## The table nobody wants to see
 
@@ -57,13 +57,13 @@ That is the minimum viable product for a low-experience quarterback to succeed i
 
 If Newton shows what it takes for this archetype to work, Dwayne Haskins shows how it fails even when the numbers are historic.
 
-I loved Dwayne Haskins at Ohio State.  There's video of him at 10 or 11 year old walking around the OSU facility wearing a number 7 jersey. He was always going to be a Buckeye.  I just wish he had stayed another year.  Who knows what might have happened and how things could have gone differently for him....
+I loved Dwayne Haskins at Ohio State.  There's video of him at 10 or 11 years old walking around the OSU facility wearing a number 7 jersey. He was always going to be a Buckeye.  I just wish he had stayed another year.  Who knows what might have happened and how things could have gone differently for him....
 
-In 2018, Haskins completed 70% of his passes for 4,831 yards, good enough to lead the entire FBS, along with 50 touchdowns and 8 interceptions. He set or tied 28 Ohio State records and seven Big Ten conference records. He won the Big Ten Championship, earned conference Offensive Player of the Year, and finished third in Heisman voting. Fourteen starts, one year, one of the best single starting seasons by a college quarterback in recent memory.
+In 2018, Haskins completed 70% of his passes for 4,831 yards, good enough to lead the entire FBS, along with 50 touchdowns and 8 interceptions. He set or tied 28 Ohio State records and seven Big Ten conference records. He won the Big Ten Championship, earned conference Offensive Player of the Year, and finished third in Heisman voting. Fourteen starts, one year, one of the best single starting seasons by a college quarterback in recent memory.  To put that into perspective, Haskins threw for 11 more TDs and 1,000 more yards than Drew Brees' best season at Purdue!
 
-Washington took him 15th overall. They released him after two years. He threw 12 touchdowns and 14 interceptions in 16 career NFL games. The most productive one-year starter from the pocket in Big Ten history couldn't make it work.  To put that into perspective, Haskins threw for 11 more TDs and 1,000 more yards than Drew Brees' best season at Purdue!
+Washington took him 15th overall. They released him after two years. He threw 12 touchdowns and 14 interceptions in 16 career NFL games. The most productive one-year starter from the pocket in Big Ten history couldn't make it work.  
 
-Simpson's single-season production isn't in the same universe as Haskins's. If *that* résumé couldn't overcome limited starting experience, what specifically about Simpson's lesser version is supposed to project differently?  Does Kalen DeBoer have an amazing track record of producing high-level pro QBs?  The Falcons might take issue with that statement.
+Simpson's single-season production isn't in the same universe as Haskins's. If *that* résumé couldn't overcome limited starting experience, what specifically about Simpson's lesser version is supposed to project differently?  Does Kalen DeBoer have an amazing track record of producing high-level pro QBs?  The Falcons might take issue with that statement.  If it's Simpson's off-platform throws, I think I hear Zach Wilson calling.
 
 The other low-start first-rounders since 2010 fare no better. Trubisky (13 starts at UNC, 2nd overall in 2017) was out of Chicago in four years and is now a career backup. Richardson (13 starts at Florida, 4th overall in 2023) has completed 50.6% of his passes over three NFL seasons and spent 2025 as a backup. That's a 75% bust rate in this comp group — and every late-round success story from the past decade (Purdy, Prescott, Hurts, Minshew) had extensive college starting experience. This profile doesn't produce NFL starters. Period.
 
@@ -75,7 +75,7 @@ Through his first nine games, Simpson looked like a legitimate first-round talen
 
 Then defenses adjusted. Over his final six games, Simpson's completion rate dropped to 61%. He threw four interceptions. His yards-per-game average fell from 266.7 to 158.3. Alabama's offense stalled, and Simpson didn't have the experience or the counterpunch to respond.
 
-One season of tape is already a thin evaluation sample. When a third of that season trends sharply downward, you're building a first-round projection on roughly nine games of good football. Haskins, for comparison, didn't have a late-season regression — his tape held up start to start — and he still couldn't translate it to the NFL.  
+One season of tape is already a thin evaluation sample. When a third of that season trends sharply downward, you're building a first-round projection on roughly nine games of good football. Haskins, for comparison, didn't have a late-season regression — his tape held up from start to finish, and he still couldn't translate it to the NFL.  
 
 ## "But he processes better"
 
@@ -83,17 +83,19 @@ The case for Simpson over everyone in that table rests on subjective scouting ev
 
 These things may all be true. Processing speed matters for NFL quarterbacks, and Simpson may genuinely be a sharper processor than Pickett or Haskins were coming out of school.
 
-But processing is not a measurable. It doesn't show up in a box score. And it's the kind of trait that draft analysts lean on when the production doesn't support the grade they want to give. "The stats don't show it, but trust me, you can see it on tape" is the most dangerous sentence in draft evaluation — because it's unfalsifiable in the moment and only accountable years later, when nobody's checking receipts.
+But processing is not a measurable. It doesn't show up in a box score. And it's the kind of trait that draft analysts lean on when the production doesn't support the grade they want to give. "The stats don't show it, but trust me, you can see it on tape" is the most dangerous sentence in draft evaluation, because it's unfalsifiable in the moment and only accountable years later, when nobody's checking receipts.
 
-It's also worth noting that Simpson and his most vocal media advocates share agency representation through CAA. That doesn't make anyone's evaluation wrong — but it's context that consumers deserve when weighing the hype cycle.
+It's also worth noting that Simpson and his most vocal media advocates share agency representation through CAA. That doesn't make anyone's evaluation wrong, but it's context that consumers deserve when weighing the hype cycle.
+
+I know ALOT of people now think the combine is useless.  You don't play football in your underwear!  But it can be instructive if you do some head-to-head comparisons.  If you want to be objective, go watch Ty Simpson and Dwayne Haskins throw back-to-back.  In particular, watch the deep ball throws.  Ty is 10 yards shorter in air distance and does not at all have the prototypical "drop it in the bucket" catchable ball like a Russell Wilson in his prime.
 
 ## The smarter play
 
-Also just to add clarity, there is not a SINGLE success story of a low-experience QB coming from later rounds to become a successful franchise QB, so just dropping to a later round to draft Simpson still might not be the play.
+One last thing to add more clarity, there is not a SINGLE success story of a low-experience QB coming from later rounds to become a successful franchise QB either, so just dropping to a later round to draft Simpson still might not be the play.
 
 So, here's where this moves from "why not Simpson" to "what to do instead."
 
-If your team needs a developmental quarterback, the data overwhelmingly says: don't burn a first-round pick on a one-year starter in a weak class. That's the Pickett play. That's the Haskins play. We know how they end.
+If your team needs a developmental quarterback, the data overwhelmingly says: don't burn a first-round pick on a one-year starter in a weak class. That's the Trubisky play. That's the Haskins play. We know how they end.
 
 Top backup quarterbacks now cost $7–8 million annually on the open market. There's real value in drafting a developmental QB on a rookie contract — but that's a Day 2 or Day 3 investment, not a first-round one. And this class has two options that the data supports far more than Simpson at pick 20-something.
 
@@ -103,13 +105,13 @@ Top backup quarterbacks now cost $7–8 million annually on the open market. The
 
 Both options cost a fraction of the draft capital. Both have more experience. And if you're wrong about either of them, you spent a third- or fourth-round pick — not a franchise-defining first-rounder that haunts you for half a decade.  
 
-Use that first-round pick on a premium position player — an edge rusher, an offensive tackle, a cornerback. Positions where the hit rate is dramatically higher and the rookie contract provides enormous surplus value. Build the roster first, and when it's close to being capable draft the QB.  Or, draft your project quarterback where the cost of being wrong doesn't cripple the roster building plan.
+Use that first-round pick on a premium position player: an edge rusher, an offensive tackle, a cornerback. Positions where the hit rate is dramatically higher and the rookie contract provides enormous surplus value. Or, draft your project quarterback where the cost of being wrong doesn't cripple the roster building plan.  Build the roster first and when it's close to being capable, draft the QB.  
 
 ## What we're not saying
 
 Nobody here is calling Ty Simpson a bust. He **MAY** turn into a quality NFL starter. His processing **MAY** be everything the evaluators say it is, and the right coaching staff may unlock a long career.
 
-But "**projects better than Kenny Pickett**" is a specific, testable claim — and the data doesn't support it. Lower completion percentage. Fewer touchdowns. Dramatically fewer starts. A late-season regression that neither Pickett nor Haskins showed. Ninety-three rushing yards in a season where the only successful comp in this archetype rushed for 1,473. The smallest frame, the thinnest résumé, and the fewest accolades of anyone in the comparison. A production profile that finishes dead last in a four-way comparison against every low-experience or one-year starting quarterback drafted in the first round in the past 15 years.
+But "**projects better than Kenny Pickett**" is a specific, testable claim — and the data doesn't support it. Lower completion percentage. Fewer touchdowns. Dramatically fewer starts. A late-season regression that neither Pickett, nor Haskins (truer lower experience comparison QB) showed. Ninety-three rushing yards in a season where the only successful comp in this archetype rushed for 1,473. The smallest frame, the thinnest résumé, and the fewest accolades of anyone in the comparison. A production profile that finishes dead last in a four-way comparison against every low-experience or one-year starting quarterback drafted in the first round in the past 15 years.
 
 The consensus isn't wrong because it's optimistic about Simpson. It's wrong because it's making a comparative claim without comparative evidence. That's not analysis. That's storytelling.
 
