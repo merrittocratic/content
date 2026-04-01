@@ -1,0 +1,49 @@
+#!/usr/bin/env bash
+# Pre-commit hook: copies newly staged draft files to the current published folder,
+# dated for the following Sunday, stripping _vN version suffixes from the filename.
+
+REPO_ROOT=$(git rev-parse --show-toplevel)
+PROJECT_FILE="$REPO_ROOT/.current_project"
+
+if [ ! -f "$PROJECT_FILE" ]; then
+  echo "pre-commit: .current_project not found, skipping draft → published copy"
+  exit 0
+fi
+
+CURRENT_PROJECT=$(tr -d '[:space:]' < "$PROJECT_FILE")
+PUBLISHED_DIR="$REPO_ROOT/published/$CURRENT_PROJECT"
+
+# Calculate next Sunday
+DOW=$(date +%w)  # 0=Sunday, 1=Monday, ..., 6=Saturday
+if [ "$DOW" -eq 0 ]; then
+  DAYS_UNTIL_SUNDAY=7
+else
+  DAYS_UNTIL_SUNDAY=$((7 - DOW))
+fi
+NEXT_SUNDAY=$(date -v+${DAYS_UNTIL_SUNDAY}d +%Y-%m-%d)
+
+# Find newly staged files in draft/
+NEW_DRAFTS=$(git diff --cached --name-only --diff-filter=A | grep '^draft/')
+
+if [ -z "$NEW_DRAFTS" ]; then
+  exit 0
+fi
+
+for DRAFT_PATH in $NEW_DRAFTS; do
+  FILENAME=$(basename "$DRAFT_PATH")
+  # Strip _vN version suffix (e.g. _v3, _v12) before the extension
+  CLEAN_NAME=$(echo "$FILENAME" | sed -E 's/_v[0-9]+(\.[^.]+)$/\1/')
+  DEST="$PUBLISHED_DIR/$NEXT_SUNDAY $CLEAN_NAME"
+
+  if [ -f "$DEST" ]; then
+    echo "pre-commit: $DEST already exists, skipping"
+    continue
+  fi
+
+  mkdir -p "$PUBLISHED_DIR"
+  cp "$REPO_ROOT/$DRAFT_PATH" "$DEST"
+  git add "$DEST"
+  echo "pre-commit: created $DEST"
+done
+
+exit 0

@@ -16,7 +16,30 @@ find published -type f -name "*.html" -delete
 find published -type f -name ".DS_Store" -delete
 ```
 
+## Draft → Published Hook
+
+A pre-commit hook automatically copies any newly staged `draft/` file into the current published folder, dated for the following Sunday, stripping `_vN` version suffixes.
+
+**Example:** staging `draft/downs_positional_value_v2.md` on a Wednesday creates `published/nfl-draft/2026-04-05 downs_positional_value.md` in the same commit.
+
+### Setup (one-time per clone)
+
+```bash
+bash scripts/install-hooks.sh
+```
+
+### Changing the active project
+
+Edit `.current_project` in the repo root to point at the correct `published/` subfolder:
+
+```
+nfl-draft
+```
+
+Update this when starting a new content series (e.g. `nba-draft`, `college-football`).
+
 ## Workflow
 
 - `draft/` — working drafts (not published)
 - `published/<topic>/YYYY-MM-DD <title>.md` — finalized posts, one `.md` per piece
+- `.current_project` — controls which `published/` subfolder the hook copies into
