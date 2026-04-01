@@ -44,7 +44,7 @@ Update this when starting a new content series (e.g. `nba-draft`, `college-footb
 
 Whenever we land on a new or innovative way of working — a workflow automation, a new system, an interesting process decision — ask the user: "Want to add this to the building_in_public log?"
 
-The log lives at `draft/building_in_public.md` and is gitignored (personal notes, not published to the repo).
+The log lives at `draft/building_in_public_log.md` and is gitignored (personal notes, not published to the repo).
 
 ## Workflow
 
