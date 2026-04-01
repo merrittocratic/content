@@ -22,6 +22,8 @@ A pre-commit hook automatically copies any newly staged `draft/` file into the c
 
 **Example:** staging `draft/downs_positional_value_v2.md` on a Wednesday creates `published/nfl-draft/2026-04-05 downs_positional_value.md` in the same commit.
 
+The date is always dynamic — calculated as the next Sunday from the day of the commit, never hardcoded. Verified working as of 2026-04-01.
+
 ### Setup (one-time per clone)
 
 ```bash
