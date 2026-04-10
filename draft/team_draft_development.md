@@ -1,37 +1,35 @@
-# Sometimes It Takes a Moving Van
+# The Van is not the Variable 
 
 ---
 
-Two franchises moved to Los Angeles. The draft data noticed what happened next
-before the national media did. And one franchise that also relocated proves the
-van isn't the variable.
-
-We've been building team-level draft development into the model as a feature —
-measuring whether each franchise consistently gets more or less out of its picks
-than draft position should produce. Most public models ignore the drafting team
-entirely once the pick is made. That's a mistake. Some organizations are
+Every so often when building a model, you come across a feature that you can't ignore.
+The training and retaining of top talent is so important to any business, and the NFL is no exception. 
+The success of Sam Darnold with the Vikings and Seahawks isn't an accident! 
+Most public draft models ignore the drafting team entirely once the pick is made. That's a mistake. Some organizations are just
 genuinely better at turning draft capital into production, and 15 years of data
 makes that signal visible.
+
+Another fun fact, two franchises re-located to Los Angeles and saw their talent development immediately improve.
+Just in case you're thinkig you should go ahead and puck up all your belongings, the Raiders are still bad, so maybe 
+the moving van isn't the answer. 
 
 ## The table nobody's talking about
 
 [TABLE IMAGE]
 
-San Diego ranked 27th. Negative residual mean, 14.1% bust rate over 71 picks.
-Talented players, consistently underperforming their draft slots.
-
-Los Angeles Chargers ranked 1st. Best residual mean in the league, 3.8% bust
-rate. Small sample caveat applies — 27 picks is thin — but the direction is
-hard to dismiss. The organizational reset that came with the move shows up in
-the numbers.
+The San Diego "Super Chargers" ranked 27th. Negative residual mean, 14.1% bust rate over 71 picks.
+Talented players, consistently underperforming their draft slots. On the other hand, the Los Angeles Chargers ranked 1st. 
+Best residual mean in the league, with just a 3.8% bust rate. Yes, 27 picks makes a small sample size, but the direction is
+hard to dismiss. The organizational reset that came with the move shows up in the numbers.
 
 The Rams tell a similar story. St. Louis finished dead last — 34th, –0.229
-residual mean, 15.4% bust rate over 88 picks. The Jeff Fisher years were
-exactly as bad as the record suggested. Los Angeles Rams rank 14th. Les Snead,
-freed from that organizational inertia, built something that trends toward
-actually developing what it drafts.
+residual mean, wiht a 15.4% bust rate over 88 picks. The Jeff Fisher years were
+exactly as bad as the record suggested. Even with their supposed de-valuing of the dratt, the Los Angeles version of the Rams rank 14th. Les Snead, freed from that organizational inertia, and built something that trends toward
+actually developing the talet that it drafts, despite the narrative.
 
-## Las Vegas is running the control experiment
+And, before you say, "Really, the A'ints?", remember this covers the Payton/Brees era.  Have you seen what Payton is doing with the Broncos, despite being underwater the deep Russell Wilson waters?  You can argue about the person, but you can't argue with his results.  
+
+## Las Vegas is running the movig van control experiment
 
 Oakland ranked 31st — –0.155 residual mean, 17% bust rate. The Raiders then
 moved to Las Vegas in 2020, rotated through three head coaches, two general
@@ -43,7 +41,7 @@ The LAC and LAR relocations worked because the *organizations* changed. The
 Raiders relocated and kept being the Raiders. The van isn't the variable. The
 front office is.
 
-## The one hiding in plain sight
+## More struggles hiding in plain sight
 
 New England ranks 29th, and that number is going to surprise people.
 
@@ -66,12 +64,12 @@ approach that ranked 29th in draft-pick-adjusted development was suddenly
 visible. The last three years looked exactly like what the data had been quietly
 describing all along.
 
-## What it means for April 23
+## What it means going into Draft Night
 
-Before draft night, we'll be publishing team-level development grades alongside
-our prospect scores. Which teams picking in the top 15 have the track record to
-back up the investment? Which ones are about to repeat the same organizational
-patterns the data has been flagging for a decade?
+Before draft night, The Merrittocracy will be publishing team-level development grades alongside
+our prospect scores. You'll know Which teams picking in the top 15 have the track record to
+back up their investment, and hich ones are about to repeat the same organizational mistakes.
+This pattern for flagging repeat offenders has been in the data for a decade.
 
 The drafting team isn't noise. It's signal. And it's been hiding in plain sight.
 
