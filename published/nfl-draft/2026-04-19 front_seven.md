@@ -1,93 +1,91 @@
 # The Wrong Side of the Front Seven
-
+ 
 ---
-
-We've spent the last three weeks watching the draft-industrial complex tie itself in knots over position labels. Caleb Downs is just a safety. Jeremiyah Love is just a running back. Sonny Styles is definitely not just a linebacker — he's a *chess piece*, a *matchup nightmare*, a *defensive swiss army knife*.
-
-The vocabulary changes every week. The underlying anxiety is always the same: teams are about to spend premium draft capital on positions the analytics community told them not to trust, and nobody wants to be the one who said the quiet part out loud.
-
-Here's what three weeks of data actually says about the front seven.
-
-## The bet nobody questions
-
-Edge rusher is the most coveted position in the draft. Teams trade up for it. Agents market their clients toward it. The entire pre-draft industrial complex treats EDGE as the one place where you can confidently spend top-five capital and not have to explain yourself at the podium.
-
-The data has a different view.
-
-[OUTCOME DISTRIBUTION IMAGE: A_outcome_distributions.png]
-
-EDGE is the only position in the front seven where busts outnumber booms — 25% bust rate against a 21% boom rate. Every other position group produces more booms than busts, or at minimum breaks even. EDGE is uniquely, stubbornly inverted.
-
-And the top-three picks are a graveyard. Dion Jordan. Dante Fowler. Vernon Gholston. Solomon Thomas. Clelin Ferrell. All went top-three. All bombed. That's not a small sample — that's a pattern that spans a decade and multiple teams and front offices, all making the same mistake at the same position with the same confidence.
-
-The irony is painful. The position that gets the most draft capital gets the worst return on it. Teams have been paying premium prices for the position with the worst risk profile in the front seven, and the discourse never questions it because EDGE *feels* safe. Quarterbacks get sacked. Pass rush wins championships. The vibes are immaculate.
-
-The data is not.
-
-There's a Day 2 footnote worth noting here, because it actually makes the EDGE story more interesting. Frank Clark at 63. Calais Campbell at 50. LaMarr Woodley at 46. The value curve for EDGE rushers inverts sharply outside the first round — the position becomes one of the best investments on Day 2, precisely because the market has stopped overpaying for it. The problem isn't EDGE. It's paying top-three prices for EDGE.
-
-## The position nobody questions enough
-
-Flip the chart to interior defensive linemen and the picture inverts completely.
-
-IDL posts a 26% boom rate against a 20% bust rate — the best outcome profile of any front seven position group, and it's not close. When you look at who the booms are, the names come fast: Aaron Donald at 13. Ndamukong Suh at 2. Haloti Ngata at 12. Fletcher Cox at 12. Chris Jones in the second round. Jeffery Simmons at 19. The IDL boom list reads like an All-Pro roster. The bust list is mostly injuries — Harrell, Easley, Nkemdiche — rather than talent misses. These players were good. They just couldn't stay on the field.
-
-That distinction matters. When an EDGE busts, it usually means the talent was wrong. When an IDL busts, it usually means something went wrong around the talent. Those are different risk categories, and the market doesn't price them differently.
-
-The safest investment in the entire front seven is also the one that generates the least pre-draft conversation. There's no IDL prospect drawing top-five buzz in April. There's no think piece asking whether the best interior defensive lineman on the board is really just a "run-stopper." The market discount is quiet and real and has been producing value for fifteen years.
-
-If you want to know which team is going to get the most from the front seven in this draft, find the one that drafts an elite IDL in the back half of the first round and calls it a day.
-
-## The position everyone is getting wrong in the right direction
-
-Now for the piece that connects back to everything we've been building.
-
-Linebackers have a 28% overall bust rate in our training data. That number is real. It's the highest of any position group. And the bust list makes it visceral: Aaron Curry at 4. Barkevious Mingo at 6. Rolando McClain at 8. Isaiah Simmons at 8. Players taken with top-10 capital who never became the players the draft consensus promised.
-
-But here's what the overall bust rate hides.
-
-[OUTCOME DISTRIBUTION IMAGE: A_outcome_distributions.png]
-
-Filter to first-round picks only, and the LB bust rate drops to 11% — right in line with every other position on the board. The 28% isn't a first-round problem. It's a Day 2 and Day 3 problem. Teams that reach for linebackers outside the first round, convinced they've found a late-round Roquan Smith, are where the carnage actually lives.
-
-The lesson isn't "don't draft linebackers." It's "if you're going to draft a linebacker, do it in the first round or don't bother." The position rewards premium investment and punishes the bargain hunt.
-
-Which brings us to the three bets teams are about to make.
-
+ 
+Three weeks of draft-industrial-complex front-seven discourse. Zero think pieces on interior defensive linemen.
+ 
+That's the tell.
+ 
+## The position nobody's talking about
+ 
+Interior defensive line is the safest premium bet in the front seven, and it's not close.
+ 
+[IMAGE: A_outcome_distributions.png]
+ 
+First-round IDL posts a 26.1% boom rate against a 15.2% bust rate — a +10.9% differential that is, by a wide margin, the best outcome profile of any position in the front seven. It's also the only front-seven position that stays positive across *all* rounds (+8.1%). This isn't a round-one fluke or a small-sample artifact. It's a structural feature of how the position translates from college to the NFL.
+ 
+The boom list reads like an All-Pro roster. Aaron Donald at 13. Ndamukong Suh at 2. Haloti Ngata at 12. Fletcher Cox at 12. Jeffery Simmons at 19. Chris Jones slipped to the second round and became the best defensive tackle of his generation. When you work through the names, the pattern is: if you take a good interior defensive lineman in the first round, you get a good interior defensive lineman. The position rewards the investment.
+ 
+The bust list is where it gets interesting. Dontari Poe, Jarran Reed, Robert Nkemdiche, Malik McDowell, Justin Harrell. Go read the stories. The pattern is injuries and off-field issues, not talent misses. When an IDL busts, it usually means something went wrong *around* the talent. That's a fundamentally different risk category than "we evaluated wrong," and the market doesn't price the distinction.
+ 
+If you want to know which team walks away from this draft with the best front seven, find the one that takes the best interior defensive lineman on the board in the back half of round one and calls it a day. That team is getting the position with the best risk-adjusted return in the front seven, at a price the market has been undervaluing for a decade and a half.
+ 
+Nobody will write a think piece about the pick. That's part of the reason it works.
+ 
+## The position that punishes premium capital
+ 
+Flip to edge rusher and the picture inverts.
+ 
+First-round EDGE posts an 18.3% boom rate against a 29.6% bust rate — a −11.3% differential that is, by the same margin, the worst outcome profile in the front seven. And the top-three picks are where the pattern gets ugly. Dion Jordan. Dante Fowler. Vernon Gholston. Solomon Thomas. Clelin Ferrell. Top-three capital, bottom-shelf returns, decade-spanning consistency across different teams and different front offices all making the same mistake at the same position with the same confidence.
+ 
+But here's the catch that reframes everything: *all-rounds* EDGE is +0.8%. Essentially break-even. The position isn't broken. The **premium** is.
+ 
+When you look at the scatter of first-round EDGE production, the story gets sharper.
+ 
+[IMAGE: edge_scatter.png]
+ 
+The intuition would be that busts cluster in one region and booms cluster in another — that you could look at college production and see which prospects were the safe bets. That's not what the chart shows. Every first-round EDGE sits in the upper-right quadrant: elite on sacks, elite on broader disruption. The filter already did its work. Everyone who clears the first-round EDGE bar looks like a boom candidate on paper, because that's literally what the bar selects for.
+ 
+And then a third of them bust anyway.
+ 
+This is not a selection mistake. Teams aren't picking the wrong prospects. The evaluation tools can't separate the hits from the misses inside the filtered-in population, because the filter itself already selected for "looks like a boom." The position is volatile at the top regardless of input quality, and no amount of scouting rigor changes the base rate.
+ 
+Which makes the Day 2 value curve the conclusion, not the footnote. Frank Clark at 63. Calais Campbell at 50. LaMarr Woodley at 46. These aren't outliers — they're evidence. If round-one EDGE and all-rounds EDGE produce different numbers, the value is structural: Day 1 and Day 2 are drawing from the same distribution of outcomes, and only one of them is priced like a premium investment.
+ 
+The position is fine. Paying top-five for it is where the front offices keep walking into the same wall. The bet isn't wrong because the scouts are bad. The bet is wrong because the price is wrong, and has been wrong for fifteen years.
+ 
+## The real surprise
+ 
+If round-one EDGE is the bet everyone knows is a coin flip and takes anyway, linebacker is the bet everyone thinks works out and doesn't.
+ 
+First-round LB: 23.3% boom, 32.6% bust, **−9.3% differential**. Worst first-round bust rate on the board. Tied with EDGE for the worst differential in the front seven. The bust list is visceral in a way the EDGE list isn't, because the picks were even more premium: Aaron Curry at 4. Barkevious Mingo at 6. Rolando McClain at 8. Isaiah Simmons at 8. Top-ten capital, never became the player the consensus promised.
+ 
+And here's the counter-intuitive part: *all-rounds* LB is +3.9%. Positive. The position is fine at price. The round-one tax is where the carnage lives.
+ 
+This is the rare narrative-check where the data agrees with the conventional wisdom. "Don't take linebackers in round one" is a thing draft analytics types have been saying for years. The data backs it up cleanly, and the more interesting question is why the draft-industrial complex keeps making the pick anyway. The answer is usually some variation of "but this guy is different" — and every year, different is what produces the same −9.3%.
+ 
+The chess piece archetype is the warning on top of the warning.
+ 
+If round-one LB is already a coin flip with the house edge, asking a first-round linebacker to be a positional chess piece is deployment risk layered on top of positional risk. Isaiah Simmons at 8 in 2020 is the cautionary tale, and he wasn't a talent miss — he was a deployment miss. A player asked to be everything who never got to be one specific thing long enough to become great at it.
+ 
+The players who turned the chess-piece label into production all did the same thing: they ignored the label. Micah Parsons went 12th in 2021 as a "versatile LB," then Dallas handed him an edge role and the rest is history. Haason Reddick was a bust as a linebacker before he reinvented himself as a pure pass rusher and became one of the best in the league. Khalil Mack was drafted as an outside linebacker, became the first player in NFL history named First-Team All-Pro at two different positions, and did it by leaning into the edge role, not away from it.
+ 
+The pattern is consistent: the chess-piece label is a warning, and the players who beat it did so by eventually committing to a position. The ones who stayed "versatile" forever are in the bust column.
+ 
 ## Three bets, one right answer
-
-**Bet One: The Chess Piece.** Sonny Styles and Arvell Reese are the headliners, and the pre-draft machine has run the same play on both of them that it ran on Love and Simmons. They're not linebackers. They're *weapons*. They're *versatile chess pieces*. Styles was a safety before he was a linebacker. Reese lined up everywhere on Ohio State's defense. The combine numbers — Styles' 43.5-inch vertical, his 4.46 speed, Reese's matching 4.46 with a 6'4" frame — are legitimately jaw-dropping.
-
-The last true chess piece linebacker taken top-10 in our training data was Isaiah Simmons in 2020. He went eighth to Arizona and posted an AV of 20 against an expected 31. Simmons wasn't a talent miss. He was a deployment miss — a player asked to be everything who never got to be one specific thing long enough to become great at it.
-
-The players who succeeded with this archetype found a home. Micah Parsons went 12th overall in 2021 as a "versatile LB," then Dallas handed him an edge role and the rest is history. Haason Reddick was classified as a bust in our data as a linebacker, then reinvented himself as a pure pass rusher and became one of the best in the league. Khalil Mack was drafted as an outside linebacker, became the first player in NFL history named First-Team All-Pro at two different positions — linebacker *and* defensive end — and did it by leaning into the edge role, not away from it.
-
-The pattern is consistent: the chess piece label is a warning, not a promise. The players who turned it into production did so by eventually committing to a position. The ones who stayed "versatile" forever are the ones in the bust column.
-
-**Bet Two: The Pass Rusher.** Rueben Bain and David Bailey represent the cleaner value proposition — players who will line up on the edge and rush the quarterback, no position ambiguity required. The EDGE bust data should give any team pause about spending top-10 capital here, but the profile of those busts is instructive. Jordan, Fowler, Gholston, Thomas, Ferrell — all had questions about motor, position fit, or both. A true, one-dimensional pass rusher with elite production and a clean tape is a different bet than the players who populate the bust list, even if the position-level numbers don't distinguish between them.
-
-**Bet Three: Just Play Linebacker.** CJ Allen and Jacob Rodriguez are the least exciting players in this conversation, which is probably why Allen is sliding toward the back of Day 1 and Rodriguez is projected to Day 2. Allen led Georgia in tackles, won Butkus Award consideration, and is everything the modern linebacker is supposed to be — sideline-to-sideline, three-down capable, NFL-ready scheme fit. Rodriguez was an FBS-leading seven forced fumbles and four interceptions last season at Texas Tech.
-
-And the boom list for first-round linebackers in our training data is overwhelmingly players who did exactly what Allen and Rodriguez profile as: they lined up at linebacker and played linebacker. Patrick Willis. Luke Kuechly. Bobby Wagner. Roquan Smith. The model doesn't care about the chess piece ceiling. It cares about the player finding a role and staying in it.
-
-## The question underneath the question
-
-Here's what the data is actually telling us about Styles, and why the chess piece conversation is asking the wrong question.
-
-Styles' athleticism comps to Parsons more than Simmons. The movement skills, the coverage range, the pass rush upside from a standing position — this is a legitimate talent. The question isn't whether Styles *can* be a chess piece. The question is whether the team that drafts him will let him become Kuechly first.
-
-The organizations that turned hybrid LB prospects into stars — Dallas with Parsons, San Francisco with Willis, Seattle with Wagner — all did the same thing. They gave the player a defined role early, let the versatility emerge organically, and didn't try to deploy the "chess piece" ceiling on Day 1 of training camp. The organizations that took hybrid LBs and immediately started moving them around looking for the optimal deployment package are the ones with Simmons on the résumé.
-
-That's the team development thread underneath all of this. Styles' outcome won't just be about Styles — it'll be about who drafts him and what that organization's track record looks like when it comes to turning first-round defensive talent into what it was supposed to be. We'll have team development grades out before draft night. The Styles pick will mean something different depending on which team's name gets called first.
-
+ 
+**Bet One: The Chess Piece.** Sonny Styles and Arvell Reese are the headliners. The athletic profiles are legitimately jaw-dropping — Styles' 43.5-inch vertical and 4.46 at 244 lbs, Reese's matching 4.46 at 6'4". The pre-draft machine is running the same play on both of them it ran on Isaiah Simmons in 2020: they're *versatile*, they're *weapons*, they're *chess pieces*.
+ 
+Here's what the model is actually saying about Styles. The prediction isn't anchored on the vertical or the 40. It's anchored on a 79th-percentile college defender score. The combine is the sizzle. The college production is the steak. And underneath both, Styles is still a first-round linebacker being asked to be a chess piece — two warnings, stacked. The team that drafts him has to commit him to a role early. The Dallas-and-Parsons playbook, not the Arizona-and-Simmons playbook.
+ 
+**Bet Two: The Pass Rusher.** Rueben Bain and David Bailey are the cleaner value propositions on paper — players who will line up on the edge and rush the quarterback, no position ambiguity required. But the round-one EDGE numbers don't care about clean profiles. Everyone on the first-round EDGE board has a clean profile. That's the floor, not the ceiling. If Bailey goes in the top five, the model's position on him is the same position the data has taken on top-five edge rushers for a decade: this is the exact pick that has been busting, and nothing in the evaluation profile can tell you whether he's the one who breaks the pattern.
+ 
+**Bet Three: Just Play Linebacker.** CJ Allen and Jacob Rodriguez are the least exciting players in this conversation, and under a different set of numbers they'd be the boring safe pick — sideline-to-sideline, three-down capable, NFL-ready scheme fits. Under the real numbers, they're the boring pick at a position that busts 33% of the time in round one. Allen leading Georgia in tackles and winning Butkus consideration doesn't make the base rate go away. Rodriguez's seven forced fumbles don't make the base rate go away. The position taxes premium capital regardless of archetype.
+ 
+This doesn't mean don't draft them. It means the "just play linebacker" framing isn't a safety valve. It's a different flavor of the same first-round LB tax.
+ 
+**The right answer is none of the above.** The right answer is the interior defensive lineman the same team could take five picks later, at a position the market has been mispricing for fifteen years, while everyone argues about whose chess piece is the real chess piece.
+ 
 ## The bottom line
-
-The front seven in this draft is loaded. The EDGE class is deep enough that the Day 2 value curve should produce legitimate starters. The LB class is one of the strongest in recent memory, and the data says the first-round picks will mostly work out fine — if teams let them play linebacker.
-
-The safest investment nobody is making is the best interior defensive lineman available in the back half of round one.
-
-And the riskiest investment nobody is questioning is the same one it's been for fifteen years: a top-three EDGE pick surrounded by immaculate vibes and a body count the size of a scouting combine.
-
+ 
+The front seven in this draft is loaded with talent and priced exactly the way every front seven gets priced: EDGE at the top, linebackers wherever the best-player-available board lands them, interior defensive line somewhere in the middle of the conversation and nowhere in the headlines.
+ 
+The data says flip it.
+ 
+The interior defensive lineman in the back half of round one is the safest premium bet on the board. Round-one EDGE and round-one LB are both coin flips with the house edge, for different structural reasons — EDGE because the evaluation tools can't separate the filtered population, LB because the position taxes premium capital regardless of which archetype you bet on. The team that walks away from this draft with the best front seven probably isn't the one that made the loudest pick. It's the one that took the interior defensive lineman and went to dinner.
+ 
+Whichever team does spend top-ten capital on Styles, Reese, Bain, or Bailey, the outcome won't just be about the player. It'll be about whether that organization has a track record of committing first-round defensive talent to a defined role. Team development grades drop before draft night. The front-seven picks will mean different things depending on whose name gets called first.
+ 
 ---
 
 *Draft night is April 23. Team development grades drop before the first pick. Data via Pro Football Reference. Analysis and code at [github.com/merrittocratic/nfl-draft-model](https://github.com/merrittocratic/nfl-draft-model).*
