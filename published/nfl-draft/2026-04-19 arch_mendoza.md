@@ -30,6 +30,8 @@ Manning had a solid year. He improved down the stretch. He beat Michigan in the 
 
 The completion percentage gap alone should end this conversation. Mendoza completed 72% of his passes. Manning completed 61.4%. That's not a difference of opinion. That's ten percentage points of accuracy, which in the NFL translates directly to drive sustainability, third-down conversions, and wins. Orlovsky knows this. Greenberg knows this. They just don't care, because they're not making a data argument. They're making a vibes argument.
 
+Here's one more thing the "Manning goes first" crowd has to explain. The quarterback Arch couldn't beat out — the highest-rated recruit in 247Sports history, a perfect 1.0000 composite that only Vince Young has matched at the position — went 231st overall last April. Quinn Ewers had 35 career starts, 3,472 passing yards his final season, 31 touchdowns, and led Texas to back-to-back CFP semifinals. The NFL watched all of it and said seventh round. If that's what the market pays for a Texas quarterback with elite physical tools, a top-tier pedigree, and questions about consistency, what exactly is the case for Manning going 225 picks higher on fewer starts, a lower completion percentage, and no playoff appearance?
+
 ## We've seen this movie
 
 If you've been reading Merrittocracy, you know the pattern. Since 2010, quarterbacks with 15 or fewer career Division I starts have a 75% bust rate when drafted in the first round. Trubisky, Haskins, Richardson — the graveyard is full.
