@@ -54,7 +54,7 @@ tbl <- qb_comp |>
   # -- Title and subtitle ----------------------------------------------------
   tab_header(
     title    = md("**The 2025 Season, Side by Side**"),
-    subtitle = md("Same year. Same defenses. Same sport.")
+    subtitle = md("Same season. Same sport. Different result.")
   ) |>
 
   # -- Source footer ---------------------------------------------------------
