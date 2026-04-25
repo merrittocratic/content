@@ -14,7 +14,7 @@ One person. A $700 machine in the corner of a home office. Open-source tools sta
 
 The draft is over. Here's what one month of building looks like from the outside:
 
-**1 month. 4 repos. 12 articles. 15,000 words. 7 position-specific machine learning models. 1 automation agent who files his own journal entries. 1 sports analytics brand that didn't exist on March 29th.**
+**1 month. 4 repos. 12 articles. 15,000 words. 7 position-specific predictive models. 1 automation agent who files his own journal entries. 1 sports analytics brand that didn't exist on March 29th.**
 
 We tapped the repos. We ran the formulae. We poured what came out.
 
@@ -47,6 +47,14 @@ The approval loop is the whole point. Earnest doesn't publish. He proposes. Ever
 *The Telegram conversation that introduces him says it better than I could: "amplify his voice, not replace it." Steve gives feedback. Earnest revises. Earnest asks "Better?" Nothing posts without the answer being yes.*
 
 Earnest went live for the first time during draft week. Getting him there was its own project, with its own set of things that didn't survive first contact with reality. More on that later. For now — he exists, he works, and he's a character in this story, not just a tool in the stack.
+
+--
+
+## So wait, is this all just AI?
+
+The same transparency logic runs through the content process itself. Every article starts as a draft here in Claude — structural bones, data framing, section order. That draft drops into my content repo's drafts folder, gets committed to Git, and a hook fires automatically: it reads a current_project config file and creates a dated copy in the correct published folder. That dated document is the one I edit myself — voice pass, warmth, directness, the asides that make it sound like a person wrote it rather than a pipeline. When the final version gets pushed, Git tracks every change between Claude's draft and what actually published.
+
+That diff is the receipt. Anyone who wants to ask "is this just AI?" can go look at the answer in the commit history. The gap between what Claude produced and what I published is where the editorial judgment lives — and that gap is the whole argument for why AI as a force multiplier works. It's not replacing the voice. It's handling the scaffolding so the voice can focus on what it actually does.
 
 ---
 
