@@ -2,33 +2,35 @@
 
 ---
 
-The first thing I installed on the Mac Mini was Homebrew.
+In the beginning there was Homebrew.
 
-If you're not a developer, Homebrew is a package manager — a tool that installs other tools. It's the foundation of any modern Mac development environment, the thing you put in before everything else. But what makes Homebrew worth talking about isn't just what it does. It's how it thinks about what it does.
+For the non-nerds, Homebrew is a package manager, a tool that installs other tools. It's the foundation of any modern Mac development environment, it's the thing you put in before everything else. But what makes Homebrew worth talking about isn't just what it does. It's how it thinks about what it does.
 
-Homebrew is built entirely around a craft brewing metaphor. You don't add a software source, you *tap* a repository — like tapping a keg. You don't install packages, you install *formulae*. GUI applications live in *casks*. Everything that gets installed lives in the *Cellar*. The whole system is designed as if a brewmaster sat down and asked: what if the thing developers do every day felt a little more like making something with your hands?
+Homebrew is built entirely around a craft brewing metaphor. You don't add a software source, you *tap* a repository.  Yes like tapping a keg. Nerds drink beer too, you know.  You don't install packages, you install *formulae*. Graphical Interface applications live in *casks*. Everything that gets installed lives in the *Cellar*. The whole system is designed as if a brewmaster sat down and asked: what if the thing developers do every day felt a little more like making something with your hands?
 
 That framing turned out to be exactly right for this project.
 
-One person. A $700 machine in the corner of a home office. Open-source tools stacked on open-source tools. Formulae tapped from repos across the internet, assembled into something that didn't exist four weeks ago. We brewed a sports analytics operation from scratch — models, pipeline, automation agent, content engine — and we did it before the NFL Draft.
+One dude. A $500 Mac Mini in the corner of a home office. Open-source tools stacked on open-source tools. Formulae tapped from repos across the internet, assembled into something that didn't exist four weeks ago. We brewed a sports analytics operation from scratch: models, pipeline, automation agent, content engine, and it was finished just in time for the 2026 NFL Draft.
 
-The draft is over. Here's what one month of building looks like from the outside:
+Merrittocracy is about receipts, and with the draft now over, it's time to give everyone a view under the hood of how this was all cobbled together.  Here's what one month of building looks like from the outside:
 
-**1 month. 4 repos. 12 articles. 15,000 words. 7 position-specific machine learning models. 1 automation agent who files his own journal entries. 1 sports analytics brand that didn't exist on March 29th.**
+**1 month. 4 repos. 12 articles. 15,000 words. 7 position-specific machine learning models. 1 automation agent. 1 sports analytics brand that didn't exist on March 29th.**
 
 We tapped the repos. We ran the formulae. We poured what came out.
 
-Pour one out for the homies.
+Time to "Pour one out for the homies."
 
 ---
 
-## The Lucius Fox Problem
+## If you can be anyone, be yourself...  Unless you can be Batman, then be Batman
 
-There's a scene in Batman Begins where Lucius Fox explains to Bruce Wayne how he synthesized an antidote — isolating receptor compounds, identifying protein-based catalysts, the whole technical picture. Wayne stares at him and asks if he's meant to understand any of this.
+> Lucius Fox: "I analyzed your blood, isolating the receptor compounds and the protein-based catalyst."
 
-> "Not at all. I just wanted you to know how hard it was."
+> Bruce Wayne: "Am I meant to understand any of that?"
 
-That's the honest version of a building-in-public post. I'm not going to make you a machine learning engineer. I'm not even going to try. What I want you to walk away with is a feel for the actual terrain — why it took months, why plans that looked airtight on paper got shredded by contact with reality, and why the final product is built differently than the version I originally designed.
+> Lucius Fox: "Not at all. I just wanted you to know how hard it was."
+
+That's the honest version of a building-in-public post. I'm not going to make you a machine learning engineer.  Not even going to try. What I want you to walk away with is a feel for the actual terrain, why it took a month to build all of this, why plans that looked airtight on paper didn't survive the first punch in the mouth, and why the final product is built differently than the version I originally designed.
 
 The technical details are receipts. The story is the journey.
 
@@ -38,15 +40,18 @@ The technical details are receipts. The story is the journey.
 
 Before we get into the model, you should meet the other member of this operation.
 
-Earnest is an AI automation agent — built on OpenClaw, running on the Mac Mini — whose job is to extend the brand's reach without replacing the human judgment behind it. He monitors for new Substack articles, drafts X threads in Merrittocracy voice, surfaces reply opportunities, and routes everything through Telegram for approval before anything posts. He also files his own journal entries when something significant happens, which is either useful documentation discipline or a little unsettling depending on your perspective.
+Earnest is an AI automation agent, built on OpenClaw, running on the Mac Mini, whose job is to extend the brand's reach without replacing the human judgment behind it.  "It's what he does, it's all he does."  He monitors for new Substack articles, drafts X threads in Merrittocracy voice, surfaces reply opportunities, and routes everything through Telegram for approval before anything posts. He also files his own journal entries when something significant happens, which is either useful documentation discipline, or in reality a way to show all the mistakes I made along the way.
 
 The approval loop is the whole point. Earnest doesn't publish. He proposes. Every draft goes through Telegram, every post requires an explicit yes, every irreversible action has a human in the loop. The relationship is editor and writer, not owner and tool.
 
 [IMAGE: IMG_6168.PNG]
 
-*The Telegram conversation that introduces him says it better than I could: "amplify his voice, not replace it." Steve gives feedback. Earnest revises. Earnest asks "Better?" Nothing posts without the answer being yes.*
 
-Earnest went live for the first time during draft week. Getting him there was its own project, with its own set of things that didn't survive first contact with reality. More on that later. For now — he exists, he works, and he's a character in this story, not just a tool in the stack.
+Earnest went live for the first time during draft week. Getting him there was its own project, with its own set of challenges to overcome. More on that later. For now, he exists, he works, he has a soul, and he's a character in this story, not just a tool in the stack.
+
+Wait, did you say soul?  Yes I did, and it's one of the cooler things about OpenClaw.  During the onboarding process, you develop a set of instructions that end up becoming the agent's "soul", and the file is called SOUL.md.  It's why he responds like this...
+
+
 
 ---
 
