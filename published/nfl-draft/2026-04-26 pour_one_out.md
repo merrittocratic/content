@@ -14,7 +14,7 @@ One dude. A $500 Mac Mini in the corner of a home office. Open-source tools stac
 
 Merrittocracy is about receipts, and with the draft now over, it's time to give everyone a view under the hood of how this was all cobbled together.  Here's what one month of building looks like from the outside:
 
-**1 month. 4 repos. 12 articles. 15,000 words. 7 position-specific machine learning models. 1 automation agent. 1 sports analytics brand that didn't exist on March 29th.**
+**1 month. 4 repos. 12 articles. 15,000 words. 8 position-specific machine learning models. 1 automation agent. 1 sports analytics brand that didn't exist on March 29th.**
 
 We tapped the repos. We ran the formulae. We poured what came out.
 
@@ -57,63 +57,63 @@ Wait, did you say soul?  Yes I did, and it's one of the cooler things about Open
 
 ## The Decisions That Changed the Model
 
-Building any model involves a long series of choices that look minor until you see what they were actually hiding. Three of ours turned out to matter more than we anticipated.
+Building any model involves a long series of choices that look minor until you see what they were actually hiding. There are three that I definitely want to highlight, as they straddle both real football categorization questions and also impacted model reliability.
 
-**The DB Split.** The original design grouped Cornerbacks and Safeties together as "defensive backs." Reasonable football intuition — same side of the ball, similar evaluation criteria, combined sample size is comfortable. The problem surfaced in the data. CB booms 4% of the time. Safety booms 12% of the time. These are not similar positions wearing similar jerseys. They are opposite phenomena crammed into the same model, canceling each other out. Splitting them was the right call — and it was the move that sharpened the Caleb Downs piece considerably. Once Safety stands on its own, the positional value argument gets a lot stronger. The data isn't just a footnote to the analysis. Sometimes it's the analysis.
+**The DB Split.** The original design grouped Cornerbacks and Safeties together as "defensive backs." Reasonable football intuition, same side of the ball, similar evaluation criteria, combined sample size is comfortable. The problem, CB booms 4% of the time. Safety booms 12% of the time. Very different distributions, and their results began to cancel each other out. Splitting them was the right call, and it was the move that sharpened the Caleb Downs piece considerably. Once Safety stands on its own, the positional value argument gets a lot stronger.  More importantly, you also start to realize why a CB with an injury history that was widely expected to go in the first round, drops to the Raiders on day 3.  
 
-**The Imputation Artifact.** When you have missing data, the standard move is to fill it with the median value and move on. We did that for college defensive statistics, where the data source doesn't cover seasons reliably before 2012. For Linebackers, roughly 65% of the training data predates that cutoff, so 65% of LBs got the median fill. The other 35% had real, measured statistics. XGBoost — a very good algorithm — found that split immediately and decided it was the most important thing it had ever seen. Interceptions became the dominant model feature. Not because linebacker interception rate predicts NFL outcomes. Because "median fill versus something else" is a dead-reliable indicator of whether a player was drafted before or after 2012. The model was predicting era. We removed the imputation. XGBoost handles missing values natively — it doesn't need us to fill in blanks it's perfectly capable of reading on its own.
+**The Imputation Artifact.** When you have missing data, one of the most common moves is to fill it with the median value and move on. We did that for college defensive statistics, where the data source doesn't cover seasons reliably before 2012. For Linebackers, roughly 65% of the training data predates that cutoff, so 65% of LBs got the median fill. The other 35% had real, measured statistics. Our best performing models saw that behavior immediately, and all of a sudden, interceptions for an off-ball linebacker became more important than tackle production.  Because "median fill versus something else" is a dead-reliable indicator of whether a player was drafted before or after 2012. The model was predicting era. We removed the imputation, and let the model handle the missing values natively, it didn't need us to fill in blanks, it's perfectly capable of reading on its own.
 
-**WR/TE Can't Share a Scale.** A tight end with 60 receptions in a college season is an elite, alpha-level weapon. A wide receiver with 60 receptions is slightly below average. When both groups compete for rank in the same percentile table, every tight end reads as a receiving monster and every wide receiver reads as ordinary. Both signals get washed out, and the model falls back on draft position as the primary predictor — which defeats the purpose of having college production features at all. The fix was straightforward: rank each position within itself. WRs against WRs. TEs against TEs. The solution was obvious the moment I stopped thinking like a data engineer and started thinking like a scout.
+**WR/TE Can't Share a Scale.** A tight end with 60 receptions in a college season is an elite, alpha-level weapon. A wide receiver with 60 receptions is fairly mid. When both groups compete for rank in the same percentile table, every tight end reads as a receiving monster and every wide receiver reads as ordinary. Both signals get washed out, and the model falls back on draft position as the primary predictor, which defeats the purpose of having college production features at all. The fix was straightforward: rank each position within itself. WRs against WRs. TEs against TEs. The solution was obvious the moment I stopped thinking like a data engineer and started thinking like a scout.
 
-None of these produced error messages. None of them crashed the pipeline. They produced valid-looking outputs that were quietly wrong, and the only way to catch them was to ask uncomfortable questions about why certain features were behaving strangely. Models don't wave a flag when they're confused. That's your job.
+This is why scouts and GMs still matter.  None of the issues above produced errors.  In fact, they produced valid-looking outputs, that just so happened to be wrong.  It's why we still need some Man-altyics around here, because a model won't wave a flag to say when it's confused or picking the noise instead of the signal.  Does it make sense where a QB ranks compared to his peers in *receptions*?  Certainly, a novel feature to add to a model, but if it's leading the pack in the prediction, probably time to ask some questions.
 
 ---
 
 ## The Pick Ladder
 
-Some design decisions were proactive rather than corrective. This one matters more than it looks.
+Some design decisions were actually proactive rather than corrective.  And they worked!   
 
-The model doesn't score a prospect at a single projected draft pick. It scores him across a *range* — a ladder of positions from 1 to 257 — and shows how boom and bust probability shifts across that range. "Simpson at pick 20: 38–52% bust. Simpson at pick 45: still 30–42%." Honest uncertainty ranges instead of false precision, and the model stays decoupled from mock accuracy, which is genuinely unreliable past round two.
+The model doesn't score a prospect at a single projected draft pick. It scores him across a *range of picks*, a ladder of positions from 1 to 257, and shows how boom and bust probability shifts across that range. "Simpson at pick 20: 18-23% boom. Simpson at pick 45: still 21-27% boom." Honest uncertainty ranges instead of false precision, and the model stays decoupled from mock accuracy, which is genuinely unreliable past round two.
 
-The design question was what intervals to use on that ladder. The obvious answer is clean steps of 5 or 10 — picks 1, 5, 10, 15, 20, 25, 30. Tidy. Easy to explain. Also wrong.
+The design question was what intervals to use on that ladder. The obvious answer is clean steps of 5 or 10 — picks 1, 5, 10, 15, 20, 25, 30. Tidy. Easy to explain, but also very wrong.
 
-Round numbers in draft discourse are psychological categories as much as positional values. "Top-10 pick" carries meaning that has nothing to do with the mathematical distance between pick 9 and pick 11. If the ladder lands on 10, 20, and 30, those slots arrive pre-loaded with narrative weight that we're actively trying to strip out. The ladder uses increments of 4 from pick 1 through round 2, then increments of 10 through round 7 — threading past the anchor numbers without hitting them.
+Round numbers and pick numbers are as much psychological categories as actual positional values. "Top-10 pick" carries meaning that has nothing to do with the mathematical distance between pick 9 and pick 11. The ladder uses increments of 4 from pick 1 through round 2, then increments of 10 through round 7, threading past any anchor numbers without hitting them.
 
-Here's the insight that makes this more than a methodology footnote. The *distance* between pick 1 and pick 5 is four picks. The *distance* between pick 25 and pick 29 is also four picks. Same interval. But the *value* difference between those two pairs is not remotely similar. The historical production curve for draft picks follows a steep log function at the top and flattens dramatically by the end of the first round. Moving from pick 1 to pick 5 is a significant devaluation. Moving from pick 25 to pick 29 barely registers.
+Why did they change Math?  Math is Math.  But in the draft, I think we would all agree, the *value* difference between pick 1 and pick 5 is not the same as the *value* diffrence between pick 25 and pick 29.  Same *distance* interval. You probably thought you'd never hear about logarithms again, but unfortunately or fortunately, the historical production curve for draft picks follows a steep log function at the top and flattens dramatically by the end of the first round. Moving from pick 1 to pick 5 is a significant devaluation. Moving from pick 25 to pick 29 barely registers.
 
 Equal distances. Completely different value gaps. Nobody notices the ladder design in the outputs. That's exactly the point.
 
 ---
 
-## Three Naming Systems, Zero Margin for Error
+## What's in a Name?
 
-The model joins data from three separate sources — nflreadr for combine measurements, cfbfastR for college statistics, and our mock board CSVs — and none of them use the same naming conventions. The failure mode is never a crash. It's a silent missing value that the model quietly absorbs and keeps moving.
+The model joins data from three separate sources, nflreadr for combine measurements, cfbfastR for college statistics, and our mock board CSVs, and none of them use the same name for anything! Again, no crashes, no pipeline failures.  Just panic, when you notice you're missing a prediction for a top Defensive Line prospect when the Jerry Jones does Jerry Jones things and drafts Malachi Lawrence out of UCF or "Central Florida" or the University of Central Florida.  
 
-UCF is "UCF" in one database and "Central Florida" in another. One fix in a configuration file, discovered only because Malachi Lawrence's entire defensive stats row was empty and someone went looking.
+Did you know that Alex Styles was a really good LB out of Ohio St. or OSU or The Ohio State University?  Me neither!  Because everyone else knows him as Sonny.  Luckily this was found before the draft during testing when the Sonny Styles prediction that was modeled came back based on 0 combine data.   His "legendary", "cyborg" workout definitely should help his prediction. 
 
-Sonny Styles — top linebacker prospect, attended the combine — shows up in nflreadr as "Alex Styles," his legal first name. The join found no match. He was added as a mock-only player with all-NA combine measurables, despite having attended the combine. One lookup table entry fixed it. Neither issue produced an error. Both required knowing which player to look up and why.
+This is the unglamorous reality of building a pipeline across sources that were never designed to talk to each other. The sophistication of the model is completely irrelevant if the names don't match. 
 
-This is the unglamorous reality of building a pipeline across sources that were never designed to talk to each other. The analytical sophistication of the model is completely irrelevant if the names don't match. You can have the best formula in the cellar and still pour nothing if the keg fitting is wrong.
+Again, "I just wanted you to know how hard it was."
 
 ---
 
-## Three Algorithms Walked In. One Walked Out.
+## Three Algorithms Entered. One Algorithm Leaves.
 
-We ran three fundamentally different algorithms against the same data, the same cross-validation folds, and the same outcome variable. Here's how it went.
+While it wasn't quite the Thunderdome, we did run three fundamentally different algorithms against the same data, the same cross-validation folds, and the same outcome variable. Here's how it went.
 
 **XGBoost** is the gradient boosted tree that the analytics community has been using for fifteen years. Tuned across fifty hyperparameter combinations per position group. The incumbent.
 
 **TabPFN** is a foundation model published in *Nature*, pre-trained on millions of synthetic tabular datasets. It makes predictions in a single forward pass — no training on your data, just pattern recognition from a model that's seen more tables than any individual problem will ever produce. The challenger with the pedigree.
 
-**TabNet** is attention-based deep learning built specifically for tabular data, with the ability to show you *what the model focused on* for each individual player. The technology demo.
+**TabNet** is attention-based deep learning built specifically for tabular data, with the ability to show you *what the model focused on* for each individual player. The technology demo.  Oh yeah, and it took FOREVER to run!
 
-XGBoost won all eight position groups. TabPFN managed a marginal improvement on two. TabNet didn't beat the baseline — just predicting the mean for every player — on a single group. On Offensive Linemen, TabNet posted an RMSE of 2.08 against a null model of 1.0. Twice as confused as doing nothing.
+XGBoost won all eight position groups. TabPFN managed a marginal improvement on two. TabNet didn't beat the baseline, just predicting the mean for every player, on a single group. On Offensive Linemen, TabNet posted an RMSE of 2.08 against a null model of 1.0. Twice as confused as doing nothing.
 
 *RUN_TABNET <- FALSE* is now a permanent flag in the codebase.
 
-Here's the honest explanation for why this was predictable: the academic literature on tabular machine learning is consistent on this point. Tree models dominate at small-to-medium data sizes with mixed feature types and low signal-to-noise ratios. Our dataset is all three — between 162 and 545 players per position group, a mix of numeric and categorical features, and an outcome variable that's inherently noisy because pre-draft data can't see coaching quality, injury luck, or scheme fit. The fancy model lost to a spreadsheet. That's not a failure. That's a result.
+Here's the honest explanation for why this was predictable: the academic literature on tabular machine learning is consistent on this point. Tree models dominate at small-to-medium data sizes with mixed feature types and low signal-to-noise ratios. Our dataset is all three, between 162 and 545 players per position group, a mix of numeric and categorical features, and an outcome variable that's inherently noisy because pre-draft data can't see coaching quality, injury luck, or scheme fit. 
 
-The comparison itself is the content. We ran the test. Here are the receipts.
+Next year, I might try simulating some data for tabnet, but for this year the fancy model would have lost to a spreadsheet. That's not a failure. That's a result.
 
 ---
 
