@@ -1,27 +1,33 @@
 # Earnest Goes to the Draft
 
-## Meet Earnest
+--
+I know, I know...  Not another super technical article.  I promise this will be the last one for awhile, and we can move onto the NBA playoffs and the Golf majors, but first you gotta meet this guy!
 
-In the last article, we talked alot about the model, but you really should meet the other member of this operation.
+## Hello World, Earnest
 
-Earnest is an AI automation agent, built on OpenClaw, running on the Mac Mini, whose job is to extend the brand's reach without replacing the human judgment behind it.  "It's what he does, it's all he does."  He monitors for new Substack articles, drafts X threads in Merrittocracy voice, surfaces reply opportunities, and routes everything through Telegram for approval before anything posts. He also files his own journal entries when something significant happens, which is either useful documentation discipline, or in reality a way to show all the mistakes I made along the way.
-
-The approval loop is the whole point. Earnest doesn't publish. He proposes. Every draft goes through Telegram, every post requires an explicit yes, every irreversible action has a human in the loop. The relationship is editor and writer, not owner and tool.
+In the last article, we talked alot about how "*we*" built the model to predict boom/bust in the NFL Draft.  I deliberately used the word "*we*" alot in that article, and it's time I tell you why.  Meet Earnest!
 
 [IMAGE: IMG_6168.PNG]
 
+He is an AI automation agent, built on OpenClaw, running on the aforementioned Mac Mini.  He has one job, extend Merrittocracy's reach without replacing my voice.  "It's what he does, it's all he does."  Unlike the terminator though, he actually can be reasoned with.  Whether he's monitoring for new Substack articles, drafting X threads in my voice, or surfacing reply opportunities, Earnest routes everything back to me through Telegram for approval before anything leaves the friendly confines of Merrittocracy. 
+
+We actually go back and forth quite a bit, though he does think all of my ideas are brilliant, so I need to tune him to not be such a yes man.  The approval loop is the whole point. Earnest doesn't publish. He proposes. Every draft goes through Telegram, every post requires an explicit yes, every irreversible action has a "*human in the loop*".  He also files his own journal entries when something significant happens, which would normally be great, but man, my ego is taking a beating seeing all of the mistakes I've made along the way.  
 
 Earnest went live for the first time during draft week. Getting him there was its own project, with its own set of challenges to overcome. More on that later. For now, he exists, he works, he has a soul, and he's a character in this story, not just a tool in the stack.
 
 Wait, did you say soul?  Yes I did, and it's one of the cooler things about OpenClaw.  During the onboarding process, you develop a set of instructions that end up becoming the agent's "soul", and the file is called SOUL.md.  It's why he responds like this...
 
+
+
 ---
 
 ## So wait, is this all just AI?
 
-The same transparency logic runs through the content process itself. Every article starts as a draft here in Claude — structural bones, data framing, section order. That draft drops into my content repo's drafts folder, gets committed to Git, and a hook fires automatically: it reads a current_project config file and creates a dated copy in the correct published folder. That dated document is the one I edit myself — voice pass, warmth, directness, the asides that make it sound like a person wrote it rather than a pipeline. When the final version gets pushed, Git tracks every change between Claude's draft and what actually published.
+In a word, NO!  I've always considered myself a better editor than initiator.  So, yes every draft article does start as a back and forth with either Earnest of Claude, by Antrhopic. But, that is not what lands in your inbox.  My writing process is *"unique"*.  I guess this is where my nerd takes over.  The draft that I create with AI drops into a content folder in a version control software system.  This system tracks every change I make with the draft, and it is posted online.  
 
-That diff is the receipt. Anyone who wants to ask "is this just AI?" can go look at the answer in the commit history. The gap between what Claude produced and what I published is where the editorial judgment lives — and that gap is the whole argument for why AI as a force multiplier works. It's not replacing the voice. It's handling the scaffolding so the voice can focus on what it actually does.
+What is displayed in the software is called the *diff* and the *diff* is the receipt. Anyone who wants to ask "is this just AI?" can go look at the answer on that site, and look at my history of changes for each article. The gap between what AI produces and what I publish is where the editorial judgment lives, and that gap is the whole argument for why AI as a force multiplier works. It's not replacing my voice. It's handling the scaffolding so my voice can focus on what it actually does.
+
+No AI would ever title an article *The Big Arch vs. The Mendoza Line* or *F*** Them Picks*.
 
 --
 
@@ -43,7 +49,7 @@ The Telegram notification system hit its own wall — a cron gateway authenticat
 
 ## Draft Night
 
-The *draft_night_helper.R* script does one thing: type *pick("Player Name")* and receive a full player card — boom probability, bust probability, predicted z-score, athleticism percentile, program pipeline note — plus the exact file path to the SHAP waterfall chart, ready to copy to Telegram.
+Draft night came fast and furious.  I had to figure out a wayThe *draft_night_helper.R* script does one thing: type *pick("Player Name")* and receive a full player card — boom probability, bust probability, predicted z-score, athleticism percentile, program pipeline note — plus the exact file path to the SHAP waterfall chart, ready to copy to Telegram.
 
 Earnest receives the file path, pulls the waterfall, drafts the X thread in Merrittocracy voice, and routes it back for approval. The whole chain — pick announced, model re-scored with the actual drafting team, waterfall regenerated, content drafted, approval requested — under ten minutes.
 
@@ -69,4 +75,4 @@ The cellar is stocked. The tap is open.
 
 ---
 
-*Earnest Lives here [github.com/merrittocratic/autopilot](https://github.com/merrittocratic/autopilot).*
+*Earnest Lives! [github.com/merrittocratic/autopilot](https://github.com/merrittocratic/autopilot).*

@@ -10,7 +10,7 @@ Homebrew is built entirely around a craft brewing metaphor. You don't add a soft
 
 That framing turned out to be exactly right for this project.
 
-One dude. A $500 Mac Mini in the corner of a home office. Open-source tools stacked on open-source tools. Formulae tapped from repos across the internet, assembled into something that didn't exist four weeks ago. We brewed a sports analytics operation from scratch: models, pipeline, automation agent, content engine, and it was finished just in time for the 2026 NFL Draft.
+One nerd. A $500 Mac Mini in the corner of a home office. Open-source tools stacked on open-source tools. Formulae tapped from repos across the internet, assembled into something that didn't exist four weeks ago. We brewed a sports analytics operation from scratch: models, pipeline, automation agent, content engine, and it was finished just in time for the 2026 NFL Draft.
 
 Merrittocracy is about receipts, and with the draft now over, it's time to give everyone a view under the hood of how this was all cobbled together.  Here's what one month of building looks like from the outside:
 
@@ -18,7 +18,7 @@ Merrittocracy is about receipts, and with the draft now over, it's time to give 
 
 We tapped the repos. We ran the formulae. We poured what came out.
 
-Time to "Pour one out for the homies."
+Time to "Pour one out for the homies." (Doughboy)
 
 ---
 
@@ -30,42 +30,25 @@ Time to "Pour one out for the homies."
 
 > Lucius Fox: "Not at all. I just wanted you to know how hard it was."
 
-That's the honest version of a building-in-public post. I'm not going to make you a machine learning engineer.  Not even going to try. What I want you to walk away with is a feel for the actual terrain, why it took a month to build all of this, why plans that looked airtight on paper didn't survive the first punch in the mouth, and why the final product is built differently than the version I originally designed.
+That's the honest version of a building-in-public article. I'm not going to make you a machine learning engineer.  Not even going to try. What I want you to walk away with is a feel for the actual terrain, why it took a month to build all of this, why plans that looked airtight on paper didn't survive the first punch in the mouth, and why the final product is built differently than the version I originally designed.
 
 The technical details are receipts. The story is the journey.
 
 ---
 
-## Meet Earnest
-
-Before we get into the model, you should meet the other member of this operation.
-
-Earnest is an AI automation agent, built on OpenClaw, running on the Mac Mini, whose job is to extend the brand's reach without replacing the human judgment behind it.  "It's what he does, it's all he does."  He monitors for new Substack articles, drafts X threads in Merrittocracy voice, surfaces reply opportunities, and routes everything through Telegram for approval before anything posts. He also files his own journal entries when something significant happens, which is either useful documentation discipline, or in reality a way to show all the mistakes I made along the way.
-
-The approval loop is the whole point. Earnest doesn't publish. He proposes. Every draft goes through Telegram, every post requires an explicit yes, every irreversible action has a human in the loop. The relationship is editor and writer, not owner and tool.
-
-[IMAGE: IMG_6168.PNG]
-
-
-Earnest went live for the first time during draft week. Getting him there was its own project, with its own set of challenges to overcome. More on that later. For now, he exists, he works, he has a soul, and he's a character in this story, not just a tool in the stack.
-
-Wait, did you say soul?  Yes I did, and it's one of the cooler things about OpenClaw.  During the onboarding process, you develop a set of instructions that end up becoming the agent's "soul", and the file is called SOUL.md.  It's why he responds like this...
-
-
-
----
-
 ## The Decisions That Changed the Model
 
-Building any model involves a long series of choices that look minor until you see what they were actually hiding. There are three that I definitely want to highlight, as they straddle both real football categorization questions and also impacted model reliability.
+Building any model involves a long series of choices that look minor until you see what they were actually hiding. There are three that I definitely want to highlight, as they straddle both real football categorization questions and also impact model reliability.
 
-**The DB Split.** The original design grouped Cornerbacks and Safeties together as "defensive backs." Reasonable football intuition, same side of the ball, similar evaluation criteria, combined sample size is comfortable. The problem, CB booms 4% of the time. Safety booms 12% of the time. Very different distributions, and their results began to cancel each other out. Splitting them was the right call, and it was the move that sharpened the Caleb Downs piece considerably. Once Safety stands on its own, the positional value argument gets a lot stronger.  More importantly, you also start to realize why a CB with an injury history that was widely expected to go in the first round, drops to the Raiders on day 3.  
+Before getting into what broke, it helps to know what we were actually trying to predict. The outcome variable is Career Approximate Value, a catch-all production metric from Pro Football Reference, measured over a player's first four NFL seasons and adjusted for where they were drafted. Beat your draft slot expectations by enough and you're a boom. Miss them badly enough and you're a bust. Everything in between is a J.A.G.  Just A Guy...
 
-**The Imputation Artifact.** When you have missing data, one of the most common moves is to fill it with the median value and move on. We did that for college defensive statistics, where the data source doesn't cover seasons reliably before 2012. For Linebackers, roughly 65% of the training data predates that cutoff, so 65% of LBs got the median fill. The other 35% had real, measured statistics. Our best performing models saw that behavior immediately, and all of a sudden, interceptions for an off-ball linebacker became more important than tackle production.  Because "median fill versus something else" is a dead-reliable indicator of whether a player was drafted before or after 2012. The model was predicting era. We removed the imputation, and let the model handle the missing values natively, it didn't need us to fill in blanks, it's perfectly capable of reading on its own.
+**The DB Split.** The original design grouped Cornerbacks and Safeties together as "defensive backs." Reasonable football intuition, same side of the ball, similar evaluation criteria, combined sample size is comfortable. The problem, CB booms 4% of the time. Safety booms 12% of the time. Very different outcome distributions, and their results began to cancel each other out. Splitting them was the right call, and it was the move that sharpened the earlier Caleb Downs piece considerably. Once Safety stands on its own, the positional value argument gets a lot stronger.  More importantly, you also start to realize why a CB with an injury history that was widely expected to go in the first round drops to the Raiders on day 3.  
 
-**WR/TE Can't Share a Scale.** A tight end with 60 receptions in a college season is an elite, alpha-level weapon. A wide receiver with 60 receptions is fairly mid. When both groups compete for rank in the same percentile table, every tight end reads as a receiving monster and every wide receiver reads as ordinary. Both signals get washed out, and the model falls back on draft position as the primary predictor, which defeats the purpose of having college production features at all. The fix was straightforward: rank each position within itself. WRs against WRs. TEs against TEs. The solution was obvious the moment I stopped thinking like a data engineer and started thinking like a scout.
+**The Imputation Artifact.** When you have missing data, one of the most common moves is to fill it with the median value and move on. We did that for college defensive statistics, where the data source doesn't cover seasons reliably before 2012. For Linebackers, roughly 65% of the training data predates that cutoff, so all of those LBs got the median fill. The remaining 35% had real, measured statistics. Our best performing models saw that behavior immediately, and all of a sudden, interceptions for an off-ball linebacker became more important than tackle production.  Because "median fill versus something else" is a dead-reliable indicator of whether a player was drafted before or after 2012. The model was predicting era, not the real outcome. We removed the imputation, and let the model handle the missing values natively, it didn't need us to fill in blanks, it's perfectly capable of reading on its own.
 
-This is why scouts and GMs still matter.  None of the issues above produced errors.  In fact, they produced valid-looking outputs, that just so happened to be wrong.  It's why we still need some Man-altyics around here, because a model won't wave a flag to say when it's confused or picking the noise instead of the signal.  Does it make sense where a QB ranks compared to his peers in *receptions*?  Certainly, a novel feature to add to a model, but if it's leading the pack in the prediction, probably time to ask some questions.
+**WR/TE Can't Share a Scale.** A tight end with 60 receptions in a college season is an elite, alpha-level weapon. A wide receiver with 60 receptions is fairly mid. But when both groups compete for rank in the same percentile table, every tight end looks like a below-average receiver and every wide receiver looks like a monster, because WRs catch far more passes by design. Both signals get distorted, and the model falls back on draft position as the primary predictor.  This defeats the purpose of having college production features at all. The fix was straightforward: rank each position within itself. WRs against WRs. TEs against TEs. The solution was obvious the moment I stopped thinking like a data engineer and started thinking like a scout.
+
+This is why scouts and GMs still matter.  None of the issues above produced errors.  In fact, they produced valid-looking outputs, that just so happened to be wrong.  It's why we still need some Man-altyics around here, because a model won't wave a flag to say when it's confused or picking the noise instead of the signal.  Does it make sense where a QB ranks compared to his peers in *receptions*?  Certainly, a novel feature to add to a model, but if that one is leading the pack in the prediction, probably time to ask some questions.
 
 ---
 
@@ -73,13 +56,13 @@ This is why scouts and GMs still matter.  None of the issues above produced erro
 
 Some design decisions were actually proactive rather than corrective.  And they worked!   
 
-The model doesn't score a prospect at a single projected draft pick. It scores him across a *range of picks*, a ladder of positions from 1 to 257, and shows how boom and bust probability shifts across that range. "Simpson at pick 20: 18-23% boom. Simpson at pick 45: still 21-27% boom." Honest uncertainty ranges instead of false precision, and the model stays decoupled from mock accuracy, which is genuinely unreliable past round two.
+The model doesn't score a prospect at a single projected draft pick. It scores him across a *range of picks*, a ladder of positions from 1 to 257, and shows how boom and bust probability shifts across that range. "Simpson at pick 20: 18-23% boom. Simpson at pick 45: still 21-27% boom." Honest uncertainty ranges instead of false precision, and the model does not rely on mock drafts for accuracy, which is genuinely unreliable past round two.
 
 The design question was what intervals to use on that ladder. The obvious answer is clean steps of 5 or 10 — picks 1, 5, 10, 15, 20, 25, 30. Tidy. Easy to explain, but also very wrong.
 
-Round numbers and pick numbers are as much psychological categories as actual positional values. "Top-10 pick" carries meaning that has nothing to do with the mathematical distance between pick 9 and pick 11. The ladder uses increments of 4 from pick 1 through round 2, then increments of 10 through round 7, threading past any anchor numbers without hitting them.
+Round numbers and pick numbers are as much psychological categories as actual positional values. "Top-10 pick" carries meaning that has nothing to do with the mathematical distance between picks 9 and 11. The ladder uses increments of 4 from pick 1 until the end of round 2, then increments of 10 through round 7, threading past any anchor numbers without hitting them.
 
-Why did they change Math?  Math is Math.  But in the draft, I think we would all agree, the *value* difference between pick 1 and pick 5 is not the same as the *value* diffrence between pick 25 and pick 29.  Same *distance* interval. You probably thought you'd never hear about logarithms again, but unfortunately or fortunately, the historical production curve for draft picks follows a steep log function at the top and flattens dramatically by the end of the first round. Moving from pick 1 to pick 5 is a significant devaluation. Moving from pick 25 to pick 29 barely registers.
+Why did they change Math?  Math is Math.  But in the draft, I think we would all agree, the *value* difference between picks 1 and 5 is not the same as the *value* diffrence between picks 25 and 29.  Same *distance* interval. You probably thought you'd never hear about logarithms again, but unfortunately or fortunately, the historical production curve for draft picks follows a steep log function at the top and flattens dramatically by the end of the first round. Moving from pick 1 to pick 5 is a significant devaluation. Moving from pick 25 to pick 29 barely registers.
 
 Equal distances. Completely different value gaps. Nobody notices the ladder design in the outputs. That's exactly the point.
 
@@ -87,7 +70,7 @@ Equal distances. Completely different value gaps. Nobody notices the ladder desi
 
 ## What's in a Name?
 
-The model joins data from three separate sources, nflreadr for combine measurements, cfbfastR for college statistics, and our mock board CSVs, and none of them use the same name for anything! Again, no crashes, no pipeline failures.  Just panic, when you notice you're missing a prediction for a top Defensive Line prospect when the Jerry Jones does Jerry Jones things and drafts Malachi Lawrence out of UCF or "Central Florida" or the University of Central Florida.  
+The model joins data from three separate sources, nflreadr for combine measurements, cfbfastR for college statistics, and our mock board CSVs, and none of them use the same name for anything! Again, no crashes, no pipeline failures.  Just panic, when you notice you're missing a prediction for a top Defensive Line prospect when the Jerry Jones does Jerry Jones things.  He goes out and drafts Malachi Lawrence out of UCF or "Central Florida" or the University of Central Florida depending on the source.
 
 Did you know that Alex Styles was a really good LB out of Ohio St. or OSU or The Ohio State University?  Me neither!  Because everyone else knows him as Sonny.  Luckily this was found before the draft during testing when the Sonny Styles prediction that was modeled came back based on 0 combine data.   His "legendary", "cyborg" workout definitely should help his prediction. 
 
@@ -103,7 +86,7 @@ While it wasn't quite the Thunderdome, we did run three fundamentally different 
 
 **XGBoost** is the gradient boosted tree that the analytics community has been using for fifteen years. Tuned across fifty hyperparameter combinations per position group. The incumbent.
 
-**TabPFN** is a foundation model published in *Nature*, pre-trained on millions of synthetic tabular datasets. It makes predictions in a single forward pass — no training on your data, just pattern recognition from a model that's seen more tables than any individual problem will ever produce. The challenger with the pedigree.
+**TabPFN** is a foundation model published in *Nature*, pre-trained on millions of synthetic tabular datasets. It makes predictions in a single forward pass, no training on your data, just pattern recognition from a model that's seen more tables than any individual problem will ever produce. The challenger with the pedigree.
 
 **TabNet** is attention-based deep learning built specifically for tabular data, with the ability to show you *what the model focused on* for each individual player. The technology demo.  Oh yeah, and it took FOREVER to run!
 
@@ -113,81 +96,41 @@ XGBoost won all eight position groups. TabPFN managed a marginal improvement on 
 
 Here's the honest explanation for why this was predictable: the academic literature on tabular machine learning is consistent on this point. Tree models dominate at small-to-medium data sizes with mixed feature types and low signal-to-noise ratios. Our dataset is all three, between 162 and 545 players per position group, a mix of numeric and categorical features, and an outcome variable that's inherently noisy because pre-draft data can't see coaching quality, injury luck, or scheme fit. 
 
-Next year, I might try simulating some data for tabnet, but for this year the fancy model would have lost to a spreadsheet. That's not a failure. That's a result.
+Next year, I might try creating simulated data for TabNet and try to get up to 2-3k per poisition group (probably still not enough).  Unfortunately, for this year, the fancy model would have lost to a spreadsheet. 
 
----
-
-## The Infrastructure That Didn't Survive First Contact
-
-Getting Earnest operational was a separate build with its own set of plans that looked right until they weren't.
-
-The original secrets management approach: store everything in 1Password, inject credentials at startup using the 1Password CLI. Clean, secure, well-designed. It lasted approximately 24 hours. The 1Password CLI requires an interactive session to authenticate. Background services have no interactive session. These two facts cannot be reconciled. The fix was macOS Keychain — scoped to a single service, encrypted at rest, headless by design. Twelve secrets migrated. The new approach was more robust than the original. It also required throwing out the original entirely.
-
-Getting the X API working produced its own chapter. The first live post hit an error immediately — the R HTTP library had no native OAuth 1.0a support, despite that function appearing in multiple examples online. Switched implementations. Same error. Switched again. All of them returned error code 32: "Could not authenticate you."
-
-Error code 32 looks like a signing bug. It isn't. It means the credentials are the problem, not the code. The diagnostic: test the Bearer token in isolation. A 403 "Unsupported Authentication" response — not a 401 Unauthorized — confirms the API key pair is valid and the access token is the failure point. Root cause: the tokens were generated before the app's permissions were upgraded to "Read and Write." Old tokens inherit the permission level at generation. They can't be retroactively upgraded. Regenerate in the developer portal, update the environment, and the first post goes through clean.
-
-Two hours debugging authentication code. Fixed by a button click in a dashboard.
-
-The Telegram notification system hit its own wall — a cron gateway authentication error that wouldn't resolve. Earnest didn't wait for a fix. He checked for pending drafts during his existing heartbeat cycle and sent notifications from within the agent session instead. The cron auth problem became irrelevant. He routed around it without being asked, which is exactly the kind of thing you want from a system you're depending on during a live draft.
+That's not a failure. That's a result and a storyline.
 
 ---
 
 ## The Feature Nobody Planned For
 
-The original model design had combine measurables, college production, draft position, age, and the program pipeline. The drafting organization was not in scope.
+The original model design had combine measurables, college production, draft position, age, and the college program pipeline. The drafting organization was not in scope.
 
-It got added mid-cycle, driven by a content need. The "Van Isn't the Variable" piece on team development quality required building a rolling 10-year pick-adjusted AV residual per franchise — how much better or worse does each organization develop players relative to what their draft slots historically produce? The feature went into the model to support one article.
+It got added mid-cycle, driven by a content need. The "Van Isn't the Variable" piece on team development quality required building a rolling 10-year pick-adjusted AV residual per franchise.  We wanted to know how much better or worse does each organization do at developing players relative to what their draft slots historically produce? The feature went into the model to support one article.
 
 On draft night, it became the story.
 
-Kenyon Sadiq landed with the Jets. His predicted z-score swung from +0.169 pre-draft to -0.08 post-pick. The entire swing — a quarter of a standard deviation — came from one feature: the Jets' player retention rate, a proxy for organizational development continuity. Omar Cooper Jr. took the same penalty at pick 30. Two players, same organization, same feature, same discount applied before either of them had attended a single practice.
+Kenyon Sadiq landed with the Jets. His predicted z-score swung from +0.169 pre-draft to -0.08 post-pick. The entire swing, a quarter of a standard deviation, came from one feature: the Jets' player retention rate, a proxy for organizational development continuity. Omar Cooper Jr. took the same penalty at pick 30. Two players, same organization, same feature, same discount applied before either of them had attended a single practice.  It makes sense, the J-E-T-S do not have a great history of player development, and I don't know that the current coaching staff will turn that around.
 
 Max Iheanachor to Pittsburgh: the Steelers have produced zero first-round offensive tackle booms in fifteen years of training data. Keylan Rutledge to Houston: same feature, same value. Two offensive linemen. Two organizations with empty first-round OL boom columns in the historical record.
 
 The model doesn't hate any of these players. It has documented, specific concerns about where they landed. Some destinations amplify talent. Some discount it. That signal was sitting in fifteen years of data. We found it by accident while writing a different article.
 
-I didn't plan for that. The data found it.
+The NFL Draft sells hope every year.  Unfortunately, most of that hope is wrapped up in the player, and not the organizations drafting them.  
 
----
-
-## Draft Night
-
-The *draft_night_helper.R* script does one thing: type *pick("Player Name")* and receive a full player card — boom probability, bust probability, predicted z-score, athleticism percentile, program pipeline note — plus the exact file path to the SHAP waterfall chart, ready to copy to Telegram.
-
-Earnest receives the file path, pulls the waterfall, drafts the X thread in Merrittocracy voice, and routes it back for approval. The whole chain — pick announced, model re-scored with the actual drafting team, waterfall regenerated, content drafted, approval requested — under ten minutes.
-
-I want to be honest about what that felt like after months of building toward it.
-
-It worked. Picks came across the ticker, I typed *pick("Kenyon Sadiq")*, the waterfall populated, Earnest had a draft thread in Telegram before the next commercial break. The infrastructure that had been a theoretical exercise for weeks became a real thing at a specific moment on a Thursday night in April. That's a different feeling than passing a unit test.
-
-And when the organizational tax landed exactly where the model said it would — Sadiq, Cooper, Iheanachor, Rutledge, all carrying the development penalties we'd documented — that was something closer to vindication. The model didn't just run. It *said something* that turned out to be true.
-
-Pre-draft snapshots were preserved separately, so the diff between "what we predicted before the pick" and "what the model thinks now that we know the team" is a content angle in its own right. Ty Simpson was a model favorite before the Rams took him. The Rams' development environment is one of the few that doesn't hurt that projection. The model and the narrative disagreed, and the honest version required holding both. That tension is exactly what Merrittocracy is supposed to produce.
-
----
+--
 
 ## The Honest Scorecard
 
 **XGBoost wins.** A tuned gradient boosted tree trained on 3,750 historical prospects outperformed two transformer-based architectures on every position group. The algorithm the analytics community has been using for fifteen years is still the right tool at this data scale. That's not a failure of ambition. It's a result.
 
-**Pre-draft prediction has a ceiling.** RMSE ranges from 0.948 on quarterbacks to 0.999 on running backs, against a null model of 1.0. The signal is real but modest. Coaching quality, injury luck, scheme fit, and organizational development explain outcomes that no combine measurement can touch. A model that quantifies what it can't predict is more trustworthy than one that doesn't admit the question.
+**Pre-draft prediction has a ceiling.** RMSE ranges from 0.948 on quarterbacks to 0.999 on running backs, against a null model of 1.0. The signal is real but modest. Coaching quality, injury luck, and scheme fit explain outcomes that no combine measurement can touch. A model that quantifies what it can't predict is more trustworthy than one that doesn't admit the question.
 
-**The program pipeline works.** Rolling 10-year, position-specific draft outcomes per college program — leave-one-out computed — is a genuine differentiator. Most public models treat college program as a flat categorical. Alabama WRs are not Alabama QBs. The 2026 class confirmed the feature adds signal.
+**The program pipeline works.** Rolling 10-year, position-specific draft outcomes per college program, leave-one-out computed, is a genuine differentiator. Most public models treat college program as a flat categorical. Ohio State WRs are not Ohio State QBs. The 2026 class confirmed the feature adds signal.
 
 **The organizational tax is real.** Built mid-cycle to support one article. Became the organizing principle of draft night coverage.
 
----
-
-## What's Next
-
-The 2027 model has a long wishlist: conference tier (NA all cycle, never caught until too late), birth dates sourced at the start of the season instead of patched on draft eve, proper player ID joining instead of name matching across three databases. Structural fixes that would have made this cycle cleaner.
-
-The NBA Playoffs are already generating narrative debt. Victor Wembanyama is playing at a level that demands historical context — the Kareem precedent is genuinely instructive about what elite young bigs need to sustain a championship window. That piece is next.
-
-And somewhere on the Mac Mini in the corner of a home office, Earnest is running his heartbeat check, monitoring for new content, filing journal entries, routing around the next blocked feature before anyone asks him to.
-
-The cellar is stocked. The tap is open.
+That's the model. That's what it took to build it, what broke along the way, and what the data found when we stopped arguing with it. But a model sitting on a laptop isn't a brand. Getting the findings out the door on draft night, in real time, while picks were coming off the board, that required a whole separate operation. One that had its own set of plans that didn't survive the first uppercut, its own cast of characters, and one agent in particular who has a soul, files his own journal entries, and drives engagement. That's the next piece.
 
 ---
 
