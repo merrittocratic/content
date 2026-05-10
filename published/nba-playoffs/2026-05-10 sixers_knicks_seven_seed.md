@@ -1,30 +1,30 @@
-# Same Story, Different Seed
+# Don't Call it a Comeback
 
 ---
 
-The Eastern Conference gave us a natural experiment this week. Two teams came into Round 2 having done the exact same thing in Round 1: clawed back from a 3-1 deficit to win a series nobody thought they could win. Same narrative. Same emotional momentum. Same "this team found something" energy in the media.
+One of the most famous comebacks from a 3-1 deficit, the Cleveland Cavaliers came all the way back against the Golden State Warriors to win the 2016 NBA Title.  It was the stark reminder that when playing against Draymond Green, *"You've got always protect the McNuggets", Cheeseburger, The Longest Yard*. 
 
-Four games into the second round, those two teams could not look more different.
+This year the Eastern Conference is providing another 3-1 deficit experiment.  Two teams came into Round 2 under the same circumstances.  Both needed to pull themselves out of 3-1 hole to win a series that appeared lost. Same narrative. Same emotional momentum. Same "this team found something" energy in the media.
 
-The Detroit Pistons are up 2-0 on Cleveland. The Philadelphia 76ers are down 0-3 to New York. The Knicks won Game 1 by 39 points.
+Five games into the second round, and those two teams could not look more different.  The Detroit Pistons are up 2-0 on Cleveland. The Philadelphia 76ers are down 0-3 to New York, with the Knicks winning Game 1 by 39 points.  There may be only one number needed to explains this variance: the seed.
 
-If you're looking for the variable that explains it, it's one number: seed.
+## Not every 3-1 Comeback is the same
 
-## Two Comebacks, One Map
+Detroit was the 1-seed. They came back from 3-1 against an 8-seed Magic team.  The comeback included a 24-point comeback win in Game 6 and a 22-point win in Game 7.  They roared into Round 2 looking every bit the best team in the East during the last 3 games of the previous series. When the Pistons' backs were against the wall, they rallied and showed why they were a 1-seed. 
 
-Detroit was the 1-seed. They came back from 3-1 against an 8-seed Magic team, won Game 7 by 22 at home, and rolled into Round 2 as the best team in the East on paper. Their 3-1 comeback was stunning at the time — no 1-seed wants to be in a Game 7 against an 8 — but the underlying roster was never the problem. When the Pistons' backs were against the wall, they were still a 1-seed with real talent. The comeback was a plot twist, not a structural revelation.
+The Sixers were the 7-seed. They beat a Celtics team missing Jayson Tatum in Game 7, survived three elimination games, and showed genuine toughness. But *surviving* isn't the same as being good. The 76ers came into Round 2 as a low seed riding emotional momentum but also dealing with near constant uncertainty around the health of Embiid.  Emotion can only take you so far, especially when you find yourself up against a Knicks team that **has** to get to the Finals to justify firing their coach last season.
 
-Philadelphia is a different story. The Sixers were the 7-seed. They beat a Celtics team missing Jayson Tatum in Game 7, survived three elimination games, and showed genuine toughness. But surviving isn't the same as being good. The 76ers walked into Round 2 as a 7-seed riding emotional momentum, and emotional momentum has a short shelf life against a Knicks team that doesn't particularly care how hard your last series was.
+## When 1 + 1 might equal 3
 
-## The Map Has Always Ended Here
+No 7-seed has ever reached the NBA Finals.  Since the league expanded to a 16-team bracket in 1984, 7-seeds are 2-5 in Round 2 heading into the 76ers series. The two previous teams that actually won also greatly benefited from drawing 6 seeds as their Round 2 opponents. History is definitely not on the 76ers side.  Even if it is a glass ceiling for the 7-seed, the 76ers were already pressing against it before a single game was played.
 
-No 7-seed has ever reached the NBA Finals. Since the league expanded to a 16-team bracket in 1984, 7-seeds are 2-4 in Round 2 heading into this series. The two that won never made the conference finals. The ceiling is clearly marked on the historical record, and the 76ers were already pressing against it before a single game was played.
 
-The 3-1 comeback adds another layer. Not because 3-1 comeback teams are cursed — the Pistons are actively disproving that — but because of what it signals about where you're starting from. Teams that go down 3-1 and survive typically do it by winning three straight at a level beyond what their talent should allow. That kind of overperformance is a known regression risk. You can't schedule a peak.
 
-This is what statisticians call additive effects: two independent risk factors that each reduce your odds, and when they're both present, they compound. The 7-seed history is damning on its own. Being a team that overperformed to survive a first-round deficit is damning on its own. The 76ers are both, simultaneously, with no historical comparison because no team has ever done this before.
+The 3-1 comeback adds another layer. Not because 3-1 comeback teams are cursed, the Pistons are actively disproving that, but because of what it signals about where you're starting from. Teams that go down 3-1 and survive by winning three straight, typically playing at a level beyond what their talent should allow. Regression to the mean is real, and oftentimes, you don't know when it's going to happen.  
 
-## What the Data Actually Says
+So 7-seeds advancing beyond the second round are rare.  Overcoming 3-1 deficits are also rare, only 15 in NBA history.  This is what statisticians call additive effects: two independent risk factors that each reduce your odds, and when they're both present, they compound.  The 76ers combine both factors, simultaneously, with no historical comparison.  That's right no 7-seed has ever come back from a 3-1 deficit before the 76ers. So, this is like the "double-rainbow" of the NBA playoffs. *"What does this mean?  It's so bright, its' so vivid", viral double-rainbow guy*.  It might just mean a 4-0 sweep for the Knicks.
+
+## They are who we thought they were...
 
 The Pistons are showing us that a 3-1 comeback doesn't break a team. Detroit looks fine. Comfortable, even.
 
