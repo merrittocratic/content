@@ -10,7 +10,7 @@ if [ ! -f "$PROJECT_FILE" ]; then
   exit 0
 fi
 
-CURRENT_PROJECT=$(tr -d '[:space:]' < "$PROJECT_FILE")
+CURRENT_PROJECT=$(grep -vE '^[[:space:]]*(#|$)' "$PROJECT_FILE" | head -1 | tr -d '[:space:]')
 PUBLISHED_DIR="$REPO_ROOT/published/$CURRENT_PROJECT"
 
 # Calculate next Sunday
