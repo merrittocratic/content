@@ -1,67 +1,51 @@
-# The Model Said Spurs. Brunson Said No.
+# The Opposite
 
 ---
 
-Two trends. Both pointed the same direction. Neither survived the fourth quarter.
+Doing the opposite of his instincts worked for George Costanza, so it might as well work for the Knicks.  Two games are in the books and the Knicks have a 2-0 lead in the series.  All of this, when 4 of the 5 trends we previewed ahead of the Finals say the result should be the **opposite**.
 
-Before Game 1, we had two predictive patterns from the preview: the Knicks were 7-and-0 in these playoffs when KAT recorded five or more assists, and the Spurs were 3-and-0 in the WCF when Castle scored 17 or fewer. Both patterns held all night. KAT finished with 4 assists. Castle scored exactly 17.
+The Knicks were 9-and-0 in these playoffs when KAT recorded five or more assists and the big KAT has yet to exceed four in any game: **opposite**. The Spurs were 3-and-0 in the WCF when Castle scored 17 or fewer points.  Another trend that has held, and yet the Knicks are the ones coming out on top: **opposite**.  Harper is healthy, Knicks still winning: **opposite**.  I think you're starting to get the picture.  Perhaps the most important **opposite** trend is one that is going the Knicks way: KAT is staying on the court and mostly out of foul trouble.  
 
-The Knicks won 105-95.
-
-Both trends broke in the same 48-hour window, in the same direction, because of the same person. Jalen Brunson scored 13 of his 30 points in the fourth quarter, closed the game with a spinning jumper falling away, and the Knicks finished on an 11-0 run. New York has now won 12 straight, stealing home court in a building where the Spurs were 11-and-0 this postseason.
-
-Sometimes the data has to just tip its cap.
+New York is heading home up 2-0 and the explanation for that has shifted from just "Brunson is clutch" to something more uncomfortable for the Spurs: they're running the right plays and still losing.
 
 ---
 
-## What the Numbers Said Going In
+## My name is George, I'm unemployed, and I live with my parents
 
-[*Bones — expand with specific preview predictions. Two bullets: the Castle ≤17 WCF pattern, the KAT 5+ assists Knicks record. Both met. Both broke. Good place to do a quick "here's the ruleset we laid out, here's what actually happened" table or quick comparison.*]
+Why did the **opposite** work?  Castle scored 17 in Game 1 and 14 in Game 2, shooting 1-for-5 from three in game 1 and  5-for-14 overall from the field in game 2 with four turnovers and a -6 plus/minus.  In the WCF, low Castle scoring meant a defensive-focused Castle, conserving energy for point-of-attack defense on SGA. The current low-scoring version of Castle is struggling. The energy he spent with inefficient shots was energy he wasn't putting into Brunson, and Brunson's six assists, five steals, and game-deciding free throw suggest Castle lost something in the translation. The WCF pattern said "Castle scores less, Spurs win." The actual mechanism was "Castle is disciplined, defense is his priority, Spurs win." 
 
----
+In Games 1 and 2, KAT had 4 assists.  In game 2, he also picked up his fourth foul with over six minutes left in the third quarter, which was the exact foul-trouble pattern the preview flagged as a win for San Antonio.  But, KAT has found ways to contribute and wear down Wemby by being physical with him.  His 21 points and 13 rebounds in Game 2 resulted in a plus/minus of +11, tied for the best of any Knick.  
 
-## When Great Players Don't Read the Scouting Report
 
-Brunson shot 12-for-31. He limped to the locker room with an apparent knee injury in the first quarter. He was 1-for-7 at some point in the first half. If you handed someone his through-three-quarters shooting line and asked them to predict the final result, they'd give you Spurs by eight.
 
-What the box score can't capture is what Brunson does when the game is actually being decided. Thirteen points in the fourth. A pull-up jumper over a hand. A spinning, falling-away shot with 38 seconds left that sealed it. The Knicks didn't win because the trends held. They won because Brunson made shots that the trends don't have a column for.
+Two wins. One underlying theme. KAT is the one keeping the games close by staying on the floor and being physical with Wemby.  Brunson is then closing out the victories despite inefficient shooting.  
 
-This is worth sitting with, because it's genuinely uncomfortable territory for a data-driven brand. The honest version is: Castle defended Brunson as well as he's capable of defending anyone. He held him to under 40% on the night. The defensive structure was correct. And Brunson still made the three shots that mattered most when they mattered most.
+In Game 1, Brunson puts up 13 points in the fourth quarter. He made the pull-up jumper falling sideways that sealed the game.
 
-[*Bones — expand here with broader Brunson clutch data if available. Basketball Reference has his fourth-quarter playoff splits, close-game FG%, crunch-time scoring. The argument is that clutch performance is a real, repeatable skill for a small subset of players — and Brunson is in that group. Not "hot hand" noise. Actual signal. This is where the analytical frame reasserts itself: we're not throwing up our hands, we're identifying a feature the trend-level analysis didn't capture.*]
-
-There's a version of this that sounds like "great players will be great" — which is tautological and useless. The more interesting version is: for a specific cohort of players, clutch performance *is* a measurable and persistent skill, and when you're building a preview framework around trend-level patterns, you have to account for whether the player those patterns are supposed to contain is one of them. Brunson is. That's not a dodge — it's a better model input.
+In Game 2, The Spurs got the stop they needed, Wembanyama secured the rebound off a Brunson miss with 13 seconds left and the game tied. Then the unthinkable turnover, followed by a clutch freethrow. Knicks by one.
 
 ---
 
-## The Wemby Variable
+## Coming up Big vs. Coming up Small
 
-Wemby said it himself: "I was bad tonight." Six of twenty-one from the field. Six turnovers. The Knicks went on an 11-4 run the moment he went to the bench.
+The fourth quarter of Game 1 established the clutch-scoring narrative of Brunson while exposing the youth and inexperience of Wembanyama.  By Wemby's own words, "I was bad tonight".
 
-[*Bones — tie back to the per-36 scoring dip we've been tracking. Regular season: 30.9/36. Playoffs through Game 1: still running below that. The offensive struggles against KAT's physicality at the rim were real. The question for the series is whether Game 1 was the outlier or the baseline against this specific defensive scheme.*]
+Game 2 complicates both of these. Brunson missed 18 shots and had a plus/minus of -11.  By every efficiency measure, it was a poor performance. He was the worst-performing Knick on the night by the numbers.  By contrast, Wembanyama was genuinely excellent, scoring 22 points in the second half including 10 in the fourth quarter. He led a 14-0 run that erased a double-digit Knicks lead and gave San Antonio its first lead of the second half. He was the reason the Spurs had a chance to win.
 
----
+Unfortunately, he is also the reason they didn't.  Ball secured on a rebound, one dribble, and a quick outlet pass to a teammate with his back turned.  The *turnover*, then a foul, and who steps to the line to give the Knicks the lead in the final 13 seconds of the game? Yep, it's Brunson.  
 
-## What to Watch in Game 2
-
-[*Bones — placeholder for Saturday refresh after Friday's result. Key variables to track: Does the Spurs foul-trouble plan on KAT materialize? Does Castle adjust the defensive approach against Brunson's crunch-time scoring? Does Wemby's offensive efficiency normalize? Brunson's knee — how does it hold up over 48 minutes in a hotter building?*]
+In the most important moments, one star came up *BIG* and one star came up *small*.
 
 ---
 
-## The Scorecard
+## Back in the New York Groove
 
-| Preview prediction | What happened | Verdict |
-|---|---|---|
-| Spurs win when Castle ≤17 points | Castle: 17 pts. Spurs lost. | ❌ Pattern broke |
-| Knicks 7-0 when KAT 5+ assists | KAT: 4 assists. Knicks won anyway. | ❌ Pattern broke |
-| KAT foul trouble = Knicks in trouble | KAT on floor all night, Knicks won | ✅ Framework confirmed in reverse |
-| Harper health as key Spurs variable | Harper: 16 pts off bench, healthy | ✅ Condition met, series ongoing |
-| Wemby per-36 scoring dip continues | 6-of-21, "I was bad tonight" | ✅ Confirmed |
+The Knicks haven't lost since April 23. Thirteen straight. Two wins in a building where the Spurs were 11-and-0, by a combined eleven points across two gut-punch finishes.  KAT is making a very strong case for Finals MVP right now.  
 
-Two patterns broken. One explanation: Brunson in the fourth quarter is a different dataset than the one the trends were built on.
+The trends acutally pointed to two Spurs wins, but San Antonio is the second-youngest team to ever reach the NBA Finals. Wembanyama is 22. Castle is 21. Harper is 20.  The youth is a fact, not an excuse, but it's the most honest explanation for why the right play keeps ending wrong.
 
-Game 2 is Friday in San Antonio. The Spurs haven't lost back-to-back games since February.
+The series heads to Madison Square Garden, and the Spurs are going to have to find a way to extend the series that may not exist in any scouting report.  Maybe they just need to do the **opposite**.
 
 ---
 
-*Data via Basketball Reference, NBA.com, and ESPN. Merrittocracy NBA Finals coverage at [themerrittocracy.substack.com](https://themerrittocracy.substack.com).*
+*Data via Basketball Reference, NBA.com, CBS Sports, and Yahoo Sports. Merrittocracy NBA Finals coverage at [themerrittocracy.substack.com](https://themerrittocracy.substack.com).*
