@@ -45,3 +45,4 @@ Update this when starting a new content series (e.g. `nba-draft`, `college-footb
 - `draft/` — working drafts (not published)
 - `published/<topic>/YYYY-MM-DD <title>.md` — finalized posts, one `.md` per piece
 - `.current_project` — controls which `published/` subfolder the hook copies into
+
