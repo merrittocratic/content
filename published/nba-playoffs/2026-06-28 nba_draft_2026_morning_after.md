@@ -1,67 +1,65 @@
-# The All-Timer Draft Has Twelve Hours of Questions
+# Burying the Lead
 
 ---
 
-The confetti is still on the floor at Barclays Center, Adam Silver is somewhere sleeping soundly, and the sports internet has already decided this was historic. Before we get fully swept up in that, let's check who actually helped themselves last night -- and who bought a very expensive problem.
+The Greek Freak was moved to South Beach on the night before the NBA draft. That was supposed to be the move of all moves for the NBA offseason.  By the weekend, it was might as well have been written in the Classified Ads.
 
-## The Quiet Best Team From Last Night
+In eight days, we've seen Kawhi Leonard traded back to Toronto, LeBron James escaping from Los Angeles, Ja Morant shipped to Portland, and discovered that Dusty May's Michigan reunion wasn't what anyone expected.  Is there any more perfect landing spot for Ja Morant than the Jail Blazers?  
 
-Nobody is writing a column about Memphis this morning. That's fine. That's the point.
+The "all-timer" draft class, the one Adam Silver called exceptional and Jay Bilas called the best in 30 years, already feels like it happened a month ago.
 
-The Grizzlies walked out of Brooklyn with Cameron Boozer at No. 3, and Boozer walking into a frontcourt that already includes Zach Edey and Cedric Coward. That's not a rebuild. That's a foundation with a cornerstone. The only slight hangup with Boozer is whether he winds up very good or great -- and it'll be one of the two, because he just has too deep of a bag. The defensive concern is real, but Memphis is building a roster that is going to be genuinely hard to guard in three years. They did it quietly, at a slot they earned, without needing to make a speech about it. This is what winning the draft actually looks like.
+Let's catch up.
 
-## The Actual Best Value on the Board
+## Cliff's Notes on the Draft
 
-Nobody handed the Utah Jazz anything. They finished second in the lottery and took Darryn Peterson second overall -- a player who, if not for a difficult freshman year at Kansas defined by cramping issues and inconsistent availability, most evaluators had as the best prospect in this class. Peterson, being a taller guard and an underrated defender, also helps fill a real need.
+AJ Dybantsa went to Washington at No. 1 and Darryn Peterson went to Utah at No. 2.  One week later Peterson's situation looks considerably better. He walks into a team with Lauri Markkanen, Jaren Jackson Jr., and Keyonte George, a contributor on a functional roster, not a savior on a rebuilding one. Dybantsa's basketball ceiling is probably higher, but his path runs through Anthony Davis staying out of street clothes on the bench, Trae Young justifying $212 million, and a franchise that hasn't made the playoffs since 2021.
 
-More importantly, he is walking into the best situation of any top-four pick. Utah already has Lauri Markkanen, Jaren Jackson Jr. (acquired at the trade deadline), and Keyonte George. Peterson doesn't have to save a franchise. He has to grow into one that's already functional. That's an enormous advantage, and it is not being discussed nearly enough relative to all the Dybantsa coverage.
+The stranger draft-night story was picks nine through twelve. Michigan had three players go in four selections and a coach that was just hired by one of those teams.  Most assumed the Mavericks would target Mara or Lendeborg (May's highest-profile players), and instead they took Morez Johnson, ranked 17th overall by CBS, and this produced the lowest lottery grade of the night. May told reporters he didn't know they were taking Johnson until Masai Ujiri texted him in the building. Whether that's true or a coach protecting his front office, the pick is still the one that needs the most explaining. Johnson alongside Flagg could be interesting, but it's just not the one anyone scripted.
 
-## Is Washington Actually a Team Now?
+## Blame Canada!
 
-The piece everyone is writing today is "Wizards have their cornerstone." The piece worth writing is: AD + Trae + Dybantsa -- is that a real squad?
+Seven years after leaving, Kawhi Leonard is a Toronto Raptor again.
 
-On paper, it's legitimately interesting. Trae Young is one of only 16 players in NBA history to average 20 points and 10 assists in a season. He just committed to Washington on a four-year, $212 million deal, declined his player option to do it, and everything out of the locker room suggests he wants to be there. Young operating pick-and-roll with a 7-foot wing prospect who can finish above the rim is a real offense. It is not hard to imagine that being very good.
+The Clippers traded him for Brandon Ingram, Gradey Dick, two first-round picks, two seconds, and a swap. Kawhi is 34. Last season he averaged 27.9 points, 6.4 rebounds and 1.9 steals on 50.5 percent from the field in 65 games, his most since the 2019 championship run.  He earned All-NBA Second Team.  Can he stay healthy? The honest answer from the data is: he was already the healthiest version of post-championship Kawhi we've seen in years.
 
-Anthony Davis, when healthy, is still an elite two-way center. The Wizards already have Alex Sarr, who struggled against big centers all year. Adding a legitimate rim-protecting anchor alongside a wing who can make every play above the fold is the exact roster construction that turns a young team's ceiling from "interesting" to "dangerous."
+This is different from the LaMelo bet Minnesota made or the Anthony Davis bet Washington is carrying. Those are players betting on availability trends reversing. Kawhi's trend reversed on its own. He gave LA 65 games in 2025-26 after multiple injury-shortened seasons, and the production when he did play was still elite. The Clippers aren't sending him back to Toronto because he stopped being good. They're sending him back because their competitive window closed and they want the draft capital while he still has clear market value.
 
-The problem is that word: healthy.
+What Toronto gets: a 34-year-old who is the best player they've had since he was there in 2019, paired alongside Scottie Barnes in a frontcourt that immediately makes them relevant in the East. What they're risking: the version of Kawhi that missed 55 games in 2021-22, 61 games in 2022-23, and missed significant time in three other seasons. The 65-game 2025-26 is the evidence for the bet. The rest of his career is the evidence against it. They made the trade anyway, and on the merits of last year's tape, it's defensible.
 
-Davis played 20 games this season. None of them were in a Wizards uniform. He was traded in February and missed the rest of the year with hand and groin injuries. The most consecutive games he played for Dallas before the trade was five. He has failed to play 60-plus games in three of the past four seasons. Portland is already reportedly positioned to make a trade offer. The Wizards' own front office acknowledged this is essentially an offseason acquisition -- they're hoping to see him in 2026-27, not counting on him now.
+## You Can Check Out Any Time You Like
 
-The honest answer to "is that a real squad" is: it could be. Trae is committed, Dybantsa is in, and a healthy AD changes everything. But Washington has $105 million tied up in Young and Davis before they pay anyone else, and Davis has given Washington no games and every reason to wonder if he ever will.
+The facts, quickly: LeBron James is 41, declined his player option with the Lakers, and told Rich Paul to survey the entire market before making a decision. He averaged 20.9 points, 7.2 assists and 6.1 rebounds in 60 games last season, led the Lakers past Houston in the first round of the playoffs, and remains a meaningful NBA player in a way that genuinely defies reasonable expectation.
 
-The best possible version of this roster is a legitimate Play-In contender next year and a genuine threat the year after. The most likely version is a team that waits to find out what a healthy Anthony Davis looks like in 2027 while Dybantsa develops and Trae runs pick-and-roll until someone stops them. That's not nothing. That might actually be a plan. The question is whether AD's body cooperates enough to make it one.
+The Warriors are listed at -500 to land him. Golden State wants LeBron on the mid-level exception alongside Steph Curry, Draymond Green, and Jimmy Butler, with Lendeborg now added to that mix. Draymond opted out to help create the room. They also wanted to trade for Anthony Davis from Washington to anchor the frontcourt, but the Wizards have no interest in moving him, and the Warriors don't want to give up Butler in a match, so that piece of the plan appears dead.
 
-## Miami Bought a Superstar and a Problem
+The Cavaliers are at +300. The narrative writes itself, LeBron returning to Cleveland, where it started, where he won the 2016 title, finishing his career where his career began. With Donovan Mitchell, James Harden, and Evan Mobley, Cleveland has real infrastructure. LeBron's stated priority is competing for a championship, and that question is genuinely closer than the narrative odds suggest.
 
-Giannis Antetokounmpo is one of the two best players in the NBA, and the Heat are going to be very good. That is not the question.
+The Warriors version is Steph and LeBron together, which is the kind of sentence that breaks brains. The Cavaliers version is LeBron coming home, which is the kind of sentence that writes its own column.  The reality is a 41-year-old on the mid-level exception, even LeBron James, is still a 41-year-old on the mid-level exception. 
 
-The Heat will enter 2026-27 with a starting lineup that is good and balanced, if relatively light on shooting. "Light on shooting" is the most polite framing possible for a frontcourt that features Giannis -- a career 28-percent three-point shooter -- alongside Bam Adebayo, who is not a spacing threat. Tyler Herro, their best perimeter shooter, just left the building in the trade. Miami still needs shooting in the backcourt, with Norman Powell's status up in the air and Andrew Wiggins sitting on a player option.
+If he goes to Golden State they're betting on a Big Four that would have to stay mostly healthy through a full playoff run.  Maybe that lineup is better suited for the Big-3, instead of the NBA. 
 
-The math is survivable if Wiggins stays and Powell re-signs, because both can actually shoot. It gets uncomfortable fast if either one walks. And the real question -- the one everyone is paper-trading past -- is that Giannis has exceeded 67 games in the regular season just once this decade, and has missed at least one playoff game in 2020, 2021, 2023, and 2024. He is 31 years old and approaching 30,000 minutes. The Heat gave up three first-round picks, Herro, and real organizational depth for a star who has a well-documented availability problem at the age when those problems tend to get worse, not better.
+But, just imagine this....
 
-Giannis and Bam is a headline. It is not yet a championship roster. Miami knows how to build those things, and maybe they get there. But they are not there yet, and the bill is significant.
 
-## Chicago Bought a Project
 
-Caleb Wilson shot 7-for-27 from three at North Carolina and suffered two hand injuries in 24 games, missing the final nine including the NCAA Tournament. He is going to a rebuilding team with a first-year head coach and a new front office. He might be the best player in this draft class in five years.
+## Addition By Subtraction?
 
-The last great North Carolina product to land with the Chicago Bulls was a fellow named Michael Jeffrey Jordan. He worked out fine. What the Bulls do with this particular Tar Heel depends entirely on whether their organizational environment can develop what their lottery slots keep delivering. Their track record with this specific bet is what it is, and it is priced into nothing on draft night.
+Memphis traded Ja Morant to Portland, which was probably the right move for both sides and is somehow only the fifth-biggest story of the week. The Grizzlies clear the most complicated personality in their locker room and let Boozer, Edey, and Coward become the actual story. Portland gets a name that fills seats and a backcourt to build around, with the availability asterisk that everyone in this league is apparently comfortable ignoring.
 
-## OKC's Curious Bet on Size
+The Knicks are champions and their owner is already telling radio stations he won't go into the second apron to keep the team together. OKC quietly extended Isaiah Hartenstein at three years and $75 million and sparked the big man arms race in the West.
 
-Oklahoma City is the defending champions. They have Chet Holmgren at 7-foot-1. They used the No. 12 pick on Aday Mara at 7-foot-3 -- a player with a 9-foot-9 standing reach tied for the second-longest in combine history. Mara himself has said publicly that Wembanyama was the model he studied coming up. OKC watched Holmgren get dominated in the WCF and drafted the player built in the same template, now to play alongside him.
+Just another day in the association.
 
-Whether this is brilliant stacking or a philosophical contradiction will take at least a season to answer. The Thunder have earned the benefit of the doubt. The question is real anyway.
+## The Greek Freak, I mean Footnote?
 
----
+When the Giannis trade to Miami dropped the night before the draft, it felt like the offseason's headline. A two-time MVP, one of the best players in basketball, moving to South Beach with Bam Adebayo and a roster being assembled around a championship run.
 
-## The Bottom Line
+That trade is still real and the Heat are still going to be a legitimate team. But it now sits fourth or fifth in the week's narrative hierarchy, behind Kawhi coming home, LeBron's open market tour, and the free agency mathematics that are reshaping six or seven rosters simultaneously.
 
-Memphis built something real. Utah built something clever. Washington built a fascinating conditional -- if AD can stay on the floor, Trae + AD + Dybantsa is a legitimate team; if he can't, they've committed $212 million to Trae Young and are waiting to find out. Miami built a very expensive question about shooting and availability. Chicago built a project with superstar upside and a four-of-twenty-seven three-point shooting problem.
+The week taught a lesson the draft already hinted at: in the NBA in 2026, no single move holds the spotlight for more than 48 hours. Giannis to Miami was the story. Then Kawhi to Toronto was the story. Then LeBron left LA and that became the story. All of it happened while the "all-timer" draft class was still being unpacked.
 
-The "all-timer" label for this draft will be determined by what actually happens to these players in NBA uniforms. The morning after always has questions. These are the questions.
+The all-timer label will be earned or discredited over the next five years. The summer it was born might be remembered more for everything else that happened in the same week.
 
 ---
 
-*Data via NBA.com, Basketball Reference, and ESPN. Draft and trade analysis at [themerrittocracy.substack.com](https://themerrittocracy.substack.com).*
+*Data and transaction details via ESPN, Yahoo Sports, Basketball Reference, and NBC Sports. Merrittocracy coverage continues at [themerrittocracy.substack.com](https://themerrittocracy.substack.com).*
