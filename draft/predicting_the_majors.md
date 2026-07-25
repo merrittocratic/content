@@ -28,16 +28,19 @@ Which brings me to the most interesting player of the 2026 major season: the guy
 
 Scheffler's finishes at the four majors: 2nd, T14, T4, T4. Never outside the top 14. Zero trophies.
 
-Here's the stat that jumped out when I pulled his strokes-gained data. Through the first three majors — the Open's detailed numbers aren't archived yet — Scheffler hit the ball better at the majors than he did the rest of the year. His total strokes gained per round was +2.60 at the majors versus +2.21 everywhere else. The separation came on the greens:
+Here's the stat that jumped out when I first pulled his strokes-gained data, before the Open numbers were in. Through the first three majors, Scheffler hit the ball better at the majors than he did the rest of the year. His total strokes gained per round was +2.60 at the majors versus +2.21 everywhere else. The separation came on the greens:
 
 | | SG Putting / Round |
 |---|---|
-| Majors (Masters, PGA, U.S. Open) | +0.07 |
+| Masters, PGA, U.S. Open (avg.) | +0.07 |
+| Open Championship | -0.36 |
 | Everything else in 2026 | +0.59 |
 
-At regular tour stops, Scheffler picked up more than half a stroke per round with the putter. At the majors, he putted like an average tour pro — dead neutral. At the PGA Championship it went genuinely cold: he lost 0.42 strokes per round on the greens and finished T14 in a week where his ball-striking was good enough to contend.
+At regular tour stops, Scheffler picked up more than half a stroke per round with the putter. Across the first three majors, he putted like an average tour pro — dead neutral. At the PGA Championship it went genuinely cold: -0.42 a round, T14 in a week his ball-striking was good enough to contend.
 
-The honest fine print: twelve rounds of putting data is a small sample, and putting is the noisiest stat in golf. His U.S. Open week on the greens was actually fine. I'm not declaring a curse. But the shape of the season is hard to ignore — the best tee-to-green player alive showed up to the four biggest weeks of the year with his A-game ball-striking and a putter that went quiet, and the difference between that and four wins instead of four top-5s is about half a stroke a round.
+Birkdale is a better story round by round than as one flat number. His approach play carried three of the four rounds — +1.84, +2.79, +2.06 — exactly the ball-striking billing. Putting is where the week actually turned: dead neutral in round one, a two-stroke bleed in round two, then round three brought the only day all week his irons went cold too, the exact round he fell out of the lead group. Round four flipped it back: his best putting day of the tournament (+1.61) paired with more strong approach play, and a closing 67 that had him making a real run at it on the back nine — a fortunate drop and a birdie at 17, then a missed try at 18 to keep the charge alive. He finished three back.
+
+The honest fine print: sixteen rounds of putting data is a small sample, and putting is the noisiest stat in golf. His U.S. Open week on the greens was actually fine. I'm not declaring a curse. But the shape of the season is hard to ignore — the best tee-to-green player alive showed up to the four biggest weeks of the year with his A-game ball-striking and a putter that went quiet, and across all four majors he finished the year a net-negative putter (-0.04 a round) while gaining more from tee to green than he did anywhere else. The difference between four near-misses and a couple of trophies is about half a stroke a round.
 
 ---
 
@@ -49,4 +52,4 @@ Four different sportsbooks, four different weeks, one guy at the top of the boar
 
 ---
 
-*Scheffler strokes-gained data via DataGolf, scoped to the Masters, PGA Championship, and U.S. Open — Open Championship splits not yet archived. Pre-tournament odds via FanDuel, DraftKings, and CBS Sports. Code at [github.com/merrittocratic/shadow-leaderboard](https://github.com/merrittocratic/shadow-leaderboard).*
+*Scheffler strokes-gained data via DataGolf, covering all four 2026 majors. Pre-tournament odds via FanDuel, DraftKings, and CBS Sports. Code at [github.com/merrittocratic/shadow-leaderboard](https://github.com/merrittocratic/shadow-leaderboard).*
