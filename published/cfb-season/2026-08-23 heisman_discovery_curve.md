@@ -1,83 +1,76 @@
-# The Discovery Channel
+# 20 Beats Your Five
 
-Arch Manning, Julian Sayin, Dante Moore, John Mateer, C.J. Carr, Jeremiah Smith. Every name on this year's Heisman list has the same problem: they're already famous.
+Arch Manning, Julian Sayin, John Mateer, C.J. Carr, Jeremiah Smith. Five names, and every preseason list has the same five on it, because every preseason list is built the same way: whoever was already good gets to stay good in the group chat.  Dante Moore bores me, so I didn't include him in this list.  *Sorry, but I have the microphone, so you will listen to every D@man word I have to say...*
 
-Ten of the last fifteen winners were outside the national top 20 at their position the year before they won it. Four more weren't even the starter -- no qualifying season, nothing to rank. Only five of fifteen were already a top-20 name, and even they needed a real jump.
+Every Heisman winner since 2011 sorts into three groups. Four of them, Johnny Manziel, Jameis Winston, Kyler Murray and Bryce Young, weren't even the starter the year before, they were backups or redshirts with no qualifying season to rank at all. Six more had a season on the books but sat outside the national top 20 at their position. That's ten of the last fifteen who arrived from somewhere nobody was looking. The other five, Robert Griffin III, Marcus Mariota, Baker Mayfield, DeVonta Smith and Jayden Daniels, were already inside the top 20 the year before and kept being elite all the way to New York. The pattern is real, but there are two cases for the trophy this year that are about to test which version of it is true.
 
-The list isn't wrong because the names are bad. It's wrong because the ballot rewards something a preseason list can't measure.
+## Math is Math!  
 
-## The Award Measures Distance, Not Height
+Here is the nice thing about repeatable data pipelines, they're easy to be re-used or re-purposed.  In this case, we already have all the plumbing for college production built for our annual NFL Draft model, so it was easy to re-purpose that for creating Heisman projections.  We created a production index for WRs and QBs. Within each position take yards divided by ten, added to six points per touchdown.  We only used Power 4 teams and regular season stats since Heisman voting closes before the Playoff.
 
-The mechanism: run a production index -- yards divided by ten, plus six points a touchdown -- within position, Power 4 only, regular season only. Regular season matters because Heisman voting closes before the Playoff.
+Run that index on this year's most likely field and the gap between the five names above gets a lot more specific than "hype" versus "not hype":
 
-Run that index on this year's field and the gap between the six names above gets a lot more specific than "hype" versus "not hype":
-
-| Candidate | Pos | 2025 baseline | Rank (pool) | Growth needed | Wins needed to 12-1 |
-|---|---|---|---|---|---|
-| Mateer, 2024 (healthy) | QB | 3,986 yd / 44 TD | 1 of 73 | already clear | 2* |
-| Jeremiah Smith | WR | 1,106 yd / 12 TD | 2 of 175 | +4.5% | 0 |
-| Julian Sayin | QB | 3,323 yd / 31 TD | 11 of 73 | +24.5% | 0 |
-| Arch Manning | QB | 3,190 yd / 33 TD | 12 of 73 | +24.8% | 3 |
-| Dante Moore | QB | 2,924 yd / 25 TD | 30 of 73 | +45.9% | 1 |
-| C.J. Carr | QB | 2,774 yd / 27 TD | 32 of 73 | +46.9% | 2 |
-| Mateer, 2025 (hurt) | QB | 2,994 yd / 19 TD | 35 of 73 | +56.1% | 2 |
-| Cam Coleman | WR | 725 yd / 5 TD | 53 of 175 | +86.2% | 3† |
+| Candidate | Pos | 2025 baseline | Rank (pool) | Growth vs 5-yr bar | Growth vs 2025 field | Wins needed to 11-1 |
+|---|---|---|---|---|---|---|
+| Mateer, 2024 (healthy) | QB | 3,986 yd / 44 TD | 1 of 73 | already clear | already clear | 1* |
+| Jeremiah Smith | WR | 1,106 yd / 12 TD | 2 of 175 | +4.5% | already clear | 0 |
+| Julian Sayin | QB | 3,323 yd / 31 TD | 11 of 73 | +24.5% | +7.3% | 0 |
+| Arch Manning | QB | 3,190 yd / 33 TD | 12 of 73 | +24.8% | +7.5% | 2 |
+| C.J. Carr | QB | 2,774 yd / 27 TD | 32 of 73 | +46.9% | +26.5% | 1 |
+| Mateer, 2025 (hurt) | QB | 2,994 yd / 19 TD | 35 of 73 | +56.1% | +34.5% | 1 |
+| Cam Coleman | WR | 725 yd / 5 TD | 53 of 175 | +86.2% | +69.9% | 2† |
 
 *Uses Oklahoma's actual 2025 record, 10-2, not Washington State's stale 8-4.
 †Uses Texas's actual 2025 record, 9-3, post-transfer, not Auburn's 5-7.
 
-"Rank" is where that baseline placed within position among 2025's qualifying Power 4 field -- Manning's 33 touchdowns were the 12th-best QB production line in the country last year, not a consensus label. "Growth needed" is the distance from that baseline up to the production level that's held the No. 3 national ranking at the position over 2021-25, the worst finish among all fifteen Heisman winners since 2011.
+"Rank" here is where the player's production baseline placed them within position among 2025's qualifying Power 4 field.  So, Manning's 33 touchdowns were the 12th-best QB production line in the country last year.  No Longhorn fans, I'm not saying Arch was the 12th best QB in the country last year, but his overall production was 12th best. The two growth columns are the distance from that baseline up to a No. 3 national finish, measured against two different yardsticks: what has held No. 3 across 2021-25 (645.3 for quarterbacks, 190.9 for receivers) and what actually held it last season alone (556.0 and 174.1). Why there are two is the next section's problem. No. 3 is the target either way, because it's the worst finish within position among all fifteen Heisman winners since 2011. "Wins needed" runs to 11-1, because a normal regular season is now twelve games; only teams that reach a conference title game get a thirteenth. One bookkeeping note before the rest of the numbers: anything stated out of fifteen covers every winner in the window, while anything stated out of eleven covers only the eleven who had a qualifying prior season. The four non-starters have no prior-year rank, so climb and growth simply can't be measured on them.
 
-Fernando Mendoza's 2024 at Cal: 3,124 yards, 19 touchdowns, 30th of 69 qualifying quarterbacks, a 6-6 season. His 2025 at Indiana: 3,220 yards -- barely moved -- and 39 touchdowns, more than double. He climbed 27 spots on a touchdown binge, not a yardage binge, while Indiana added seven wins to finish 13-0.
+An example to help solidify the idea. Fernando Mendoza's 2024 at Cal: 3,124 yards, 19 touchdowns, ranked 30th of 69 qualifying quarterbacks (426.4 production index), a 6-6 season. His 2025 regular season at Indiana: 3,220 and 39 touchdowns (556 index).  So, his yardage barely moved, but his touchdowns more than doubled. He climbed 27 spots on a touchdown binge, not a yardage binge, while leading Indiana to an undefeated regular season and eventually, the National Championship.
 
-A great encore season from someone already 12th nationally reads as confirmation. A great season from someone who was 30th reads as a discovery. Voters pay for the second one.
+A great encore season from someone already ranked 12th nationally reads as confirmation of something we already know and expect. A great season from someone who was 30th hits different.  It reads like discovering a hidden gem.  That's what great stories are made of and great stories win the Heisman!
 
-## There Can Be Only One Buckeye -- Check the Math Before You Pick
+One thing worth noting is that 2025 was strange. No Power 4 quarterback threw for 4,000 yards, 35 touchdown passes, or reached 40 total touchdowns during the regular season.  Each was a first in the 2014-2025 panel, including COVID-shortened 2020. The middle of the distribution was completely normal, a pool-wide mean of 313 attempts, 2,382 yards and 16.7 touchdowns, all mid-panel, so the story isn't that quarterback play got worse. It's that the compiler season disappeared. Rushing production was actually at a panel high, 4.58 mean rushing touchdowns, the most in twelve years, but nobody stacked it: only four quarterbacks reached 10 rushing scores, down from between six-to-nine in prior years.
 
-The theory going around every Ohio State preview is that Julian Sayin and Jeremiah Smith cancel each other out. Sayin finished fourth in the actual balloting last year, Smith sixth. Splitting is real. But look at what each still needs to do.
+## You Wanna Get Nuts?  Let's Get Nuts!
 
-Smith caught 80 balls for 1,086 yards and 11 touchdowns, plus a rushing score -- second of 175 qualifying receivers, essentially the best receiving season in the country already. To clear the level that's held the No. 3 slot at his position, he needs four and a half percent more. Every one of the eleven winners with a prior season cleared a bigger gap than that. It's the smallest number in this whole spreadsheet.
+Last year Julian Sayin and Jeremiah Smith finished fourth and sixth, respectively in the Heisman voting.  They're both in the running to make it to New York this year, but there is a concern in Columbus that they could cancel each other out.  Here is what undercuts the split theory: DeVonta Smith entered his 2020 season already having produced 1,200 yards and 13 touchdowns the year before, a top-five national finish, and he did it as the second option in an Alabama offense that also ran through a future first-round quarterback. The already-famous receiver, sharing a roster with a Heisman-caliber passer is not a cautionary tale in this dataset. It is the only precedent for exactly this shape of problem, and it ended with a trophy.
 
-Sayin's is bigger but still ordinary: 24.5 percent, a size nine of eleven winners have matched. Ohio State is already 12-1 -- the record Mendoza needed seven added wins just to reach. Neither Buckeye needs the team to improve. They only need to be, individually, what winning receivers and quarterbacks have already been.
+The Heisman case for Sayin and Smith are related, but not identical. Sayin has a *climb* to make.  Against the five-year bar, nine of the eleven measurable winners have matched or beaten this *climb* previously; against a 2025-like field it's a 7.3 percent step and all eleven cleared it. A real ask on a crowded ballot in one world, a rounding error in the other. Smith has a different issue, and while the Devonta win helps as supporting evidence, it is also not an exact match.  Devonta was a top-5 prior year candidate, Jeremiah is a top-2 prior year candidate, so he has almost no room to *climb*, and if last season's scoring environment holds, he has none at all, because his 2025 line already clears the 2025 bar outright.  All measurable eleven past winners climbed at least 3 spots in the production index, and none of the fifteen recent winners had a prior year inside the top-3.  Greatness is expected to be great every year, so while his *climb* to claim the top-WR production spot is the smallest, so is his margin of error for winning.  Nothing short of a historic year will bring the Heisman back to Columbus.
 
-DeVonta Smith was 5th of 160 receivers the year before he won -- almost exactly where Jeremiah Smith sits now -- and he climbed to 1,522 yards and 18 touchdowns, 31 percent more, on a roster with an excellent quarterback of his own. Splitting didn't cost him the trophy. It buried whoever lost the argument.
+## Was It Over When The Germans Bombed Pearl Harbor?
 
-So the honest revision: the problem for Sayin and Smith was never that neither could clear the bar. It's that both can, on the same roster, and only one name goes to New York.
+If there was anything approaching a national consensus, the Longhorns making a deep playoff run and Arch Manning winning the Heisman would be it.  Here is the wrinkle, statistically, Julian Sayin and Arch Manning are the same person, they have to make nearly the exact same *climb* to reach a top-3 slot.  Sayin and Manning need to up their production indices by roughly 25% to reach the top-3 rung for serious consideration, or about 7% if last season's depressed field is the new normal.  The gap between them isn't talent, it just might be the standings.
 
-## Dante's Second Inferno
+Ohio State played to one loss in the regular season last year, and Texas played to three, including a head-to-head loss to the Buckeyes.  Three losses happens to be the exact ceiling for winning the trophy: no Heisman winner's team has lost more than three games in fifteen years. Manning's Longhorns were not disqualified, but of the four winners whose teams carried three losses, every single one finished ranked first or second nationally in their position, not third, which is where both production bars aim everyone else. A player from a three-loss team doesn't get to have the third-best stat line in the country and still win. It has to be unambiguously the best, which is the one thing neither growth column prices in.
 
-Dante Moore already ran this experiment. His corrected regular-season line -- what voters actually saw, before the Playoff added noise to the public number -- was 2,924 yards and 25 touchdowns, 30th of 73 qualifying quarterbacks. Comfortably average. Which is why he got zero votes, not a mystery to go with it.
+This is what makes the early September match-up between the Longhorns and Buckeyes a great storyline.  Whoever wins not only gets a leg up in the playoff race, they also put their signal caller in the pole position for the Heisman.  The Heisman is rarely won in September, but it can be lost.
 
-To clear the bar in 2026 he needs 46 percent more production, a leap only six of eleven winners have matched. Oregon is already 11-1, one win from the ceiling record. But if his yardage doesn't move, he needs 59 touchdowns on scores alone -- a number no quarterback here has approached. He can't take the Mendoza route; his yardage base is too low. He needs Oregon throwing more, not just better.
+## Trading Places
 
-## Mateer of Fact
+Here's a new name to consider, one who like Odell Beckham, has become famous for a one-handed grab on a poorly thrown ball.  He might also be the most on-pattern case in the field. Travis Hunter's numbers the year before he won the Heisman: 721 yards, 5 touchdowns, 59th of 162 receivers, on a 4-8 team. Cam Coleman from Auburn in 2025: 725 yards, 5 touchdowns, 53rd of 175. Four yards apart. Same touchdown total. Same slot in the pecking order.  Only five of the eleven measurable winners have ever managed a *climb* that big, and the most recent person to do it started from this exact line.
 
-There are two John Mateers in this data set, and the gap between them is the whole argument.
+Coleman transferring to Texas for 2026 puts him in a dramatically better situation and almost assures his team will have the necessary wins to qualify.  His move also mirrors Mendoza and Caleb Williams as transfers in the years they won.  New face in a new place is always a great story, and say it with me, great stories win the Heisman.  There is risk of couse.  This puts him on the same roster as Arch Manning and if they both put up great numbers, would the Heisman committee deny another Manning and choose another Cam?
 
-Healthy Mateer, Washington State 2024: 3,986 yards, 44 touchdowns, first of 73 qualifying quarterbacks against the 2025 field -- past the bar, not approaching it. Every one of the eleven winners cleared a smaller distance than the one separating this line from average.
+## There Goes the Neighborhood
 
-Hurt Mateer, Oklahoma 2025 -- broken thumb in the SEC opener, surgery, back against Texas seventeen days later -- finished 35th of 73, needing a leap only five of eleven winners have matched.
+C.J. Carr and John Mateer are the two names actually living the discovery script, and they're living it from nearly the same address: 32nd and 35th of 73 in 2025 production. That is the exact neighborhood that winners need to *climb* out of. 
 
-The team number belongs to the 2025 row: Oklahoma went 10-2 and needs two more wins to reach the ceiling record, not the four the stale Washington State number suggests. And the healthy-Mateer probability of landing back in that elite zone -- 25 percent -- is the highest number anywhere in this data set. Everyone else is in single digits or low teens.
+Mateer arrives with an asterisk that is easy to over-read. His 2024 at Washington State, the last time he was fully healthy, would have put his production as first in the country against the 2025 field.  This should land as evidence of his ceiling and the 19 touchdowns on a repaired thumb last fall as is his floor.  Players starting from his percentile band reached a top-three finish 25 percent of the time, and his 10-2 Oklahoma team from last year sits comfortably close to an 11-1 target.  Redemption from an injury-plauged season is a great story, and a great story....
 
-## The Manning Gap, and the Long Way Up
+Carr might be an even cleaner bet. Notre Dame also needs a single win to reach 11-1, and the Irish might have the easiest path to running the regular season as any team in recent memory. Love and Price are gone, which means the touches and the storylines both route through the quarterback now. Notre Dame will be the C.J. Carr show for better or worse. The ask is still real, since he will probably need somewhere between 43 and 55 total touchdowns if his yardage stays similar to last year.  Clean schedule and an offense that runs through him just might stir the echoes one more time.  A return to glory for a historic progam makes for a great story, and **WE KNOW**, will you stop already!
 
-Arch Manning gets treated like a hype problem. The data says he's a team problem. His 2025 line -- 3,190 yards, 33 touchdowns, 12th of 73 -- needs 24.8 percent more production, a gap nine of eleven winners cleared. Ordinary. What's not ordinary: Texas needs three more wins to reach 12-1, a jump only four winners in fifteen years managed, three of them via a coaching turnaround or a transfer. Manning has neither lever. He has a 9-3 team needing three more wins from mostly the same roster. Not a talent question. A program question.
+## PLEASE, No More Math!
 
-Cam Coleman is standing where Travis Hunter stood: 725 yards, 5 touchdowns, 53rd of 175 receivers on a 5-7 Auburn team, versus Hunter's 721 yards, 5 touchdowns, 59th of 162, on a 4-8 Colorado team. Coleman needs an 86 percent jump, a leap five of eleven winners have matched. Rare, not unprecedented. One flag: the data still has him on Auburn's 5-7 record, pricing his team gap at seven wins. He's not there anymore -- he's catching passes from Manning on a Texas team that already won nine games. Same three-win gap, filed under two different names.
+Here's the tension the rest of this piece has been building toward, and it's the most honest thing about the whole argument. The base rate for reaching a top-three finish rises in a straight line depending on where a player already stands: 1.1 percent rise from the bottom quarter of the league, 2.8 percent from the next tier, up through 8.8 percent in the 80th-to-90th percentile band, and 21.4 percent for anyone already in the top five percent nationally. Jeremiah Smith sits at the 99.4th percentile right now, as high as this data goes.
 
-## Both Things Are True
+This is where the *ladder* gets complicated, because that 21.4 percent pools every position together. Split it by position and the top of the receiver board converts at only 8.1 percent, while the top of the quarterback board converts at 25 percent, so the best odds in this field for remaining elite don't belong to Smith at all. They actually belong to a healthy John Mateer, whose 2024 line sits at the 98.5th percentile among quarterbacks. The most established name in the piece is roughly a one-in-twelve shot to produce the season he'd need. Both splits run on small samples, 37 receiver-seasons and 28 quarterback-seasons, so don't read the gap between them too hard. Read the level instead: nobody in this field has a better than one in four chance to produce the elite season needed for the award.
 
-Here's the part of this data set that argues with everything above it, and it's right to.
+So, this makes the "nobody famous wins the Heisman" thesis half right, and the half that's wrong matters. It is true that most winners weren't well known the year before. It is also true that any individual unknown player's chance of becoming one of them is VERY small, roughly two to five percent depending on where he starts. Both are true at once because the pool of unknowns outnumbers the pool of the already-elite by a factor of ten. The unknowns win as a group. The problem is you still can't pick which one it will be.  Keelon Russell, the new starter at Alabama, looks alot like Bryce Young did when he became a first-year starter and won the award, but I wouldn't take that to Vegas as someone who has a good chance to win this year.
 
-Rank players by where they started the year before, in bands: bottom quarter, 1.1 percent reach an elite season the next year. Then 2.8, 4.4, 4.9, 8.8. Top ten percent: 14.3. Top five: 21.4. It climbs in order, every band. Being elite already remains the best predictor of being elite again.
+This is the honest way to close this out: December's winner is more likely to be someone not on this list of five, for the same reason he can't be named today. The base rates point hardest at a healthy Mateer, the one name here whose prior season sits in the zone that's produced winners before. The pattern points at Carr coming out of the 30s the year prior with a favorable schedule to put up stats and team wins. If the trophy comes from this group at all, it probably comes from one of those two, and the tidy part is that they're the same story told from opposite ends: the same quarterback tier, one arguing from what he's already done, the other from what the pattern says usually happens next. 
 
-Both things are true at once. The winner is likely someone off nobody's August list -- ten of fifteen were. And if you had to pick one name today, history says take the player already in the top band, because that's still the best individual number on the sheet, even while the much larger field of everyone-else keeps winning the trophy on volume. The list loses as a group and wins one name at a time.
-
-Which is exactly why Jeremiah Smith and healthy John Mateer are the two names here I'd keep -- both sitting in that top band right now -- and exactly why I already know one of them probably won't be it.
-
-I'll run this table again in December either way.
+But the field, the guys nobody's writing 2,000 words about right now, still owns the better bet on the whole.
 
 ---
 
-*Production index (yards / 10, plus 6 per touchdown), within position, Power 4 only, regular season only. Fifteen-winner window, 2011-2025; Cam Newton's 2010 season is absent and excluded. Coleman's Texas context is the author's adjustment, not in the original pull, which still has him at Auburn. Source: cfbfastR / College Football Data API.*
+*Production index (total yards / 10, plus 6 per touchdown) computed within position, Power 4 programs only, regular season only -- Heisman voting closes before conference championships and the Playoff. Growth is shown against two No. 3 bars: the 2021-25 median (QB 645.3, WR 190.9) and the 2025 field alone (QB 556.0, WR 174.1). Team targets run to 11-1 on a twelve-game regular season. Study window is every Heisman winner from 2011 through 2025, fifteen in all; Cam Newton's 2010 season is absent from the underlying data and excluded. Eleven of the fifteen had a qualifying prior-year season, which is the denominator for any climb or growth figure. Base rates drawn from 1,785 qualifying Power 4 player-seasons, 2010-2025. Cam Coleman's Texas context is the author's own projection layered on top of the data, which still has him at Auburn as of the pull date. Source: cfbfastR / College Football Data API.*
