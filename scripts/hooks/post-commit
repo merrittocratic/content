@@ -1,0 +1,68 @@
+#!/usr/bin/env bash
+#
+# scripts/hooks/post-commit
+#
+# Fires the graphic-builder subagent for any draft that was newly ADDED to
+# draft/ in the commit that just landed. Editing an existing draft in a
+# later commit does NOT re-trigger this -- only its first appearance does
+# (git diff --diff-filter=A).
+#
+# ---------------------------------------------------------------------------
+# ONE-TIME SETUP on any machine that should run this (currently: laptop
+# only, NOT the Mac Mini -- Earnest is unrelated to this pipeline):
+#
+#   bash scripts/install-hooks.sh
+#
+# This symlinks scripts/hooks/post-commit (and pre-commit) into
+# .git/hooks/, the same mechanism already used for the draft -> published
+# copy hook -- kept tracked and versioned in the repo, instead of living
+# only in the untracked .git/hooks/ directory where a fresh clone or a
+# Time Machine restore could silently drop it.
+#
+# Also requires these sibling repos cloned next to this content repo:
+#   ../boxscore-prophet
+#   ../shadow-leaderboard
+#   ../nfl-draft-model
+#
+# NOTE (laptop, not always-on Mac Mini): this backgrounds the subagent with
+# nohup + disown so it survives you closing the terminal tab. It does NOT
+# survive closing the laptop lid / sleep. Give it a minute or two after a
+# commit before closing the lid, or check graphics/logs/ first.
+# ---------------------------------------------------------------------------
+
+set -euo pipefail
+
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+cd "$REPO_ROOT"
+
+mkdir -p graphics/logs
+
+# Guard against the very first commit in a repo, where HEAD~1 doesn't exist.
+if git rev-parse HEAD~1 >/dev/null 2>&1; then
+  NEW_DRAFTS=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- 'draft/*.md' || true)
+else
+  NEW_DRAFTS=$(git show --name-only --diff-filter=A --pretty="" HEAD -- 'draft/*.md' || true)
+fi
+
+if [ -z "$NEW_DRAFTS" ]; then
+  exit 0
+fi
+
+while IFS= read -r draft; do
+  [ -z "$draft" ] && continue
+  slug="$(basename "$draft" .md)"
+  logfile="graphics/logs/${slug}.log"
+
+  echo "[post-commit] New draft detected: $draft -- spawning graphic-builder" >&2
+
+  nohup claude --agent graphic-builder \
+    --add-dir ../boxscore-prophet \
+    --add-dir ../shadow-leaderboard \
+    --add-dir ../nfl-draft-model \
+    -p "New draft landed: $draft. Read its frontmatter for the repo tag, then build hero graphic/table candidates per your instructions." \
+    > "$logfile" 2>&1 < /dev/null &
+  disown
+
+done <<< "$NEW_DRAFTS"
+
+exit 0
