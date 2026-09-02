@@ -2,7 +2,7 @@
 #
 # scripts/hooks/post-commit
 #
-# Fires the graphic-builder subagent for any draft that was newly ADDED to
+# Fires the Rembrandt subagent for any draft that was newly ADDED to
 # draft/ in the commit that just landed. Editing an existing draft in a
 # later commit does NOT re-trigger this -- only its first appearance does
 # (git diff --diff-filter=A).
@@ -53,9 +53,9 @@ while IFS= read -r draft; do
   slug="$(basename "$draft" .md)"
   logfile="graphics/logs/${slug}.log"
 
-  echo "[post-commit] New draft detected: $draft -- spawning graphic-builder" >&2
+  echo "[post-commit] New draft detected: $draft -- spawning Rembrandt" >&2
 
-  nohup claude --agent graphic-builder \
+  nohup claude --agent rembrandt \
     --add-dir ../boxscore-prophet \
     --add-dir ../shadow-leaderboard \
     --add-dir ../nfl-draft-model \
