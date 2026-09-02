@@ -86,6 +86,11 @@ is the draft's filename without the date prefix or extension. A gt table
 candidate should be saved as a PNG the same way (gt supports rendering to
 image).
 
+Write files through R's own file I/O (`ggsave`, `gtsave`, `writeLines`,
+etc.) called via `Rscript`, not through the Write tool or shell
+redirection -- this session runs unattended and those paths get blocked.
+This is expected, not an error to flag every run.
+
 Write a companion `graphics/<slug>/candidates.md` with one line per
 candidate: the filename, whether it's a chart or table, whether it's the
 wildcard, and a one-sentence description of the angle it takes. This is
