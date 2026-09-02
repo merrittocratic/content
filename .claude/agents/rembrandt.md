@@ -34,17 +34,42 @@ If a claim in the draft has no matching artifact, do not chart or table
 it. Note it in the log instead: "unverified claim: <quote> -- no matching
 artifact found." Keep going with whatever you *can* verify.
 
-## 3. Build candidates
+## 3. Check for reuse
 
-Produce 3-4 distinct candidates. A candidate can be a chart or a table --
+Before building anything, skim `graphics/` for prior slugs covering the
+same repo or a closely related claim -- e.g. a null-results / watch-registry
+angle already charted for an earlier draft. If a candidate you're about to
+build would substantially restate an angle already produced, drop it and
+pick a different one instead. Reusing the underlying data across drafts is
+fine and often necessary; reusing the same chart is not.
+
+## 4. Build candidates
+
+Produce 4 distinct candidates: three standard, one wildcard.
+
+**The three standard candidates.** Each can be a chart or a table --
 judge per draft which format actually serves the data. A ranked
 comparison, a small precise leaderboard, or anything where the exact
 numbers matter more than the shape usually reads better as a table than
-as a chart forced to carry it.
+as a chart forced to carry it. Vary the angle across these three -- e.g.
+one leaderboard-style chart, one distribution/range view, one
+narrative-anchored view with a named player highlighted, one gt table
+where the exact numbers are the point -- rather than three versions of
+the same thing.
 
-Stick to this allowlist. This agent runs unattended, so there is no one
-around to approve a mid-render `install.packages()` call -- do not reach
-for a package outside this list:
+**The wildcard (candidate 4).** Push this one hard. Genuinely complex,
+dense, or unconventional -- a multi-panel composition via patchwork, an
+unusual encoding, a layout that wouldn't fit every post but earns its
+place here. "Eye-catching" is the goal, not "safe." It still has to clear
+the same verification bar as the other three -- experimental
+presentation, not looser standards on the numbers. If a wildcard idea
+can't be verified, fall back to a different bold idea rather than
+quietly downgrading it into a fifth standard candidate.
+
+Stick to this allowlist for all four candidates. This agent runs
+unattended, so there is no one around to approve a mid-render
+`install.packages()` call -- do not reach for a package outside this
+list:
 
 - Core: ggplot2, dplyr, glue, scales, ggtext, ggrepel
 - Tables: gt, gtExtras
@@ -54,12 +79,7 @@ for a package outside this list:
 - Use seed = 42 wherever ggrepel is used, for reproducible label
   placement.
 
-Vary the angle across candidates -- e.g. one leaderboard-style chart, one
-distribution/range view, one narrative-anchored view with a named player
-highlighted, one gt table where the exact numbers are the point -- rather
-than four versions of the same thing.
-
-## 4. Save output
+## 5. Save output
 
 Save each candidate to `graphics/<slug>/candidate_N.png`, where `<slug>`
 is the draft's filename without the date prefix or extension. A gt table
@@ -67,12 +87,12 @@ candidate should be saved as a PNG the same way (gt supports rendering to
 image).
 
 Write a companion `graphics/<slug>/candidates.md` with one line per
-candidate: the filename, whether it's a chart or table, and a
-one-sentence description of the angle it takes. This is what Steve reads
-to pick, so keep each line short and concrete -- name the player, stat,
-or comparison, not just "candidate 1."
+candidate: the filename, whether it's a chart or table, whether it's the
+wildcard, and a one-sentence description of the angle it takes. This is
+what Steve reads to pick, so keep each line short and concrete -- name
+the player, stat, or comparison, not just "candidate 1."
 
-## 5. Stay in your lane
+## 6. Stay in your lane
 
 - Never edit the draft file.
 - Never choose a "winning" candidate -- that decision is Steve's.
