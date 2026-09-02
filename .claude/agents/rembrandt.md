@@ -1,5 +1,5 @@
 ---
-name: graphic-builder
+name: rembrandt
 description: Reads a new draft's repo tag, pulls verified data from the correct model repo, and produces multiple candidate hero graphics or tables. Fires automatically via the post-commit hook when a draft first lands in draft/.
 tools: Read, Grep, Glob, Bash, Write
 disallowedTools: Edit
