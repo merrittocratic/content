@@ -14,6 +14,8 @@ Malik Willis is the clean example. He signed with Miami months ago and has been 
 
 Beckham is the mirror image, and honestly the funnier one. He's been out of the league for over a year, which means the model has no recent stats to lean on either -- so it fell back to his draft pedigree from a decade ago, a number built for a rookie, not a guy who hasn't been on a roster. That's how a player currently not employed by an NFL team became our 28th-ranked wide receiver.
 
+We already run a separate system for exactly this kind of real-world update: live beat-reporter news, read and turned into a small, capped nudge to a player's number, never a full swing. It's the right idea, and most weeks it's plenty. But the cap is deliberately conservative, a few percentage points, not a full re-ranking, so it was never going to be the thing that pulls a real starter up from the bottom of a 90-man board.
+
 ## Fixing One Side Without Breaking The Other
 
 We built a fix that checks the actual, current, official depth chart -- not last year's stats, not draft slot, the real one, updated this week -- and corrects both directions at once. A confirmed starter with no usable trailing data gets bumped up to what a real, established starter at his position typically looks like. A confirmed backup who's just coasting on old stats gets capped back down. Willis went from 79th to 27th. Watson to 29th. Beckham dropped from 28th to 125th, which is roughly where a receiver with zero routes run in over a year should sit.
@@ -23,6 +25,18 @@ We did the same audit for running backs, receivers, and tight ends, because ther
 ## What We Didn't Fix, Because We Couldn't
 
 One case stayed broken on purpose, and we're not going to pretend otherwise. Charlie Kolar is this week's starting tight end for the Chargers, but he's the starter because of a new run-heavy scheme that wants him blocking, not because anyone thinks he's a big-target guy. Our fix correctly restored his playing time. It has no way to know *why* he's playing, and a run-blocking tight end and a receiving one who get the same number of snaps are not the same fantasy asset. That's not a threshold we can tune our way out of -- it's a signal the model doesn't have at all. So take Kolar's number with more salt than usual this week; we'll say so again if it doesn't correct itself once real routes get run.
+
+## Where It Still Disagrees, Bugs Aside
+
+Strip out everything above -- the bugs, the fixes, Kolar's asterisk -- and the model and FantasyPros' consensus still won't agree on plenty of ordinary, this-week roster calls. That's not a defect report. Two different systems looking at the same players and landing somewhere different is the normal state of things, and it's worth showing plainly, not just in the moments something broke.
+
+[Chart: content/img/week1_disagreement_dotplot.png]
+
+*[Warren / McLaurin -- model more skeptical than consensus]*
+
+*[Boutte / Douglas -- model more bullish, consensus hasn't caught up]*
+
+*[Deebo Samuel Sr. -- model liked him more than consensus; actual Week 1 line: 6 catches, 48 yards, 1 TD, 12 rushing yards, 18.0 PPR points, clears our own 15-point startable bar]*
 
 None of this is us claiming we found some hidden edge. It's closer to the opposite -- these were real mistakes, not sophisticated ones, and catching them is basic hygiene, not a discovered signal. The actual question this project exists to answer, whether the model beats what you'd get for free from the crowd, is a separate, harder one, and we're not going to dress up a bug fix as evidence for it.
 
