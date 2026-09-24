@@ -1,0 +1,9 @@
+Done. The draft's frontmatter has `repo: none`, and the article's closing note confirms there's no proprietary model behind this piece ("No proprietary model behind this one, college football isn't in the pipeline. Yet.").
+
+Per instructions, when `repo: none` is present I stop immediately without building any graphics. I logged this to `graphics/logs/week1_heisman_receipts.log`:
+
+```
+repo: none -- no graphic needed
+```
+
+No candidates were produced, and the draft file itself was not touched.

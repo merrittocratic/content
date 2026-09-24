@@ -1,0 +1,7 @@
+That worked. The draft `draft/the_model_didnt_get_the_memo.md` has no YAML frontmatter and no `repo:`/`repos:` field anywhere in the file — the GitHub link at the bottom (`boxscore-prophet`) is prose context, not a frontmatter tag, so per instructions I didn't treat it as the resolved repo.
+
+I logged this and stopped without producing any graphics:
+
+- `graphics/logs/the_model_didnt_get_the_memo.log` → `no repo tag found -- needs Steve's input`
+
+No candidates were built, and no `graphics/the_model_didnt_get_the_memo/` directory was created. If the intended repo is `boxscore-prophet`, add a `repo: boxscore-prophet` line to the draft's frontmatter and I'll rerun.

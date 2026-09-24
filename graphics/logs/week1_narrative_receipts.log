@@ -1,0 +1,75 @@
+Everything is in place. Summary:
+
+**Repo resolved:** `boxscore-prophet` (from draft frontmatter).
+
+**Verification:** Every number charted traces to a real artifact:
+- Model rank / ECR rank / gap for all 4 QBs → `output/10d_ecr_gap_2026_w01.csv` (exact matches)
+- Run-efficiency percentiles for all 4 RBs → `output/oneoff/pff_run_grade_pilot/w1_2026_storyline_rb_proxy.csv` (exact matches)
+- Burrow's 43.9% start probability → `output/10c_scored_slate_2026_w01.csv` (exact match)
+
+**Excluded as unverified:** all raw box-score stats (EPA, CPOE, success rate, PPR points, TDs/INTs, 2025 baselines) — per the repo's own `SKILL.md`, these come from live nflverse pulls at packet-build time and aren't saved to any artifact file, so none of it appears in the graphics. Logged accordingly.
+
+**Reuse check:** compared against `graphics/trust_but_verify/` (slate-wide calibration ledger) and `content/week1_disagreement_chart.R` (5-player flex-zone dot plot) — both different angles, so proceeded without restating them.
+
+**Candidates built** in `graphics/week1_narrative_receipts/`:
+1. `candidate_1.png` — gt table, model rank vs. ECR rank + Hit/Miss for the 4 QBs
+2. `candidate_2.png` — leaderboard bar chart of RB run-efficiency percentiles
+3. `candidate_3.png` — narrative scatter (QB conviction gap × RB percentile) with ggrepel labels, seed 42
+4. `candidate_4.png` — wildcard patchwork, two-panel dumbbell + lollipop composition
+
+All four were visually checked for label/line overlap (candidate_4 needed one placement fix, since resolved). `candidates.md` and the log are written. Draft file was only read, never edited.
+greement_chart.R / content/img/week1_disagreement_dotplot.png already covers a model-vs-ECR dot plot for five flex-zone players unrelated to this draft's four QBs. Neither overlaps substantially with this draft's four-game QB-conviction + RB-efficiency angle, so proceeded.
+
+Built 4 candidates in graphics/week1_narrative_receipts/ (3 standard + 1 wildcard patchwork). See candidates.md for details.
+Verified rendered PNGs visually for label/line overlap per house rule; candidate_4 required one label-placement fix (gap labels were sitting under the model-rank dots) before it cleared.
+
+--- Revision 2026-09-16: candidate_4 (wildcard) reworked per Steves feedback ---
+Repo confirmed unchanged: boxscore-prophet (draft frontmatter still says repo: boxscore-prophet).
+
+Fix 1 (Panel 1 ambiguity): added an explicit HIT/MISS word next to each QB row, matching
+candidate_1's table wording, so the outcome no longer has to be inferred from color or the
+gap sign alone. Kept the reversed rank axis / best-on-right symmetry with Panel 2, and the
+grey-dot-vs-colored-dot market/model encoding, per Steve's note that those parts already worked.
+Also caught and fixed a gap-sign bug introduced during this rebuild (gap was computed as
+model_rank minus ecr_rank instead of ecr_rank minus model_rank), so the displayed gaps now
+match candidate_1's table exactly: Mahomes +8, Dart +6, Herbert +4, Burrow -3.
+
+Fix 2 (title): retitled from the generic "Four Games, Eight Verified Signals" to "Conviction
+Runs Downhill," with a subtitle stating the cross-panel link directly -- the two games where
+the QB conviction call hit (Mahomes, Dart) also had the week's best two run grades (Walker
+97th, Skattebo 81st), while the one it missed (Herbert) had the week's worst (Hampton 6th).
+
+Re-verification of HIT/MISS against real outcome data this session (not inferred from the gap
+sign), per house rule:
+- Jaxson Dart: output/10d_receipts_2026_w01.csv confirms hit_start = TRUE, fp_actual 26.6 vs
+  thresh_start 20. Model was bullish (rank 5 vs ECR 11) and Dart cleared his bar -> HIT.
+- Justin Herbert: same file confirms hit_start = FALSE, fp_actual 13.26 vs thresh_start 20.
+  Model's highest-conviction call (rank 1 vs ECR 5) busted -> MISS.
+- Joe Burrow: same file confirms hit_start = FALSE, fp_actual 14.16 vs thresh_start 20. Model
+  was bearish on Burrow (rank 4 vs ECR 1), so Burrow missing his own bar means the model's
+  skepticism was correct -> HIT.
+- Patrick Mahomes: could NOT be freshly re-verified against a graded artifact this session.
+  The KC/DEN game (Monday night, 2026-09-14, already played as of today) has not yet been
+  graded in the current output/10d_receipts_2026_w01.csv snapshot -- Mahomes still appears
+  under that file's "still on the board" section, and no other artifact in the repo currently
+  carries his post-game hit_start/fp_actual. His HIT label is carried over unchanged from the
+  original verified build (matches candidate_1.png's gt table, already reviewed by Steve and
+  not flagged there), not freshly confirmed against a graded artifact this session. Flagging
+  this per house verification rules -- not stripping the label, since it is consistent with the
+  already-approved candidate_1 table and the draft's own narrative, but noting plainly that it
+  was not independently reconfirmed this pass the way Dart/Herbert/Burrow were.
+
+Also re-verified RB run-efficiency percentiles this session (exact match, unchanged from v1):
+output/oneoff/pff_run_grade_pilot/w1_2026_storyline_rb_proxy.csv -- Walker 97, Skattebo 81,
+Brown 30, Hampton 6.
+
+output/10d_ecr_gap_2026_w01.csv note: this artifact is regenerated in place on every pipeline
+run and now holds a later Week 1 game (KC/DEN skill-position slate) rather than a stable
+per-game history, so the four QBs' model_rank/ecr_rank/gap values could not be re-pulled fresh
+from the live file this session. They are carried over unchanged from the prior verified build
+(already an "exact match" per the original log entry above) and match candidate_1.png's table.
+
+R script persisted to scripts/week1_narrative_receipts_wildcard.R (this candidate previously had
+no persisted script). Rendered PNG visually checked at full resolution -- no label/line overlap
+in either panel; title, subtitle, and both panel subtitles wrap cleanly with no clipping. Draft
+file was only read, never edited. candidates.md updated to describe the revision.

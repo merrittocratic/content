@@ -1,0 +1,29 @@
+Both files are written correctly. Everything's in place.
+
+## Summary
+
+Repo resolved from frontmatter: **boxscore-prophet** (`repo: boxscore-prophet`).
+
+Built 4 candidates in `graphics/trust_but_verify/`:
+
+1. **candidate_1.png** (table) — gt table of the 8-cell calibration ledger, exact numbers, TE-start bolded.
+2. **candidate_2.png** (chart) — ranked leaderboard bar of |gap| across all 8 cells.
+3. **candidate_3.png** (chart) — dumbbell plot, model-said → actual, faceted by position, TE-start and QB-boom called out via ggrepel.
+4. **candidate_4.png** (wildcard, patchwork) — heatmap of the same ledger on top + two log-scaled dot plots of the *live* watch registry (`data/10f_watch_registry.csv`) normalized to each cell's own effect bar / sample floor.
+
+Verification notes (full detail in `graphics/logs/trust_but_verify.log`):
+- The 8-cell table, 71,228-player-week total, and 8.46pp worst-bucket figure all match verbatim against `boxscore-prophet/content/drafts/cousin_claude_grading_brief.md`, an explicit real-backtest summary in the repo.
+- Candidate 4's bottom panels read `data/10f_watch_registry.csv` directly — a genuine live artifact.
+- Flagged one **unverified claim**: the draft's "five things... cleared the 4pp bar but missed the 400-week floor" only has one matching row in the *current* registry CSV; the other five points the draft is referencing live only in a prior chart script's hardcoded data, not in a live artifact today. I didn't chart that specific "five" claim on its own — candidate 4 instead shows the full current registry honestly, with both bar types labeled.
+- Reuse check: found and avoided restating two already-produced charts in the model repo — a pooled 45° calibration scatter (teaser post) and a watch-registry quadrant scatter (null-results post). All four candidates use different encodings from both.
+
+Steve picks the winner from `graphics/trust_but_verify/candidates.md`.
+r the 2026 season teaser post.
+  Avoided recreating that scatter/45-degree-line angle here.
+- boxscore-prophet/content/null_results_chart.R already produced the watch-registry quadrant
+  scatter (miss size vs. sample size, 4pt/400-week bar) for the null-results post. Avoided
+  recreating that exact quadrant framing; candidate 4 uses a different encoding (per-cell
+  effect/floor ratios as two small-multiple dot plots) on the CURRENT registry data instead.
+- No prior graphics/ slugs for this repo existed in this Merrittocracy content repo.
+
+Candidates built: graphics/trust_but_verify/candidate_1.png .. candidate_4.png, candidates.md.
