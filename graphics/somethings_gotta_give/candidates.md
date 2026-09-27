@@ -1,0 +1,4 @@
+candidate_1.png -- table (gt). Ten named players grouped by team (Saints, Raiders, Texans, Chargers): model start call, actual PPR and Cleared/Missed for Weeks 1-2, plus the Week 3 call; exact numbers are the point.
+candidate_2.png -- chart (faceted bars). Actual PPR minus start line by player and week, grouped by team; Olave and Shough clear both weeks, the Chargers (Herbert, McConkey, Harris) clear once in six tries.
+candidate_3.png -- chart (dumbbell). Week 3 model rank vs. market rank for Olave, Shough, Jeanty, Cousins, Schultz, Stroud, Herbert, McConkey, Harris; fills the draft TK board numbers, McConkey -36 is the widest gap, Olave 0.
+candidate_4.png -- WILDCARD, chart (patchwork: slope panels + scoreboard strip). One panel per team tracking each named player model start % from W1 to W3 with cleared/missed dots, over a tile strip of start lines cleared (Saints 4 of 4, Raiders 2 of 4, Texans 2 of 5, Chargers 1 of 6).
