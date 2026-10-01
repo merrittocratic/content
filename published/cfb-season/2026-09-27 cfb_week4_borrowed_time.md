@@ -2,41 +2,35 @@
 repo: none
 ---
 
-# Borrowed Time
+# Not On Borrowed Time
 
-Three weeks ago, Michigan got a second it probably didn't earn. On Saturday, Iowa came to Ann Arbor to collect, and it didn't need the replay booth to do it. Out west, USC changed defensive coordinators and kept the same defense. And in the Swamp, a Florida team that went 4-8 last year hung 52 on the No. 4 team in the country.
+In Week 1, Michigan got a second it probably didn't earn. On Saturday, the Hawkeyes came to Ann Arbor to collect, and it didn't need a secret clock or replay booth to do it. Out west, USC had an opportunity to show the College Football world that it finally figured out how to play defense against a second-string QB. It went exactly how every non-Trojan fan expected.  And in the Swamp, a Florida team that went 4-8 last year hung 52 on the No. 4 team in the country.
 
-## Time Is a Flat Circle
+## A Wrinkle In Time
 
-Quick refresher. Week 1, Michigan trailed Western Michigan 12-7 with seconds left, a 27.5-point favorite in Kyle Whittingham's debut staring down an Appalachian State sequel. Bryce Underwood's Hail Mary sailed out the back of the end zone, and NBC's clock showed zeros when a Broncos defender touched it. Western Michigan celebrated. Then replay put one second back, and Underwood hit JJ Buchanan for a 47-yard walk-off from the exact same spot.
+Quick refresher. Michigan trailed Western Michigan 12-7 with seconds left, a 27.5-point favorite in Week 1 for Kyle Whittingham's debut. Could this be the sequel to Appalachian State? Bryce Underwood's Hail Mary sailed out the back of the end zone, and NBC's clock showed zeros when a Broncos defender touched it. Western Michigan celebrated. There was replay review, and somehow due to a secret clock no one knew about, one second was added.  Then it happened: Underwood hit JJ Buchanan for a 47-yard walk-off TD from the exact same spot.
 
-Saturday, the Wolverines found out what happens when nobody hands you a second.
+Saturday, the Wolverines got introduced to a little thing called karma.
 
-Michigan led 19-14 late, and it was 19 instead of 20 because of a failed two-point try. That's the kind of detail that only matters if you lose by one. Iowa took over at its own 9 with 1:37 left. On 3rd-and-12, a Michigan unnecessary roughness flag kept the drive alive. On 3rd-and-10, Hank Brown found A. Ostrenga for 29 yards to the Michigan 16 with two ticks left. Then Brown hit Reece Vander Zee for the winning touchdown on the final play. Iowa 20, Michigan 19. No review required.
+Michigan led 19-14 late after a failed two-point conversion.  Iowa took over at its own 9 with 1:37 left. On 3rd-and-12, a Michigan late hit out of bounds led to an unnecessary roughness flag that kept the drive alive. Then later on a 3rd-and-10, Hank Brown found A. Ostrenga for 29 yards to the Michigan 16.  Two seconds later, ball game, as Brown hit Reece Vander Zee for the winning touchdown on the final snap. Iowa 20, Michigan 19. No extra second required.
 
-Here's the part Michigan fans will cling to, and they're not wrong. The Wolverines were the better team per play, again. Michigan averaged 0.144 EPA per play (expected points added, how much each snap moved the scoring needle compared to an average play in that situation) to Iowa's 0.013, and succeeded on 45.6% of its plays to Iowa's 29.3%. Iowa's run game was a rumor. Michigan outgained the Hawkeyes 429 to 279.
+The irony?  The Wolverines were the better team per play on Saturday. Michigan averaged 0.144 EPA per play to Iowa's 0.013, and succeeded on 45.6% of its plays to Iowa's 29.3%. Iowa's run game was only a rumor. Michigan outgained the Hawkeyes in total yards 429 to 279.  So, how does a team that loses the efficiency battle that badly score 20? The Kirk Ferentz way. A kickoff 99 yards to the house 14 seconds after Michigan's first touchdown, an Underwood interception at the Iowa 2, and then Michigan donated 15 yards on the final drive. Iowa football at its pinnacle.
 
-So how does a team that loses the efficiency battle that badly score 20? The Kirk Ferentz way. B. Jackson took a kickoff 99 yards to the house 14 seconds after Michigan's first touchdown. D. Lee picked off Underwood at the Iowa 2. Michigan donated 15 yards on the final drive. Iowa football isn't a scheme. It's a lifestyle.
+The honest footnote: Michigan won the per-play battle against Western Michigan too (0.065 EPA to -0.219). It got out-snapped 67 to 48, went 3-for-10 on third down and turned it over twice. Both weeks, Michigan played better per snap and still let it come down to the last second. The first time, they got an extra second to survive. The second time, it didn't. SP+ has Michigan and Iowa 19th and 22nd, nearly identical down to their top-10 defenses. A one-point game was the most predictable result of the weekend. But, this ending provided the correction that the college football universe needed.
 
-The honest footnote: Michigan won the per-play battle against Western Michigan too (0.065 EPA to -0.219). It got out-snapped 67 to 48, went 3-for-10 on third down and turned it over twice. Both weeks, Michigan played better per snap and still let it come down to the last second. The first time, the clock broke its way. The second time, it didn't. SP+ has these teams 19th and 22nd, nearly identical down to the top-10 defenses. A one-point game was the most predictable result of the weekend. The ending was just poetry.
+## Same USC Defense Time, Same USC Defense Channel
 
-## Meet the New Boss
+Oregon 41, USC 27, and the Trojans' secondary looked lost against Oregon's backup QB. Oregon averaged 0.662 EPA per dropback with seven plays of 20-plus yards. USC held up against the run, and the offense mostly did its job outside of a 2-for-11 day on third down.
 
-Oregon 41, USC 27, and the Trojans' secondary lost this one. Oregon averaged 0.662 EPA per dropback with seven plays of 20-plus yards. USC held up against the run, and its offense did its job outside of a 2-for-11 day on third down.
+Under Lincoln Riley, the Men of Troy have only managed a total defensive rank inside the top 70 once (61st under D'Anton Lynn last year).  Gary Patterson was brought in to fix the defense for good.  To say the results have not been great is an understatement.  Patterson's 0.191 PPA (Predicted Points Added), or how many points each play added for the offense compared with what an average play would add in that down, distance and field position ranks 119 through five games. The Trojans are 127th against the pass and 113th in explosive plays allowed.  The more things change, the more they stay the same.
 
-The popular take is that it's the same USC defense no matter who calls it. That's mostly true. Clancy Pendergast, Todd Orlando and Alex Grinch combined for five of six seasons outside the top 70 in defensive PPA, and Grinch got fired in November 2023.
+## Gator Don't Play...
 
-D'Anton Lynn is the exception, in a weird way. His 2024 and 2025 defenses weren't good overall (71st and 66th) and allowed a ton of successful plays. But they almost never got torched, ranking 11th and 20th in explosiveness allowed. Bend constantly, rarely break.
+Florida 52, Ole Miss 28, a top-four win in Jon Sumrall's first season, one year after a 4-8 finish.
 
-Gary Patterson's first five games look like the Grinch years with the volume turned up: 119th in defensive PPA, 127th against the pass, 113th in explosiveness. San José State and Louisiana both topped 0.25 EPA per play. Three of the five games were against Group of 5 teams, so the numbers will move. But USC sits 3rd in SP+ offense and 49th on defense, and until that gap closes, it's the whole story.
+The score was a little misleading. It was 24-21 late in the third quarter before Florida scored for a 10-point lead.  Follow that up with a strip-sack of Trinidad Chambliss, another Gator touchdown, and the rout was on.  The difference in this game was through the air: Florida averaged 0.482 EPA per dropback, while Ole Miss was 0.045. 
 
-## Back to the Future
-
-Florida 52, Ole Miss 28, in Jon Sumrall's first season, one year after a 4-8 finish.
-
-The score overstates it. Florida posted 0.318 EPA per play to Ole Miss's 0.277. It was 24-21 late in the third quarter before Florida scored, J. Woods strip-sacked Trinidad Chambliss, and the next Gator touchdown made it 38-21. The difference was through the air: Florida averaged 0.482 EPA per dropback, Ole Miss 0.045. The polls had Ole Miss 4th. SP+ had it 32nd. Early SP+ still leans on preseason priors, but Saturday went the model's way.
-
-So, are the Gators back? The offense is. Florida's offensive EPA rank went from 26th in 2023 to 70th to 97th, and now sits 7th. The defense is still living in 2025: 31st in SP+, and it gave up 0.22 EPA per play to Auburn in a 44-39 escape. Half a team came back. That's enough to beat anybody on a good day. It won't be enough every Saturday.
+So, are the Gators back? The offense is. Florida's offensive EPA rank over the last three years has regressed from 26th in 2023 to 70th, and then 97th last year.  This year it sits at 7th. The defense is still living in 2025: 31st in SP+, and it gave up 0.22 EPA per play to Auburn in a 44-39 nail-biter. So, the truth is that the Gators are not all the way back yet.  They're good enough to beat anybody on any given Saturday. But they're not yet good enough to win every Saturday.
 
 ---
 
