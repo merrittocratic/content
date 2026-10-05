@@ -1,0 +1,4 @@
+candidate_1.png -- table (gt). Week 4 model rank vs ECR rank and start chance for Mahomes, Rice, Kelce, Walker, Allen, Cook, Stroud, Hutchinson, Lamb, Love, grouped by game; Stroud (7 vs 17) and Rice (8 vs 15) are the model's biggest lifts, Walker (17 vs 3) its biggest fade.
+candidate_2.png -- chart (dot grid). Weeks 1-3 start-line receipts for 11 named players: PPR points, cleared/missed, and start chance as circle size; Lamb 3 of 3, Cook 2 of 3, Stroud and Hutchinson 0 of 3, Allen's 16.5 miss at 67%.
+candidate_3.png -- chart (jittered strip, distribution). Where Mahomes 50%, Allen 63%, Cook 69%, Stroud 41%, Mayfield 9% and others sit within the full Week 4 start-chance field by position.
+candidate_4.png -- WILDCARD, chart (patchwork, 8 panels). Week 4 matchup cards for KC-LV, NE-BUF, DAL-HOU, GB-TB: top 5 skill players per side with start chance bars and boom chance diamonds.

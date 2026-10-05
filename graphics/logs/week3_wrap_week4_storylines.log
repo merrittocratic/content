@@ -1,0 +1,22 @@
+I built all four candidates for `week3_wrap_week4_storylines`. They're in `graphics/week3_wrap_week4_storylines/`, along with `candidates.md`. I looked at the rendered PNGs and no labels overlap lines.
+
+The draft's frontmatter says `repo: boxscore-prophet`, so I used that repo.
+
+| File | Format | What it shows |
+|---|---|---|
+| `candidate_1.png` | gt table | Week 4 model rank vs. ECR rank and start chance for 10 named players, grouped by game. Stroud (+10) and Rice (+7) are the model's lifts. Walker (-14) is its biggest fade. |
+| `candidate_2.png` | Dot grid | Weeks 1-3 start-line results for 11 players. Lamb cleared all three weeks, Cook two of three, and Stroud and Hutchinson none. It also shows Allen's 16.5 miss at 67%. |
+| `candidate_3.png` | Strip chart | Where Mahomes, Allen, Cook, Stroud, Mayfield and others sit in the full Week 4 start-chance field, by position. |
+| `candidate_4.png` | Wildcard (patchwork, 8 panels) | Matchup cards for KC-LV, NE-BUF, DAL-HOU and GB-TB. Each shows the top 5 skill players per team, with start chance as bars and boom chance as diamonds. |
+
+I didn't choose a winner.
+
+- **Verified:** the Week 4 start chances, model ranks and ECR ranks (Mahomes 50%, Cook 69%, Stroud 41%, Rice 8 vs. 15, Kelce 9 vs. 3). The Week 1-3 results also check out: Allen's 16.5 at 67%, Cook's two clears, Lamb's three, and Stroud's misses.
+- **Unverified, not charted** (listed in `graphics/logs/week3_wrap_week4_storylines.log`):
+  - Mayfield's drop "from 32% to 9%". The artifacts show 24% in Week 3, then 18% before the news adjustment and 9% after it in Week 4.
+  - The "44%" and "30%" baselines for Mahomes and Stroud. No baseline field exists in the artifacts.
+  - "Higher than ECR on Stroud in Weeks 2 and 3". I didn't check the Week 2 and 3 ECR ranks.
+  - All the nflverse and Next Gen Stats numbers (net EPA ranks, KC's 16.7 points allowed, Houston's 27.3% stuffed runs, the 0-for-68 base rate, Tampa's drive stats). None of them are in the boxscore-prophet output files.
+- **Package swap:** `ggbeeswarm` isn't installed here, and I can't install packages unattended. Candidate 3 is a seeded jitter strip instead of a beeswarm.
+- **Reuse:** the Weeks 1-3 start-line angle in candidate 2 is similar to the `somethings_gotta_give` and `week1_narrative_receipts` graphics. The players are different (KC, BUF, HOU, DAL, TB, GB), so I kept it.
+- **Build script:** the system blocked saving it as a file, so I ran it inline through Rscript. It isn't saved in `graphics/`.
