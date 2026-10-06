@@ -1,0 +1,14 @@
+I didn't build any graphics for `draft/week5_cfb_wrapup.md`. Its frontmatter has only `title` and `subtitle`, with no `repo:` or `repos:` field. I don't guess the repo from the content, even though this looks like a college football piece.
+
+I wrote one line to `graphics/logs/week5_cfb_wrapup.log`: "no repo tag found -- needs Steve's input". I didn't edit the draft.
+
+Once you add a `repo:` line, such as `boxscore-prophet`, I can run it again. I'd also need to check each number in the draft against the repo's artifacts. Those numbers include the Florida EPA figures, the Miami and Pitt ranks, and the Big 12 records.
+
+---
+2026-10-05: Re-run authorized by Steve without a repo: tag; sources were the published article (published/cfb-season/2026-10-11 week5_cfb_wrapup.md) and a data packet Steve supplied directly (treated as verified, in place of a model repo).
+Built 4 candidates in graphics/week5_cfb_wrapup/ (candidate_1..4.png, candidates.md): Florida defense EPA-by-game trend; Florida offense EPA vs opponent SP+ defense rank scatter; Big 12 ratings-disagreement gt table (Oklahoma State/BYU/Texas Tech/Utah); wildcard Miami/Pitt patchwork (season ratings bump chart + crossed pass/run matchup diagram).
+Charts rebuilt on the white/light house theme (theme_merrittocracy_light, per course correction) copied from scripts/trust_but_verify_sample_size_funnel.R; table stays light gt per house table style.
+Every number charted/tabled was checked against the data packet; all matched the article's own text/tables except one: the packet's "Missouri outscored Florida 35-0" after the 10-10 tie contradicts the final score and the article's own "35-7" -- flagged in candidates.md, not used in any graphic.
+No reuse conflicts found: the only prior CFB-season graphic (cfb_week4_usc_dc_table.png) covers USC defensive coordinators, a different team/angle.
+R scripts: scripts/week5_cfb_wrapup_florida_defense_trend.R, scripts/week5_cfb_wrapup_florida_offense_scatter.R, scripts/week5_cfb_wrapup_big12_ratings_table.R, scripts/week5_cfb_wrapup_miami_pitt_wildcard.R.
+Every rendered PNG was visually reviewed (including cropped zooms on dense label areas) for label/line overlap before being listed as a candidate.
