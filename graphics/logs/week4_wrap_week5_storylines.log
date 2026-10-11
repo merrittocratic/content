@@ -1,0 +1,46 @@
+I didn't render any candidates for `week4_wrap_week5_storylines`, because both ways of saving the R build script were blocked. There is no `candidate_N.png` and no `candidates.md`. I didn't try to get around the blocks.
+
+- **What was blocked:** The shell rejected my heredoc with "Contains brace with quote character". The Write tool then said it wasn't granted permission for `graphics/week4_wrap_week5_storylines/build.R`.
+- **Repo:** The draft's frontmatter says `repo: boxscore-prophet`, so I used that.
+- **What's logged:** I wrote the log to `graphics/logs/week4_wrap_week5_storylines.log` with the plan and the unverified claims.
+
+**What I could have verified:** The repo has `output/10d_receipts_2026_w01` through `w04.csv` and `10d_start_board_2026_w04.csv`. They hold model start chances, boom chances and actual fantasy points for Jacksonville and Atlanta players. Atlanta's Week 4 game against New Orleans isn't graded yet, so only its pre-kickoff chances exist.
+
+**The four candidates I'd planned:**
+1. **Table (gt):** Start chance against actual points, Weeks 1–4, for key Jaguars and Falcons.
+2. **Chart:** Quarterback small multiples for Lawrence, Penix, Rush and Strand.
+3. **Chart:** Atlanta's Week 4 pre-kickoff start and boom chances for every Falcon.
+4. **Wildcard (patchwork):** Heat-tile grids for both teams plus the Atlanta bar panel.
+
+I checked the earlier week-3 candidates and these angles don't repeat them.
+
+**Unverified, so left out:** Most of the draft's numbers have no artifact in the repo. The log lists each one:
+- net EPA, EPA per play, drive and red-zone rates
+- CPOE ranks
+- defensive rankings and interception counts
+- the 23-9 coach record and all the offensive-versus-defensive-path splits
+- Bijan's 194 and 145 rushing yards and his 1.49 rush yards over expected
+- Atlanta's Week 4 result
+
+**To unblock:** Either allow the Write tool for `graphics/`, or tell me which path to use. Then I can rerun the build; the script is drafted and I'd run it with `Rscript`.
+
+Separately, the Canva, Google Calendar and Google Drive connectors need authorization in your claude.ai connector settings, and they're unavailable until then. This run didn't need them.
+
+--- Rerun 2026-10-07 (write access restored) ---
+repo: boxscore-prophet (confirmed via draft frontmatter). Pulled latest (clean checkout, 25 files updated, mostly Week 5 outputs).
+
+Checked graded status: Atlanta's Week 4 game (vs. New Orleans) IS now graded -- 10d_receipts_2026_w04.csv has fp_actual populated for all ATL/NO players. Previous run's note that it wasn't graded yet is now stale.
+
+Repo confirmed to be a fantasy player-props model only (start/boom chance + actual PPR points). No team EPA, CPOE, red-zone, defensive-ranking, rushing-yards, NGS, or coaching-history artifacts anywhere in output/ -- re-verified by listing all top-level output/*.csv files and grepping for rush-yards/EPA-style columns (only hit was an unrelated Week 1 one-off pilot file for different teams).
+
+Built and rendered 4 candidates in graphics/week4_wrap_week5_storylines/:
+1. candidate_1.png (gt table) -- start chance vs. actual PPR, Weeks 1-4, Lawrence/Bijan/London/Rush/Penix.
+2. candidate_2.png (ranked leaderboard chart) -- Week 4 ATL-NO flex boom board, Bijan 2nd of 24, Drake London 3rd.
+3. candidate_3.png (narrative line chart) -- Atlanta QB carousel, actual PPR by week each QB actually played (DNP weeks dropped).
+4. candidate_4.png (WILDCARD, patchwork 2-panel heat tile) -- JAX vs ATL core skill players, actual PPR by week, DNP tiled grey.
+
+All four checked visually for label overlap/clipping; candidate_3 and candidate_4 each needed one fix (annotation/point-label collision on candidate_3; subtitle clipping on candidate_4's main title and right panel) before passing.
+
+Scripts: scripts/week4_wrap_week5_storylines_table.R, _boom_leaderboard.R, _qb_carousel.R, _heat_wildcard.R. All read directly from /Users/stephenmerritt/boxscore-prophet/output via absolute path (different repo); outputs written via relative graphics/ paths.
+
+Unverified claims (full list in candidates.md): all team-level EPA/CPOE/red-zone/defensive-rank numbers for Jacksonville, Philadelphia, Atlanta, Carolina, New Orleans and Baltimore; Bijan Robinson's rushing yards and rush-yards-over-expected; Week 5 market spreads; and the entire "A Beautiful Mind" coach-career-path section. None of these have a matching artifact in boxscore-prophet.
