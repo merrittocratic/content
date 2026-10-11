@@ -59,6 +59,7 @@ while IFS= read -r draft; do
     --add-dir ../boxscore-prophet \
     --add-dir ../shadow-leaderboard \
     --add-dir ../nfl-draft-model \
+    --allowedTools "Edit(/${REPO_ROOT}/graphics/**)" "Bash(Rscript *)" \
     -p "New draft landed: $draft. Read its frontmatter for the repo tag, then build hero graphic/table candidates per your instructions." \
     > "$logfile" 2>&1 < /dev/null &
   disown

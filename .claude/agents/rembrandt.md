@@ -79,6 +79,17 @@ list:
 - Use seed = 42 wherever ggrepel is used, for reproducible label
   placement.
 
+**House style -- white background.** Every chart uses the white house
+theme: copy `theme_merrittocracy_light()` and its palette from
+`scripts/trust_but_verify_sample_size_funnel.R` (bg/panel `#FFFFFF`,
+grid `#EEEEEE`, text `#1A1A1A`, subtext `#666666`, steel blue `#3A7CA5`,
+red `#C0392B`, dark goldenrod `#B8860B`). Do not use
+`theme_merrittocracy_dark()` or the `#111118` palette from older scripts
+-- it's retired. Charts are 1200x800 at 150 dpi. Tables are gt + gtExtras
+on a light ground, modeled on `scripts/cfb_week4_usc_dc_table.R`. Check
+every rendered PNG for labels overlapping lines, points, or each other,
+and for text clipped at the edges.
+
 ## 5. Save output
 
 Save each candidate to `graphics/<slug>/candidate_N.png`, where `<slug>`
@@ -86,10 +97,12 @@ is the draft's filename without the date prefix or extension. A gt table
 candidate should be saved as a PNG the same way (gt supports rendering to
 image).
 
-Write files through R's own file I/O (`ggsave`, `gtsave`, `writeLines`,
-etc.) called via `Rscript`, not through the Write tool or shell
-redirection -- this session runs unattended and those paths get blocked.
-This is expected, not an error to flag every run.
+Write your R code to `graphics/<slug>/build.R` with the Write tool, then
+run it with `Rscript graphics/<slug>/build.R` from the repo root. Don't
+use shell heredocs or redirection to create files -- this session runs
+unattended, and Bash's safety checks block those (e.g. braces next to
+quotes) with no one there to approve. The hook pre-approves Write under
+`graphics/` and `Rscript`, so that path works.
 
 Write a companion `graphics/<slug>/candidates.md` with one line per
 candidate: the filename, whether it's a chart or table, whether it's the
