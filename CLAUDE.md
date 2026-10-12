@@ -46,3 +46,8 @@ Update this when starting a new content series (e.g. `nba-draft`, `college-footb
 - `published/<topic>/YYYY-MM-DD <title>.md` — finalized posts, one `.md` per piece
 - `.current_project` — controls which `published/` subfolder the hook copies into
 
+## Writing Style
+
+- **Player names:** always first and last name ("Peyton Bowen"), never a first initial plus last name ("P. Bowen"). Play-by-play data (cfbfastR, nflverse) gives initials only, so look up full names before drafting, e.g. `cfbfastR::cfbd_team_roster(year, team)` for college. If a full name can't be confirmed, ask rather than guess.
+- **Ranks and stats:** every rank names its measure in the same sentence ("113th in net EPA", "78th in FBS in yards per game"), never a bare "(113th)" or "the 5th-ranked offense". Don't lean on a nearby table or an earlier sentence to supply it.
+

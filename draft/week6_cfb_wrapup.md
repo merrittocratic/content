@@ -12,9 +12,9 @@ Oklahoma 27, Texas 24. Texas led 17-7 at halftime and lost on a 47-yard field go
 
 Stat Nerd refresher: EPA (expected points added) is how many points a play added or cost compared with an average play in the same situation. Ohio State's offense went from +0.187 EPA per play in the first half of that game to -0.395 in the second, and Texas scored 21 straight in the fourth. That's a collapse. Texas never played well enough to collapse. Its offense was below zero in the first half too (-0.060), and Oklahoma's only first-half touchdown came on a blocked punt. The 17-7 lead was a mirage.
 
-After halftime it got worse (-0.266), and Arch Manning threw two interceptions that decided it. P. Bowen took the first one 42 yards to the house for a 24-17 Oklahoma lead. In the preview I said both Bowen brothers would hold the Sooner defense together, so I'll take that one. Texas tied it, missed a 53-yard field goal with two minutes left, and then C. Guillory picked off Manning with 24 seconds to go to set up T. Sandell's game-winner.
+After halftime it got worse (-0.266), and Arch Manning threw two interceptions that decided it. Peyton Bowen took the first one 42 yards to the house for a 24-17 Oklahoma lead. In the preview I named Peyton and Eli Bowen among the guys holding the Sooner defense together, and that's what holding it together looks like. Texas tied it, missed a 53-yard field goal with two minutes left, and then Courtland Guillory picked off Manning with 24 seconds to go to set up Tate Sandell's game-winner.
 
-Back in August I asked whether we'd get the first-half Manning or the second-half one. The line wasn't the problem: 97 line yards (rushing yards credited to the offensive line) to Oklahoma's 48. Obvious passing downs were, where Texas succeeded just 23.8% of the time. And the Ohio State game is starting to look like the exception:
+Back in August, I said Manning's 2025 season turned around once his offensive line started functioning. This time the line wasn't the problem: 97 line yards (rushing yards credited to the offensive line) to Oklahoma's 48. Obvious passing downs were, where Texas succeeded just 23.8% of the time. And the Ohio State game is starting to look like the exception:
 
 | Opponent | Texas offense EPA/play | Score |
 |---|---|---|
