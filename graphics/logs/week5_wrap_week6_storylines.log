@@ -1,0 +1,15 @@
+repo: boxscore-prophet -- 4 candidates built in graphics/week5_wrap_week6_storylines/ (see candidates.md).
+Verified: Week 6 start chances, model ranks and ECR ranks for Love, Harrison, Stroud, Prescott, Daniels; Weeks 1-5 actual PPR points.
+unverified claim: "13 targets in four games, an 8.3% target share" -- no matching artifact found.
+unverified claim: "separation 2.05 yards, 95th of 96" -- no matching artifact found.
+unverified claim: "68% / 65% catchable vs. league 74%; 13th of 78 in EPA per target" -- no matching artifact found.
+unverified claim: "contested rate jumped from 18.9% to 30.4%" -- no matching artifact found.
+unverified claim: "3.66 yards per carry, 24th of 35; -0.39 rush yards over expected" -- no matching artifact found.
+unverified claim: "Houston 110 points for, 112 against, 2.5 expected wins; Stroud 3rd in CPOE; EPA 0.164 to 0.031" -- no matching artifact found.
+unverified claim: "Prescott 7th in EPA per play, 0.447 late; defense last in EPA per play" -- no matching artifact found.
+unverified claim: "Daniels EPA 0.137, CPOE -0.2, success rate 42.9%, 2.97 seconds to throw" -- no matching artifact found.
+unverified claim: "43 seconds between snaps, longest of 63 comparable situations" -- no matching artifact found.
+unverified claim: market spreads (Arizona 19.5), Jacksonville and San Francisco defensive ranks -- no matching artifact found.
+Second pass: fixed candidate_2 caption to begin "TheMerrittocracy  ·  " (re-rendered via build.R; 1, 3, 4 unchanged).
+Added candidate_5 (Harrison target share + catchable rate by season), candidate_6 (Washington's 43-second OT clock gap vs. league median/90th pct), candidate_7 (Houston Pythagorean win gap + Stroud late-game EPA drop), built via build2.R, using numbers from Steve's supplied data packet (public nflverse/NGS/FTN; vouched for this run).
+Still unverified / not charted: Harrison separation and EPA-per-target ranks; Arizona/McBride contested-target rates; Love's rushing-efficiency and top-10-RB comparison; Jacksonville/San Francisco defensive ranks; Daniels' 3-season efficiency/accuracy/time-to-throw slope (in packet, left out of charts this pass -- see candidates.md).
