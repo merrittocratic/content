@@ -1,0 +1,6 @@
+repo: boxscore-prophet (from frontmatter). Built 4 candidates in graphics/week6_wrap_week7_storylines/ from 10d_start_board_2026_w07.csv and 10d_ecr_gap_2026_w07.csv.
+All seven fantasy claims verified. ggbeeswarm not installed; candidate_3 uses geom_jitter.
+unverified claim: NFC East record/point-differential/division-history claims -- no matching artifact found.
+unverified claim: team EPA ranks, points per game, schedule-strength ranks -- no matching artifact found.
+unverified claim: Lions/Bills scoring and EPA figures, Super Bowl history (75, 74, 52.6, 127 of 6,223) -- no matching artifact found.
+unverified claim: Week 7 spreads and totals (Cowboys -4.5, 44.5, 53.5) -- no matching artifact found.
