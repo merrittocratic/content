@@ -1,0 +1,817 @@
+team,conference,talent5yr,pool_rank,opponent,opp_conference,opp_talent5yr,gap,pred_spread
+Alabama,SEC,1003.5,1,Ohio State,Big Ten,978.9,24.6,8.1
+Alabama,SEC,1003.5,2,Oregon,Big Ten,919.0,84.5,9.9
+Alabama,SEC,1003.5,3,Clemson,ACC,913.4,90.2,10.1
+Alabama,SEC,1003.5,4,Notre Dame,FBS Independents,901.6,101.9,10.5
+Alabama,SEC,1003.5,5,USC,Big Ten,873.2,130.3,11.4
+Alabama,SEC,1003.5,6,Michigan,Big Ten,870.8,132.7,11.4
+Alabama,SEC,1003.5,7,Miami,ACC,868.7,134.8,11.5
+Alabama,SEC,1003.5,8,Penn State,Big Ten,853.7,149.9,12.0
+Alabama,SEC,1003.5,9,Florida State,ACC,810.8,192.7,13.3
+Alabama,SEC,1003.5,10,North Carolina,ACC,786.9,216.6,14.0
+Alabama,SEC,1003.5,11,Nebraska,Big Ten,783.3,220.2,14.1
+Alabama,SEC,1003.5,12,Wisconsin,Big Ten,757.7,245.9,14.9
+Arizona,Big 12,672.6,1,Northwestern,Big Ten,670.7,1.9,7.4
+Arizona,Big 12,672.6,2,Syracuse,ACC,674.6,2.0,7.4
+Arizona,Big 12,672.6,3,Vanderbilt,SEC,675.7,3.1,7.4
+Arizona,Big 12,672.6,4,Rutgers,Big Ten,665.9,6.7,7.5
+Arizona,Big 12,672.6,5,Indiana,Big Ten,681.6,9.0,7.6
+Arizona,Big 12,672.6,6,Pittsburgh,ACC,685.0,12.4,7.7
+Arizona,Big 12,672.6,7,Boston College,ACC,658.6,14.0,7.8
+Arizona,Big 12,672.6,8,Minnesota,Big Ten,687.0,14.4,7.8
+Arizona,Big 12,672.6,9,Purdue,Big Ten,688.4,15.8,7.8
+Arizona,Big 12,672.6,10,Illinois,Big Ten,656.5,16.1,7.8
+Arizona,Big 12,672.6,11,Virginia,ACC,655.6,17.0,7.8
+Arizona,Big 12,672.6,12,Virginia Tech,ACC,691.3,18.7,7.9
+Arizona State,Big 12,713.8,1,Michigan State,Big Ten,713.1,0.7,7.3
+Arizona State,Big 12,713.8,2,NC State,ACC,714.8,1.0,7.4
+Arizona State,Big 12,713.8,3,Louisville,ACC,709.9,3.9,7.4
+Arizona State,Big 12,713.8,4,Georgia Tech,ACC,719.3,5.5,7.5
+Arizona State,Big 12,713.8,5,Stanford,ACC,720.1,6.3,7.5
+Arizona State,Big 12,713.8,6,Iowa,Big Ten,706.2,7.6,7.6
+Arizona State,Big 12,713.8,7,California,ACC,703.0,10.8,7.7
+Arizona State,Big 12,713.8,8,SMU,ACC,726.4,12.6,7.7
+Arizona State,Big 12,713.8,9,Maryland,Big Ten,696.1,17.7,7.9
+Arizona State,Big 12,713.8,10,Virginia Tech,ACC,691.3,22.5,8.0
+Arizona State,Big 12,713.8,11,Purdue,Big Ten,688.4,25.4,8.1
+Arizona State,Big 12,713.8,12,Minnesota,Big Ten,687.0,26.8,8.2
+Arkansas,SEC,753.9,1,UCLA,Big Ten,757.2,3.3,7.4
+Arkansas,SEC,753.9,2,Washington,Big Ten,750.4,3.4,7.4
+Arkansas,SEC,753.9,3,Wisconsin,Big Ten,757.7,3.8,7.4
+Arkansas,SEC,753.9,4,TCU,Big 12,744.5,9.3,7.6
+Arkansas,SEC,753.9,5,SMU,ACC,726.4,27.4,8.2
+Arkansas,SEC,753.9,6,Nebraska,Big Ten,783.3,29.5,8.2
+Arkansas,SEC,753.9,7,Texas Tech,Big 12,722.4,31.5,8.3
+Arkansas,SEC,753.9,8,North Carolina,ACC,786.9,33.1,8.3
+Arkansas,SEC,753.9,9,Stanford,ACC,720.1,33.7,8.4
+Arkansas,SEC,753.9,10,Georgia Tech,ACC,719.3,34.5,8.4
+Arkansas,SEC,753.9,11,Utah,Big 12,715.3,38.6,8.5
+Arkansas,SEC,753.9,12,NC State,ACC,714.8,39.0,8.5
+Auburn,SEC,821.7,1,Florida State,ACC,810.8,10.8,7.7
+Auburn,SEC,821.7,2,Penn State,Big Ten,853.7,32.0,8.3
+Auburn,SEC,821.7,3,North Carolina,ACC,786.9,34.8,8.4
+Auburn,SEC,821.7,4,Nebraska,Big Ten,783.3,38.4,8.5
+Auburn,SEC,821.7,5,Miami,ACC,868.7,47.0,8.8
+Auburn,SEC,821.7,6,Michigan,Big Ten,870.8,49.1,8.8
+Auburn,SEC,821.7,7,USC,Big Ten,873.2,51.5,8.9
+Auburn,SEC,821.7,8,Wisconsin,Big Ten,757.7,64.0,9.3
+Auburn,SEC,821.7,9,UCLA,Big Ten,757.2,64.5,9.3
+Auburn,SEC,821.7,10,Washington,Big Ten,750.4,71.3,9.5
+Auburn,SEC,821.7,11,TCU,Big 12,744.5,77.2,9.7
+Auburn,SEC,821.7,12,Notre Dame,FBS Independents,901.6,79.9,9.8
+Baylor,Big 12,700.6,1,California,ACC,703.0,2.4,7.4
+Baylor,Big 12,700.6,2,Maryland,Big Ten,696.1,4.5,7.5
+Baylor,Big 12,700.6,3,Iowa,Big Ten,706.2,5.5,7.5
+Baylor,Big 12,700.6,4,Louisville,ACC,709.9,9.3,7.6
+Baylor,Big 12,700.6,5,Virginia Tech,ACC,691.3,9.3,7.6
+Baylor,Big 12,700.6,6,Purdue,Big Ten,688.4,12.2,7.7
+Baylor,Big 12,700.6,7,Michigan State,Big Ten,713.1,12.5,7.7
+Baylor,Big 12,700.6,8,Minnesota,Big Ten,687.0,13.6,7.7
+Baylor,Big 12,700.6,9,NC State,ACC,714.8,14.2,7.8
+Baylor,Big 12,700.6,10,Pittsburgh,ACC,685.0,15.6,7.8
+Baylor,Big 12,700.6,11,Georgia Tech,ACC,719.3,18.7,7.9
+Baylor,Big 12,700.6,12,Indiana,Big Ten,681.6,19.1,7.9
+Boston College,ACC,658.6,1,Kansas,Big 12,658.7,0.2,7.3
+Boston College,ACC,658.6,2,Houston,Big 12,659.7,1.2,7.4
+Boston College,ACC,658.6,3,Illinois,Big Ten,656.5,2.1,7.4
+Boston College,ACC,658.6,4,Kansas State,Big 12,655.4,3.2,7.4
+Boston College,ACC,658.6,5,Rutgers,Big Ten,665.9,7.3,7.5
+Boston College,ACC,658.6,6,Cincinnati,Big 12,651.1,7.5,7.6
+Boston College,ACC,658.6,7,Northwestern,Big Ten,670.7,12.1,7.7
+Boston College,ACC,658.6,8,Arizona,Big 12,672.6,14.0,7.8
+Boston College,ACC,658.6,9,Vanderbilt,SEC,675.7,17.1,7.9
+Boston College,ACC,658.6,10,Oklahoma State,Big 12,676.7,18.1,7.9
+Boston College,ACC,658.6,11,West Virginia,Big 12,676.7,18.1,7.9
+Boston College,ACC,658.6,12,Iowa State,Big 12,638.0,20.6,8.0
+BYU,Big 12,586.5,1,Wake Forest,ACC,624.5,38.0,8.5
+BYU,Big 12,586.5,2,Duke,ACC,639.7,53.1,9.0
+BYU,Big 12,586.5,3,Virginia,ACC,655.6,69.0,9.5
+BYU,Big 12,586.5,4,Illinois,Big Ten,656.5,69.9,9.5
+BYU,Big 12,586.5,5,Boston College,ACC,658.6,72.0,9.6
+BYU,Big 12,586.5,6,Rutgers,Big Ten,665.9,79.4,9.8
+BYU,Big 12,586.5,7,Northwestern,Big Ten,670.7,84.1,9.9
+BYU,Big 12,586.5,8,Syracuse,ACC,674.6,88.1,10.1
+BYU,Big 12,586.5,9,Vanderbilt,SEC,675.7,89.1,10.1
+BYU,Big 12,586.5,10,Indiana,Big Ten,681.6,95.0,10.3
+BYU,Big 12,586.5,11,Pittsburgh,ACC,685.0,98.5,10.4
+BYU,Big 12,586.5,12,Minnesota,Big Ten,687.0,100.5,10.4
+California,ACC,703.0,1,Baylor,Big 12,700.6,2.4,7.4
+California,ACC,703.0,2,Iowa,Big Ten,706.2,3.2,7.4
+California,ACC,703.0,3,Maryland,Big Ten,696.1,6.9,7.5
+California,ACC,703.0,4,Colorado,Big 12,712.8,9.8,7.6
+California,ACC,703.0,5,Michigan State,Big Ten,713.1,10.1,7.6
+California,ACC,703.0,6,Arizona State,Big 12,713.8,10.8,7.7
+California,ACC,703.0,7,Utah,Big 12,715.3,12.3,7.7
+California,ACC,703.0,8,Purdue,Big Ten,688.4,14.6,7.8
+California,ACC,703.0,9,Minnesota,Big Ten,687.0,16.0,7.8
+California,ACC,703.0,10,UCF,Big 12,683.7,19.3,7.9
+California,ACC,703.0,11,Texas Tech,Big 12,722.4,19.4,7.9
+California,ACC,703.0,12,Indiana,Big Ten,681.6,21.4,8.0
+Cincinnati,Big 12,651.1,1,Virginia,ACC,655.6,4.5,7.5
+Cincinnati,Big 12,651.1,2,Illinois,Big Ten,656.5,5.4,7.5
+Cincinnati,Big 12,651.1,3,Boston College,ACC,658.6,7.5,7.6
+Cincinnati,Big 12,651.1,4,Duke,ACC,639.7,11.4,7.7
+Cincinnati,Big 12,651.1,5,Rutgers,Big Ten,665.9,14.9,7.8
+Cincinnati,Big 12,651.1,6,Northwestern,Big Ten,670.7,19.6,7.9
+Cincinnati,Big 12,651.1,7,Syracuse,ACC,674.6,23.6,8.1
+Cincinnati,Big 12,651.1,8,Vanderbilt,SEC,675.7,24.6,8.1
+Cincinnati,Big 12,651.1,9,Wake Forest,ACC,624.5,26.5,8.1
+Cincinnati,Big 12,651.1,10,Indiana,Big Ten,681.6,30.5,8.3
+Cincinnati,Big 12,651.1,11,Pittsburgh,ACC,685.0,33.9,8.4
+Cincinnati,Big 12,651.1,12,Minnesota,Big Ten,687.0,35.9,8.4
+Clemson,ACC,913.4,1,Oregon,Big Ten,919.0,5.6,7.5
+Clemson,ACC,913.4,2,LSU,SEC,906.0,7.4,7.5
+Clemson,ACC,913.4,3,Notre Dame,FBS Independents,901.6,11.8,7.7
+Clemson,ACC,913.4,4,Texas A&M,SEC,927.6,14.2,7.8
+Clemson,ACC,913.4,5,Texas,SEC,942.7,29.3,8.2
+Clemson,ACC,913.4,6,Oklahoma,SEC,879.1,34.2,8.4
+Clemson,ACC,913.4,7,Florida,SEC,877.2,36.1,8.4
+Clemson,ACC,913.4,8,USC,Big Ten,873.2,40.1,8.6
+Clemson,ACC,913.4,9,Michigan,Big Ten,870.8,42.5,8.6
+Clemson,ACC,913.4,10,Penn State,Big Ten,853.7,59.7,9.2
+Clemson,ACC,913.4,11,Ohio State,Big Ten,978.9,65.5,9.4
+Clemson,ACC,913.4,12,Tennessee,SEC,839.4,74.0,9.6
+Colorado,Big 12,712.8,1,Michigan State,Big Ten,713.1,0.3,7.3
+Colorado,Big 12,712.8,2,NC State,ACC,714.8,2.0,7.4
+Colorado,Big 12,712.8,3,Louisville,ACC,709.9,2.9,7.4
+Colorado,Big 12,712.8,4,Georgia Tech,ACC,719.3,6.5,7.5
+Colorado,Big 12,712.8,5,Iowa,Big Ten,706.2,6.7,7.5
+Colorado,Big 12,712.8,6,Stanford,ACC,720.1,7.3,7.5
+Colorado,Big 12,712.8,7,California,ACC,703.0,9.8,7.6
+Colorado,Big 12,712.8,8,SMU,ACC,726.4,13.6,7.7
+Colorado,Big 12,712.8,9,Maryland,Big Ten,696.1,16.7,7.8
+Colorado,Big 12,712.8,10,Virginia Tech,ACC,691.3,21.5,8.0
+Colorado,Big 12,712.8,11,Purdue,Big Ten,688.4,24.4,8.1
+Colorado,Big 12,712.8,12,Minnesota,Big Ten,687.0,25.8,8.1
+Duke,ACC,639.7,1,Iowa State,Big 12,638.0,1.7,7.4
+Duke,ACC,639.7,2,Cincinnati,Big 12,651.1,11.4,7.7
+Duke,ACC,639.7,3,Kansas State,Big 12,655.4,15.7,7.8
+Duke,ACC,639.7,4,Illinois,Big Ten,656.5,16.8,7.8
+Duke,ACC,639.7,5,Kansas,Big 12,658.7,19.1,7.9
+Duke,ACC,639.7,6,Houston,Big 12,659.7,20.1,7.9
+Duke,ACC,639.7,7,Rutgers,Big Ten,665.9,26.2,8.1
+Duke,ACC,639.7,8,Northwestern,Big Ten,670.7,31.0,8.3
+Duke,ACC,639.7,9,Arizona,Big 12,672.6,32.9,8.3
+Duke,ACC,639.7,10,Vanderbilt,SEC,675.7,36.0,8.4
+Duke,ACC,639.7,11,Oklahoma State,Big 12,676.7,37.0,8.5
+Duke,ACC,639.7,12,West Virginia,Big 12,676.7,37.0,8.5
+Florida,SEC,877.2,1,USC,Big Ten,873.2,4.0,7.4
+Florida,SEC,877.2,2,Michigan,Big Ten,870.8,6.4,7.5
+Florida,SEC,877.2,3,Miami,ACC,868.7,8.5,7.6
+Florida,SEC,877.2,4,Penn State,Big Ten,853.7,23.6,8.1
+Florida,SEC,877.2,5,Notre Dame,FBS Independents,901.6,24.3,8.1
+Florida,SEC,877.2,6,Clemson,ACC,913.4,36.1,8.4
+Florida,SEC,877.2,7,Oregon,Big Ten,919.0,41.8,8.6
+Florida,SEC,877.2,8,Florida State,ACC,810.8,66.4,9.4
+Florida,SEC,877.2,9,North Carolina,ACC,786.9,90.3,10.1
+Florida,SEC,877.2,10,Nebraska,Big Ten,783.3,93.9,10.2
+Florida,SEC,877.2,11,Ohio State,Big Ten,978.9,101.7,10.5
+Florida,SEC,877.2,12,Wisconsin,Big Ten,757.7,119.6,11.0
+Florida State,ACC,810.8,1,South Carolina,SEC,804.0,6.9,7.5
+Florida State,ACC,810.8,2,Ole Miss,SEC,802.8,8.1,7.6
+Florida State,ACC,810.8,3,Auburn,SEC,821.7,10.8,7.7
+Florida State,ACC,810.8,4,Nebraska,Big Ten,783.3,27.5,8.2
+Florida State,ACC,810.8,5,Tennessee,SEC,839.4,28.6,8.2
+Florida State,ACC,810.8,6,Missouri,SEC,778.2,32.6,8.3
+Florida State,ACC,810.8,7,Penn State,Big Ten,853.7,42.8,8.6
+Florida State,ACC,810.8,8,Kentucky,SEC,763.2,47.6,8.8
+Florida State,ACC,810.8,9,Mississippi State,SEC,758.1,52.7,9.0
+Florida State,ACC,810.8,10,Wisconsin,Big Ten,757.7,53.2,9.0
+Florida State,ACC,810.8,11,UCLA,Big Ten,757.2,53.7,9.0
+Florida State,ACC,810.8,12,Arkansas,SEC,753.9,57.0,9.1
+Georgia,SEC,996.2,1,Ohio State,Big Ten,978.9,17.3,7.9
+Georgia,SEC,996.2,2,Oregon,Big Ten,919.0,77.2,9.7
+Georgia,SEC,996.2,3,Clemson,ACC,913.4,82.9,9.9
+Georgia,SEC,996.2,4,Notre Dame,FBS Independents,901.6,94.7,10.3
+Georgia,SEC,996.2,5,USC,Big Ten,873.2,123.0,11.1
+Georgia,SEC,996.2,6,Michigan,Big Ten,870.8,125.4,11.2
+Georgia,SEC,996.2,7,Miami,ACC,868.7,127.5,11.3
+Georgia,SEC,996.2,8,Penn State,Big Ten,853.7,142.6,11.7
+Georgia,SEC,996.2,9,Florida State,ACC,810.8,185.4,13.1
+Georgia,SEC,996.2,10,North Carolina,ACC,786.9,209.3,13.8
+Georgia,SEC,996.2,11,Nebraska,Big Ten,783.3,212.9,13.9
+Georgia,SEC,996.2,12,Wisconsin,Big Ten,757.7,238.6,14.7
+Georgia Tech,ACC,719.3,1,Texas Tech,Big 12,722.4,3.1,7.4
+Georgia Tech,ACC,719.3,2,Utah,Big 12,715.3,4.0,7.4
+Georgia Tech,ACC,719.3,3,Arizona State,Big 12,713.8,5.5,7.5
+Georgia Tech,ACC,719.3,4,Michigan State,Big Ten,713.1,6.2,7.5
+Georgia Tech,ACC,719.3,5,Colorado,Big 12,712.8,6.5,7.5
+Georgia Tech,ACC,719.3,6,Iowa,Big Ten,706.2,13.1,7.7
+Georgia Tech,ACC,719.3,7,Baylor,Big 12,700.6,18.7,7.9
+Georgia Tech,ACC,719.3,8,Maryland,Big Ten,696.1,23.2,8.0
+Georgia Tech,ACC,719.3,9,TCU,Big 12,744.5,25.2,8.1
+Georgia Tech,ACC,719.3,10,Purdue,Big Ten,688.4,30.9,8.3
+Georgia Tech,ACC,719.3,11,Washington,Big Ten,750.4,31.1,8.3
+Georgia Tech,ACC,719.3,12,Minnesota,Big Ten,687.0,32.3,8.3
+Houston,Big 12,659.7,1,Boston College,ACC,658.6,1.2,7.4
+Houston,Big 12,659.7,2,Illinois,Big Ten,656.5,3.3,7.4
+Houston,Big 12,659.7,3,Virginia,ACC,655.6,4.2,7.5
+Houston,Big 12,659.7,4,Rutgers,Big Ten,665.9,6.2,7.5
+Houston,Big 12,659.7,5,Northwestern,Big Ten,670.7,10.9,7.7
+Houston,Big 12,659.7,6,Syracuse,ACC,674.6,14.9,7.8
+Houston,Big 12,659.7,7,Vanderbilt,SEC,675.7,15.9,7.8
+Houston,Big 12,659.7,8,Duke,ACC,639.7,20.1,7.9
+Houston,Big 12,659.7,9,Indiana,Big Ten,681.6,21.8,8.0
+Houston,Big 12,659.7,10,Pittsburgh,ACC,685.0,25.2,8.1
+Houston,Big 12,659.7,11,Minnesota,Big Ten,687.0,27.2,8.2
+Houston,Big 12,659.7,12,Purdue,Big Ten,688.4,28.7,8.2
+Illinois,Big Ten,656.5,1,Virginia,ACC,655.6,0.9,7.3
+Illinois,Big Ten,656.5,2,Kansas State,Big 12,655.4,1.1,7.4
+Illinois,Big Ten,656.5,3,Boston College,ACC,658.6,2.1,7.4
+Illinois,Big Ten,656.5,4,Kansas,Big 12,658.7,2.3,7.4
+Illinois,Big Ten,656.5,5,Houston,Big 12,659.7,3.3,7.4
+Illinois,Big Ten,656.5,6,Cincinnati,Big 12,651.1,5.4,7.5
+Illinois,Big Ten,656.5,7,Arizona,Big 12,672.6,16.1,7.8
+Illinois,Big Ten,656.5,8,Duke,ACC,639.7,16.8,7.8
+Illinois,Big Ten,656.5,9,Syracuse,ACC,674.6,18.2,7.9
+Illinois,Big Ten,656.5,10,Iowa State,Big 12,638.0,18.5,7.9
+Illinois,Big Ten,656.5,11,Vanderbilt,SEC,675.7,19.2,7.9
+Illinois,Big Ten,656.5,12,Oklahoma State,Big 12,676.7,20.2,7.9
+Indiana,Big Ten,681.6,1,UCF,Big 12,683.7,2.1,7.4
+Indiana,Big Ten,681.6,2,Pittsburgh,ACC,685.0,3.4,7.4
+Indiana,Big Ten,681.6,3,West Virginia,Big 12,676.7,4.8,7.5
+Indiana,Big Ten,681.6,4,Oklahoma State,Big 12,676.7,4.9,7.5
+Indiana,Big Ten,681.6,5,Vanderbilt,SEC,675.7,5.9,7.5
+Indiana,Big Ten,681.6,6,Syracuse,ACC,674.6,6.9,7.5
+Indiana,Big Ten,681.6,7,Arizona,Big 12,672.6,9.0,7.6
+Indiana,Big Ten,681.6,8,Virginia Tech,ACC,691.3,9.7,7.6
+Indiana,Big Ten,681.6,9,Baylor,Big 12,700.6,19.1,7.9
+Indiana,Big Ten,681.6,10,California,ACC,703.0,21.4,8.0
+Indiana,Big Ten,681.6,11,Houston,Big 12,659.7,21.8,8.0
+Indiana,Big Ten,681.6,12,Kansas,Big 12,658.7,22.8,8.0
+Iowa,Big Ten,706.2,1,California,ACC,703.0,3.2,7.4
+Iowa,Big Ten,706.2,2,Louisville,ACC,709.9,3.8,7.4
+Iowa,Big Ten,706.2,3,Baylor,Big 12,700.6,5.5,7.5
+Iowa,Big Ten,706.2,4,Colorado,Big 12,712.8,6.7,7.5
+Iowa,Big Ten,706.2,5,Arizona State,Big 12,713.8,7.6,7.6
+Iowa,Big Ten,706.2,6,NC State,ACC,714.8,8.7,7.6
+Iowa,Big Ten,706.2,7,Utah,Big 12,715.3,9.1,7.6
+Iowa,Big Ten,706.2,8,Georgia Tech,ACC,719.3,13.1,7.7
+Iowa,Big Ten,706.2,9,Stanford,ACC,720.1,14.0,7.8
+Iowa,Big Ten,706.2,10,Virginia Tech,ACC,691.3,14.9,7.8
+Iowa,Big Ten,706.2,11,Texas Tech,Big 12,722.4,16.2,7.8
+Iowa,Big Ten,706.2,12,SMU,ACC,726.4,20.2,7.9
+Iowa State,Big 12,638.0,1,Duke,ACC,639.7,1.7,7.4
+Iowa State,Big 12,638.0,2,Wake Forest,ACC,624.5,13.5,7.7
+Iowa State,Big 12,638.0,3,Virginia,ACC,655.6,17.6,7.9
+Iowa State,Big 12,638.0,4,Illinois,Big Ten,656.5,18.5,7.9
+Iowa State,Big 12,638.0,5,Boston College,ACC,658.6,20.6,8.0
+Iowa State,Big 12,638.0,6,Rutgers,Big Ten,665.9,27.9,8.2
+Iowa State,Big 12,638.0,7,Northwestern,Big Ten,670.7,32.7,8.3
+Iowa State,Big 12,638.0,8,Syracuse,ACC,674.6,36.6,8.5
+Iowa State,Big 12,638.0,9,Vanderbilt,SEC,675.7,37.7,8.5
+Iowa State,Big 12,638.0,10,Indiana,Big Ten,681.6,43.6,8.7
+Iowa State,Big 12,638.0,11,Pittsburgh,ACC,685.0,47.0,8.8
+Iowa State,Big 12,638.0,12,Minnesota,Big Ten,687.0,49.0,8.8
+Kansas,Big 12,658.7,1,Boston College,ACC,658.6,0.2,7.3
+Kansas,Big 12,658.7,2,Illinois,Big Ten,656.5,2.3,7.4
+Kansas,Big 12,658.7,3,Virginia,ACC,655.6,3.2,7.4
+Kansas,Big 12,658.7,4,Rutgers,Big Ten,665.9,7.2,7.5
+Kansas,Big 12,658.7,5,Northwestern,Big Ten,670.7,11.9,7.7
+Kansas,Big 12,658.7,6,Syracuse,ACC,674.6,15.9,7.8
+Kansas,Big 12,658.7,7,Vanderbilt,SEC,675.7,16.9,7.8
+Kansas,Big 12,658.7,8,Duke,ACC,639.7,19.1,7.9
+Kansas,Big 12,658.7,9,Indiana,Big Ten,681.6,22.8,8.0
+Kansas,Big 12,658.7,10,Pittsburgh,ACC,685.0,26.2,8.1
+Kansas,Big 12,658.7,11,Minnesota,Big Ten,687.0,28.2,8.2
+Kansas,Big 12,658.7,12,Purdue,Big Ten,688.4,29.7,8.2
+Kansas State,Big 12,655.4,1,Virginia,ACC,655.6,0.2,7.3
+Kansas State,Big 12,655.4,2,Illinois,Big Ten,656.5,1.1,7.4
+Kansas State,Big 12,655.4,3,Boston College,ACC,658.6,3.2,7.4
+Kansas State,Big 12,655.4,4,Rutgers,Big Ten,665.9,10.5,7.6
+Kansas State,Big 12,655.4,5,Northwestern,Big Ten,670.7,15.3,7.8
+Kansas State,Big 12,655.4,6,Duke,ACC,639.7,15.7,7.8
+Kansas State,Big 12,655.4,7,Syracuse,ACC,674.6,19.2,7.9
+Kansas State,Big 12,655.4,8,Vanderbilt,SEC,675.7,20.3,7.9
+Kansas State,Big 12,655.4,9,Indiana,Big Ten,681.6,26.2,8.1
+Kansas State,Big 12,655.4,10,Pittsburgh,ACC,685.0,29.6,8.2
+Kansas State,Big 12,655.4,11,Wake Forest,ACC,624.5,30.9,8.3
+Kansas State,Big 12,655.4,12,Minnesota,Big Ten,687.0,31.6,8.3
+Kentucky,SEC,763.2,1,Wisconsin,Big Ten,757.7,5.6,7.5
+Kentucky,SEC,763.2,2,UCLA,Big Ten,757.2,6.0,7.5
+Kentucky,SEC,763.2,3,Washington,Big Ten,750.4,12.8,7.7
+Kentucky,SEC,763.2,4,TCU,Big 12,744.5,18.7,7.9
+Kentucky,SEC,763.2,5,Nebraska,Big Ten,783.3,20.1,7.9
+Kentucky,SEC,763.2,6,North Carolina,ACC,786.9,23.7,8.1
+Kentucky,SEC,763.2,7,SMU,ACC,726.4,36.8,8.5
+Kentucky,SEC,763.2,8,Texas Tech,Big 12,722.4,40.8,8.6
+Kentucky,SEC,763.2,9,Stanford,ACC,720.1,43.1,8.7
+Kentucky,SEC,763.2,10,Georgia Tech,ACC,719.3,43.9,8.7
+Kentucky,SEC,763.2,11,Florida State,ACC,810.8,47.6,8.8
+Kentucky,SEC,763.2,12,Utah,Big 12,715.3,47.9,8.8
+Louisville,ACC,709.9,1,Colorado,Big 12,712.8,2.9,7.4
+Louisville,ACC,709.9,2,Michigan State,Big Ten,713.1,3.2,7.4
+Louisville,ACC,709.9,3,Iowa,Big Ten,706.2,3.8,7.4
+Louisville,ACC,709.9,4,Arizona State,Big 12,713.8,3.9,7.4
+Louisville,ACC,709.9,5,Utah,Big 12,715.3,5.4,7.5
+Louisville,ACC,709.9,6,Baylor,Big 12,700.6,9.3,7.6
+Louisville,ACC,709.9,7,Texas Tech,Big 12,722.4,12.5,7.7
+Louisville,ACC,709.9,8,Maryland,Big Ten,696.1,13.8,7.7
+Louisville,ACC,709.9,9,Purdue,Big Ten,688.4,21.5,8.0
+Louisville,ACC,709.9,10,Minnesota,Big Ten,687.0,22.9,8.0
+Louisville,ACC,709.9,11,UCF,Big 12,683.7,26.2,8.1
+Louisville,ACC,709.9,12,Indiana,Big Ten,681.6,28.4,8.2
+LSU,SEC,906.0,1,Notre Dame,FBS Independents,901.6,4.4,7.5
+LSU,SEC,906.0,2,Clemson,ACC,913.4,7.4,7.5
+LSU,SEC,906.0,3,Oregon,Big Ten,919.0,13.0,7.7
+LSU,SEC,906.0,4,USC,Big Ten,873.2,32.8,8.3
+LSU,SEC,906.0,5,Michigan,Big Ten,870.8,35.2,8.4
+LSU,SEC,906.0,6,Miami,ACC,868.7,37.3,8.5
+LSU,SEC,906.0,7,Penn State,Big Ten,853.7,52.3,8.9
+LSU,SEC,906.0,8,Ohio State,Big Ten,978.9,72.9,9.6
+LSU,SEC,906.0,9,Florida State,ACC,810.8,95.1,10.3
+LSU,SEC,906.0,10,North Carolina,ACC,786.9,119.1,11.0
+LSU,SEC,906.0,11,Nebraska,Big Ten,783.3,122.7,11.1
+LSU,SEC,906.0,12,Wisconsin,Big Ten,757.7,148.3,11.9
+Maryland,Big Ten,696.1,1,Baylor,Big 12,700.6,4.5,7.5
+Maryland,Big Ten,696.1,2,Virginia Tech,ACC,691.3,4.8,7.5
+Maryland,Big Ten,696.1,3,California,ACC,703.0,6.9,7.5
+Maryland,Big Ten,696.1,4,Pittsburgh,ACC,685.0,11.1,7.7
+Maryland,Big Ten,696.1,5,UCF,Big 12,683.7,12.4,7.7
+Maryland,Big Ten,696.1,6,Louisville,ACC,709.9,13.8,7.7
+Maryland,Big Ten,696.1,7,Colorado,Big 12,712.8,16.7,7.8
+Maryland,Big Ten,696.1,8,Arizona State,Big 12,713.8,17.7,7.9
+Maryland,Big Ten,696.1,9,NC State,ACC,714.8,18.7,7.9
+Maryland,Big Ten,696.1,10,Utah,Big 12,715.3,19.2,7.9
+Maryland,Big Ten,696.1,11,West Virginia,Big 12,676.7,19.4,7.9
+Maryland,Big Ten,696.1,12,Oklahoma State,Big 12,676.7,19.4,7.9
+Miami,ACC,868.7,1,Michigan,Big Ten,870.8,2.1,7.4
+Miami,ACC,868.7,2,USC,Big Ten,873.2,4.5,7.5
+Miami,ACC,868.7,3,Florida,SEC,877.2,8.5,7.6
+Miami,ACC,868.7,4,Oklahoma,SEC,879.1,10.4,7.6
+Miami,ACC,868.7,5,Penn State,Big Ten,853.7,15.1,7.8
+Miami,ACC,868.7,6,Tennessee,SEC,839.4,29.3,8.2
+Miami,ACC,868.7,7,Notre Dame,FBS Independents,901.6,32.8,8.3
+Miami,ACC,868.7,8,LSU,SEC,906.0,37.3,8.5
+Miami,ACC,868.7,9,Auburn,SEC,821.7,47.0,8.8
+Miami,ACC,868.7,10,Oregon,Big Ten,919.0,50.3,8.9
+Miami,ACC,868.7,11,Texas A&M,SEC,927.6,58.9,9.1
+Miami,ACC,868.7,12,South Carolina,SEC,804.0,64.7,9.3
+Michigan,Big Ten,870.8,1,Miami,ACC,868.7,2.1,7.4
+Michigan,Big Ten,870.8,2,Florida,SEC,877.2,6.4,7.5
+Michigan,Big Ten,870.8,3,Oklahoma,SEC,879.1,8.3,7.6
+Michigan,Big Ten,870.8,4,Notre Dame,FBS Independents,901.6,30.7,8.3
+Michigan,Big Ten,870.8,5,Tennessee,SEC,839.4,31.4,8.3
+Michigan,Big Ten,870.8,6,LSU,SEC,906.0,35.2,8.4
+Michigan,Big Ten,870.8,7,Clemson,ACC,913.4,42.5,8.6
+Michigan,Big Ten,870.8,8,Auburn,SEC,821.7,49.1,8.8
+Michigan,Big Ten,870.8,9,Texas A&M,SEC,927.6,56.8,9.1
+Michigan,Big Ten,870.8,10,Florida State,ACC,810.8,60.0,9.2
+Michigan,Big Ten,870.8,11,South Carolina,SEC,804.0,66.8,9.4
+Michigan,Big Ten,870.8,12,Ole Miss,SEC,802.8,68.0,9.4
+Michigan State,Big Ten,713.1,1,Colorado,Big 12,712.8,0.3,7.3
+Michigan State,Big Ten,713.1,2,Arizona State,Big 12,713.8,0.7,7.3
+Michigan State,Big Ten,713.1,3,NC State,ACC,714.8,1.7,7.4
+Michigan State,Big Ten,713.1,4,Utah,Big 12,715.3,2.2,7.4
+Michigan State,Big Ten,713.1,5,Louisville,ACC,709.9,3.2,7.4
+Michigan State,Big Ten,713.1,6,Georgia Tech,ACC,719.3,6.2,7.5
+Michigan State,Big Ten,713.1,7,Stanford,ACC,720.1,7.0,7.5
+Michigan State,Big Ten,713.1,8,Texas Tech,Big 12,722.4,9.3,7.6
+Michigan State,Big Ten,713.1,9,California,ACC,703.0,10.1,7.6
+Michigan State,Big Ten,713.1,10,Baylor,Big 12,700.6,12.5,7.7
+Michigan State,Big Ten,713.1,11,SMU,ACC,726.4,13.3,7.7
+Michigan State,Big Ten,713.1,12,Virginia Tech,ACC,691.3,21.8,8.0
+Minnesota,Big Ten,687.0,1,Pittsburgh,ACC,685.0,2.0,7.4
+Minnesota,Big Ten,687.0,2,UCF,Big 12,683.7,3.3,7.4
+Minnesota,Big Ten,687.0,3,Virginia Tech,ACC,691.3,4.3,7.5
+Minnesota,Big Ten,687.0,4,West Virginia,Big 12,676.7,10.3,7.6
+Minnesota,Big Ten,687.0,5,Oklahoma State,Big 12,676.7,10.3,7.6
+Minnesota,Big Ten,687.0,6,Vanderbilt,SEC,675.7,11.3,7.7
+Minnesota,Big Ten,687.0,7,Syracuse,ACC,674.6,12.4,7.7
+Minnesota,Big Ten,687.0,8,Baylor,Big 12,700.6,13.6,7.7
+Minnesota,Big Ten,687.0,9,Arizona,Big 12,672.6,14.4,7.8
+Minnesota,Big Ten,687.0,10,California,ACC,703.0,16.0,7.8
+Minnesota,Big Ten,687.0,11,Louisville,ACC,709.9,22.9,8.0
+Minnesota,Big Ten,687.0,12,Colorado,Big 12,712.8,25.8,8.1
+Mississippi State,SEC,758.1,1,Wisconsin,Big Ten,757.7,0.5,7.3
+Mississippi State,SEC,758.1,2,UCLA,Big Ten,757.2,1.0,7.4
+Mississippi State,SEC,758.1,3,Washington,Big Ten,750.4,7.7,7.6
+Mississippi State,SEC,758.1,4,TCU,Big 12,744.5,13.6,7.7
+Mississippi State,SEC,758.1,5,Nebraska,Big Ten,783.3,25.2,8.1
+Mississippi State,SEC,758.1,6,North Carolina,ACC,786.9,28.8,8.2
+Mississippi State,SEC,758.1,7,SMU,ACC,726.4,31.7,8.3
+Mississippi State,SEC,758.1,8,Texas Tech,Big 12,722.4,35.7,8.4
+Mississippi State,SEC,758.1,9,Stanford,ACC,720.1,38.0,8.5
+Mississippi State,SEC,758.1,10,Georgia Tech,ACC,719.3,38.8,8.5
+Mississippi State,SEC,758.1,11,Utah,Big 12,715.3,42.8,8.6
+Mississippi State,SEC,758.1,12,NC State,ACC,714.8,43.3,8.7
+Missouri,SEC,778.2,1,Nebraska,Big Ten,783.3,5.1,7.5
+Missouri,SEC,778.2,2,North Carolina,ACC,786.9,8.7,7.6
+Missouri,SEC,778.2,3,Wisconsin,Big Ten,757.7,20.6,8.0
+Missouri,SEC,778.2,4,UCLA,Big Ten,757.2,21.1,8.0
+Missouri,SEC,778.2,5,Washington,Big Ten,750.4,27.8,8.2
+Missouri,SEC,778.2,6,Florida State,ACC,810.8,32.6,8.3
+Missouri,SEC,778.2,7,TCU,Big 12,744.5,33.7,8.4
+Missouri,SEC,778.2,8,SMU,ACC,726.4,51.8,8.9
+Missouri,SEC,778.2,9,Texas Tech,Big 12,722.4,55.8,9.1
+Missouri,SEC,778.2,10,Stanford,ACC,720.1,58.1,9.1
+Missouri,SEC,778.2,11,Georgia Tech,ACC,719.3,58.9,9.1
+Missouri,SEC,778.2,12,Utah,Big 12,715.3,63.0,9.3
+NC State,ACC,714.8,1,Utah,Big 12,715.3,0.5,7.3
+NC State,ACC,714.8,2,Arizona State,Big 12,713.8,1.0,7.4
+NC State,ACC,714.8,3,Michigan State,Big Ten,713.1,1.7,7.4
+NC State,ACC,714.8,4,Colorado,Big 12,712.8,2.0,7.4
+NC State,ACC,714.8,5,Texas Tech,Big 12,722.4,7.6,7.6
+NC State,ACC,714.8,6,Iowa,Big Ten,706.2,8.7,7.6
+NC State,ACC,714.8,7,Baylor,Big 12,700.6,14.2,7.8
+NC State,ACC,714.8,8,Maryland,Big Ten,696.1,18.7,7.9
+NC State,ACC,714.8,9,Purdue,Big Ten,688.4,26.4,8.1
+NC State,ACC,714.8,10,Minnesota,Big Ten,687.0,27.8,8.2
+NC State,ACC,714.8,11,TCU,Big 12,744.5,29.7,8.2
+NC State,ACC,714.8,12,UCF,Big 12,683.7,31.1,8.3
+Nebraska,Big Ten,783.3,1,North Carolina,ACC,786.9,3.6,7.4
+Nebraska,Big Ten,783.3,2,Missouri,SEC,778.2,5.1,7.5
+Nebraska,Big Ten,783.3,3,Ole Miss,SEC,802.8,19.5,7.9
+Nebraska,Big Ten,783.3,4,Kentucky,SEC,763.2,20.1,7.9
+Nebraska,Big Ten,783.3,5,South Carolina,SEC,804.0,20.7,8.0
+Nebraska,Big Ten,783.3,6,Mississippi State,SEC,758.1,25.2,8.1
+Nebraska,Big Ten,783.3,7,Florida State,ACC,810.8,27.5,8.2
+Nebraska,Big Ten,783.3,8,Arkansas,SEC,753.9,29.5,8.2
+Nebraska,Big Ten,783.3,9,Auburn,SEC,821.7,38.4,8.5
+Nebraska,Big Ten,783.3,10,TCU,Big 12,744.5,38.8,8.5
+Nebraska,Big Ten,783.3,11,Tennessee,SEC,839.4,56.1,9.1
+Nebraska,Big Ten,783.3,12,SMU,ACC,726.4,56.9,9.1
+North Carolina,ACC,786.9,1,Nebraska,Big Ten,783.3,3.6,7.4
+North Carolina,ACC,786.9,2,Missouri,SEC,778.2,8.7,7.6
+North Carolina,ACC,786.9,3,Ole Miss,SEC,802.8,15.9,7.8
+North Carolina,ACC,786.9,4,South Carolina,SEC,804.0,17.1,7.9
+North Carolina,ACC,786.9,5,Kentucky,SEC,763.2,23.7,8.1
+North Carolina,ACC,786.9,6,Mississippi State,SEC,758.1,28.8,8.2
+North Carolina,ACC,786.9,7,Wisconsin,Big Ten,757.7,29.3,8.2
+North Carolina,ACC,786.9,8,UCLA,Big Ten,757.2,29.8,8.2
+North Carolina,ACC,786.9,9,Arkansas,SEC,753.9,33.1,8.3
+North Carolina,ACC,786.9,10,Auburn,SEC,821.7,34.8,8.4
+North Carolina,ACC,786.9,11,Washington,Big Ten,750.4,36.5,8.5
+North Carolina,ACC,786.9,12,TCU,Big 12,744.5,42.4,8.6
+Northwestern,Big Ten,670.7,1,Arizona,Big 12,672.6,1.9,7.4
+Northwestern,Big Ten,670.7,2,Syracuse,ACC,674.6,3.9,7.4
+Northwestern,Big Ten,670.7,3,Vanderbilt,SEC,675.7,5.0,7.5
+Northwestern,Big Ten,670.7,4,Oklahoma State,Big 12,676.7,6.0,7.5
+Northwestern,Big Ten,670.7,5,West Virginia,Big 12,676.7,6.0,7.5
+Northwestern,Big Ten,670.7,6,Houston,Big 12,659.7,10.9,7.7
+Northwestern,Big Ten,670.7,7,Kansas,Big 12,658.7,11.9,7.7
+Northwestern,Big Ten,670.7,8,Boston College,ACC,658.6,12.1,7.7
+Northwestern,Big Ten,670.7,9,UCF,Big 12,683.7,13.0,7.7
+Northwestern,Big Ten,670.7,10,Pittsburgh,ACC,685.0,14.3,7.8
+Northwestern,Big Ten,670.7,11,Virginia,ACC,655.6,15.1,7.8
+Northwestern,Big Ten,670.7,12,Kansas State,Big 12,655.4,15.3,7.8
+Notre Dame,FBS Independents,901.6,1,LSU,SEC,906.0,4.4,7.5
+Notre Dame,FBS Independents,901.6,2,Clemson,ACC,913.4,11.8,7.7
+Notre Dame,FBS Independents,901.6,3,Oregon,Big Ten,919.0,17.4,7.9
+Notre Dame,FBS Independents,901.6,4,Oklahoma,SEC,879.1,22.4,8.0
+Notre Dame,FBS Independents,901.6,5,Florida,SEC,877.2,24.3,8.1
+Notre Dame,FBS Independents,901.6,6,Texas A&M,SEC,927.6,26.0,8.1
+Notre Dame,FBS Independents,901.6,7,USC,Big Ten,873.2,28.3,8.2
+Notre Dame,FBS Independents,901.6,8,Michigan,Big Ten,870.8,30.7,8.3
+Notre Dame,FBS Independents,901.6,9,Miami,ACC,868.7,32.8,8.3
+Notre Dame,FBS Independents,901.6,10,Texas,SEC,942.7,41.1,8.6
+Notre Dame,FBS Independents,901.6,11,Penn State,Big Ten,853.7,47.9,8.8
+Notre Dame,FBS Independents,901.6,12,Tennessee,SEC,839.4,62.2,9.2
+Ohio State,Big Ten,978.9,1,Georgia,SEC,996.2,17.3,7.9
+Ohio State,Big Ten,978.9,2,Alabama,SEC,1003.5,24.6,8.1
+Ohio State,Big Ten,978.9,3,Texas,SEC,942.7,36.2,8.4
+Ohio State,Big Ten,978.9,4,Texas A&M,SEC,927.6,51.3,8.9
+Ohio State,Big Ten,978.9,5,Clemson,ACC,913.4,65.5,9.4
+Ohio State,Big Ten,978.9,6,LSU,SEC,906.0,72.9,9.6
+Ohio State,Big Ten,978.9,7,Notre Dame,FBS Independents,901.6,77.3,9.7
+Ohio State,Big Ten,978.9,8,Oklahoma,SEC,879.1,99.8,10.4
+Ohio State,Big Ten,978.9,9,Florida,SEC,877.2,101.7,10.5
+Ohio State,Big Ten,978.9,10,Miami,ACC,868.7,110.2,10.7
+Ohio State,Big Ten,978.9,11,Tennessee,SEC,839.4,139.5,11.6
+Ohio State,Big Ten,978.9,12,Auburn,SEC,821.7,157.2,12.2
+Oklahoma,SEC,879.1,1,USC,Big Ten,873.2,5.9,7.5
+Oklahoma,SEC,879.1,2,Michigan,Big Ten,870.8,8.3,7.6
+Oklahoma,SEC,879.1,3,Miami,ACC,868.7,10.4,7.6
+Oklahoma,SEC,879.1,4,Notre Dame,FBS Independents,901.6,22.4,8.0
+Oklahoma,SEC,879.1,5,Penn State,Big Ten,853.7,25.5,8.1
+Oklahoma,SEC,879.1,6,Clemson,ACC,913.4,34.2,8.4
+Oklahoma,SEC,879.1,7,Oregon,Big Ten,919.0,39.9,8.6
+Oklahoma,SEC,879.1,8,Florida State,ACC,810.8,68.3,9.4
+Oklahoma,SEC,879.1,9,North Carolina,ACC,786.9,92.2,10.2
+Oklahoma,SEC,879.1,10,Nebraska,Big Ten,783.3,95.8,10.3
+Oklahoma,SEC,879.1,11,Ohio State,Big Ten,978.9,99.8,10.4
+Oklahoma,SEC,879.1,12,Wisconsin,Big Ten,757.7,121.5,11.1
+Oklahoma State,Big 12,676.7,1,Vanderbilt,SEC,675.7,1.0,7.4
+Oklahoma State,Big 12,676.7,2,Syracuse,ACC,674.6,2.1,7.4
+Oklahoma State,Big 12,676.7,3,Indiana,Big Ten,681.6,4.9,7.5
+Oklahoma State,Big 12,676.7,4,Northwestern,Big Ten,670.7,6.0,7.5
+Oklahoma State,Big 12,676.7,5,Pittsburgh,ACC,685.0,8.3,7.6
+Oklahoma State,Big 12,676.7,6,Minnesota,Big Ten,687.0,10.3,7.6
+Oklahoma State,Big 12,676.7,7,Rutgers,Big Ten,665.9,10.8,7.7
+Oklahoma State,Big 12,676.7,8,Purdue,Big Ten,688.4,11.7,7.7
+Oklahoma State,Big 12,676.7,9,Virginia Tech,ACC,691.3,14.6,7.8
+Oklahoma State,Big 12,676.7,10,Boston College,ACC,658.6,18.1,7.9
+Oklahoma State,Big 12,676.7,11,Maryland,Big Ten,696.1,19.4,7.9
+Oklahoma State,Big 12,676.7,12,Illinois,Big Ten,656.5,20.2,7.9
+Ole Miss,SEC,802.8,1,Florida State,ACC,810.8,8.1,7.6
+Ole Miss,SEC,802.8,2,North Carolina,ACC,786.9,15.9,7.8
+Ole Miss,SEC,802.8,3,Nebraska,Big Ten,783.3,19.5,7.9
+Ole Miss,SEC,802.8,4,Wisconsin,Big Ten,757.7,45.1,8.7
+Ole Miss,SEC,802.8,5,UCLA,Big Ten,757.2,45.6,8.7
+Ole Miss,SEC,802.8,6,Penn State,Big Ten,853.7,50.9,8.9
+Ole Miss,SEC,802.8,7,Washington,Big Ten,750.4,52.4,8.9
+Ole Miss,SEC,802.8,8,TCU,Big 12,744.5,58.3,9.1
+Ole Miss,SEC,802.8,9,Miami,ACC,868.7,65.9,9.4
+Ole Miss,SEC,802.8,10,Michigan,Big Ten,870.8,68.0,9.4
+Ole Miss,SEC,802.8,11,USC,Big Ten,873.2,70.4,9.5
+Ole Miss,SEC,802.8,12,SMU,ACC,726.4,76.4,9.7
+Oregon,Big Ten,919.0,1,Clemson,ACC,913.4,5.6,7.5
+Oregon,Big Ten,919.0,2,Texas A&M,SEC,927.6,8.6,7.6
+Oregon,Big Ten,919.0,3,LSU,SEC,906.0,13.0,7.7
+Oregon,Big Ten,919.0,4,Notre Dame,FBS Independents,901.6,17.4,7.9
+Oregon,Big Ten,919.0,5,Texas,SEC,942.7,23.7,8.1
+Oregon,Big Ten,919.0,6,Oklahoma,SEC,879.1,39.9,8.6
+Oregon,Big Ten,919.0,7,Florida,SEC,877.2,41.8,8.6
+Oregon,Big Ten,919.0,8,Miami,ACC,868.7,50.3,8.9
+Oregon,Big Ten,919.0,9,Georgia,SEC,996.2,77.2,9.7
+Oregon,Big Ten,919.0,10,Tennessee,SEC,839.4,79.6,9.8
+Oregon,Big Ten,919.0,11,Alabama,SEC,1003.5,84.5,9.9
+Oregon,Big Ten,919.0,12,Auburn,SEC,821.7,97.3,10.3
+Penn State,Big Ten,853.7,1,Tennessee,SEC,839.4,14.3,7.8
+Penn State,Big Ten,853.7,2,Miami,ACC,868.7,15.1,7.8
+Penn State,Big Ten,853.7,3,Florida,SEC,877.2,23.6,8.1
+Penn State,Big Ten,853.7,4,Oklahoma,SEC,879.1,25.5,8.1
+Penn State,Big Ten,853.7,5,Auburn,SEC,821.7,32.0,8.3
+Penn State,Big Ten,853.7,6,Florida State,ACC,810.8,42.8,8.6
+Penn State,Big Ten,853.7,7,Notre Dame,FBS Independents,901.6,47.9,8.8
+Penn State,Big Ten,853.7,8,South Carolina,SEC,804.0,49.7,8.9
+Penn State,Big Ten,853.7,9,Ole Miss,SEC,802.8,50.9,8.9
+Penn State,Big Ten,853.7,10,LSU,SEC,906.0,52.3,8.9
+Penn State,Big Ten,853.7,11,Clemson,ACC,913.4,59.7,9.2
+Penn State,Big Ten,853.7,12,North Carolina,ACC,786.9,66.7,9.4
+Pittsburgh,ACC,685.0,1,UCF,Big 12,683.7,1.3,7.4
+Pittsburgh,ACC,685.0,2,Minnesota,Big Ten,687.0,2.0,7.4
+Pittsburgh,ACC,685.0,3,Indiana,Big Ten,681.6,3.4,7.4
+Pittsburgh,ACC,685.0,4,Purdue,Big Ten,688.4,3.4,7.4
+Pittsburgh,ACC,685.0,5,West Virginia,Big 12,676.7,8.3,7.6
+Pittsburgh,ACC,685.0,6,Oklahoma State,Big 12,676.7,8.3,7.6
+Pittsburgh,ACC,685.0,7,Vanderbilt,SEC,675.7,9.3,7.6
+Pittsburgh,ACC,685.0,8,Maryland,Big Ten,696.1,11.1,7.7
+Pittsburgh,ACC,685.0,9,Arizona,Big 12,672.6,12.4,7.7
+Pittsburgh,ACC,685.0,10,Northwestern,Big Ten,670.7,14.3,7.8
+Pittsburgh,ACC,685.0,11,Baylor,Big 12,700.6,15.6,7.8
+Pittsburgh,ACC,685.0,12,Rutgers,Big Ten,665.9,19.1,7.9
+Purdue,Big Ten,688.4,1,Virginia Tech,ACC,691.3,2.9,7.4
+Purdue,Big Ten,688.4,2,Pittsburgh,ACC,685.0,3.4,7.4
+Purdue,Big Ten,688.4,3,UCF,Big 12,683.7,4.7,7.5
+Purdue,Big Ten,688.4,4,West Virginia,Big 12,676.7,11.7,7.7
+Purdue,Big Ten,688.4,5,Oklahoma State,Big 12,676.7,11.7,7.7
+Purdue,Big Ten,688.4,6,Baylor,Big 12,700.6,12.2,7.7
+Purdue,Big Ten,688.4,7,Vanderbilt,SEC,675.7,12.8,7.7
+Purdue,Big Ten,688.4,8,Syracuse,ACC,674.6,13.8,7.7
+Purdue,Big Ten,688.4,9,California,ACC,703.0,14.6,7.8
+Purdue,Big Ten,688.4,10,Arizona,Big 12,672.6,15.8,7.8
+Purdue,Big Ten,688.4,11,Louisville,ACC,709.9,21.5,8.0
+Purdue,Big Ten,688.4,12,Colorado,Big 12,712.8,24.4,8.1
+Rutgers,Big Ten,665.9,1,Houston,Big 12,659.7,6.2,7.5
+Rutgers,Big Ten,665.9,2,Arizona,Big 12,672.6,6.7,7.5
+Rutgers,Big Ten,665.9,3,Kansas,Big 12,658.7,7.2,7.5
+Rutgers,Big Ten,665.9,4,Boston College,ACC,658.6,7.3,7.5
+Rutgers,Big Ten,665.9,5,Syracuse,ACC,674.6,8.7,7.6
+Rutgers,Big Ten,665.9,6,Vanderbilt,SEC,675.7,9.8,7.6
+Rutgers,Big Ten,665.9,7,Virginia,ACC,655.6,10.4,7.6
+Rutgers,Big Ten,665.9,8,Kansas State,Big 12,655.4,10.5,7.6
+Rutgers,Big Ten,665.9,9,Oklahoma State,Big 12,676.7,10.8,7.7
+Rutgers,Big Ten,665.9,10,West Virginia,Big 12,676.7,10.8,7.7
+Rutgers,Big Ten,665.9,11,Cincinnati,Big 12,651.1,14.9,7.8
+Rutgers,Big Ten,665.9,12,UCF,Big 12,683.7,17.8,7.9
+SMU,ACC,726.4,1,Texas Tech,Big 12,722.4,4.0,7.4
+SMU,ACC,726.4,2,Utah,Big 12,715.3,11.1,7.7
+SMU,ACC,726.4,3,Arizona State,Big 12,713.8,12.6,7.7
+SMU,ACC,726.4,4,Michigan State,Big Ten,713.1,13.3,7.7
+SMU,ACC,726.4,5,Colorado,Big 12,712.8,13.6,7.7
+SMU,ACC,726.4,6,TCU,Big 12,744.5,18.1,7.9
+SMU,ACC,726.4,7,Iowa,Big Ten,706.2,20.2,7.9
+SMU,ACC,726.4,8,Washington,Big Ten,750.4,24.0,8.1
+SMU,ACC,726.4,9,Baylor,Big 12,700.6,25.8,8.1
+SMU,ACC,726.4,10,Arkansas,SEC,753.9,27.4,8.2
+SMU,ACC,726.4,11,Maryland,Big Ten,696.1,30.3,8.3
+SMU,ACC,726.4,12,UCLA,Big Ten,757.2,30.8,8.3
+South Carolina,SEC,804.0,1,Florida State,ACC,810.8,6.9,7.5
+South Carolina,SEC,804.0,2,North Carolina,ACC,786.9,17.1,7.9
+South Carolina,SEC,804.0,3,Nebraska,Big Ten,783.3,20.7,8.0
+South Carolina,SEC,804.0,4,Wisconsin,Big Ten,757.7,46.3,8.8
+South Carolina,SEC,804.0,5,UCLA,Big Ten,757.2,46.8,8.8
+South Carolina,SEC,804.0,6,Penn State,Big Ten,853.7,49.7,8.9
+South Carolina,SEC,804.0,7,Washington,Big Ten,750.4,53.6,9.0
+South Carolina,SEC,804.0,8,TCU,Big 12,744.5,59.5,9.2
+South Carolina,SEC,804.0,9,Miami,ACC,868.7,64.7,9.3
+South Carolina,SEC,804.0,10,Michigan,Big Ten,870.8,66.8,9.4
+South Carolina,SEC,804.0,11,USC,Big Ten,873.2,69.2,9.5
+South Carolina,SEC,804.0,12,SMU,ACC,726.4,77.6,9.7
+Stanford,ACC,720.1,1,Texas Tech,Big 12,722.4,2.3,7.4
+Stanford,ACC,720.1,2,Utah,Big 12,715.3,4.8,7.5
+Stanford,ACC,720.1,3,Arizona State,Big 12,713.8,6.3,7.5
+Stanford,ACC,720.1,4,Michigan State,Big Ten,713.1,7.0,7.5
+Stanford,ACC,720.1,5,Colorado,Big 12,712.8,7.3,7.5
+Stanford,ACC,720.1,6,Iowa,Big Ten,706.2,14.0,7.8
+Stanford,ACC,720.1,7,Baylor,Big 12,700.6,19.5,7.9
+Stanford,ACC,720.1,8,Maryland,Big Ten,696.1,24.0,8.1
+Stanford,ACC,720.1,9,TCU,Big 12,744.5,24.4,8.1
+Stanford,ACC,720.1,10,Washington,Big Ten,750.4,30.3,8.3
+Stanford,ACC,720.1,11,Purdue,Big Ten,688.4,31.7,8.3
+Stanford,ACC,720.1,12,Minnesota,Big Ten,687.0,33.1,8.3
+Syracuse,ACC,674.6,1,Vanderbilt,SEC,675.7,1.1,7.4
+Syracuse,ACC,674.6,2,Arizona,Big 12,672.6,2.0,7.4
+Syracuse,ACC,674.6,3,Oklahoma State,Big 12,676.7,2.1,7.4
+Syracuse,ACC,674.6,4,West Virginia,Big 12,676.7,2.1,7.4
+Syracuse,ACC,674.6,5,Northwestern,Big Ten,670.7,3.9,7.4
+Syracuse,ACC,674.6,6,Indiana,Big Ten,681.6,6.9,7.5
+Syracuse,ACC,674.6,7,Rutgers,Big Ten,665.9,8.7,7.6
+Syracuse,ACC,674.6,8,UCF,Big 12,683.7,9.1,7.6
+Syracuse,ACC,674.6,9,Minnesota,Big Ten,687.0,12.4,7.7
+Syracuse,ACC,674.6,10,Purdue,Big Ten,688.4,13.8,7.7
+Syracuse,ACC,674.6,11,Houston,Big 12,659.7,14.9,7.8
+Syracuse,ACC,674.6,12,Kansas,Big 12,658.7,15.9,7.8
+TCU,Big 12,744.5,1,Washington,Big Ten,750.4,5.9,7.5
+TCU,Big 12,744.5,2,Arkansas,SEC,753.9,9.3,7.6
+TCU,Big 12,744.5,3,UCLA,Big Ten,757.2,12.6,7.7
+TCU,Big 12,744.5,4,Wisconsin,Big Ten,757.7,13.1,7.7
+TCU,Big 12,744.5,5,Mississippi State,SEC,758.1,13.6,7.7
+TCU,Big 12,744.5,6,SMU,ACC,726.4,18.1,7.9
+TCU,Big 12,744.5,7,Kentucky,SEC,763.2,18.7,7.9
+TCU,Big 12,744.5,8,Stanford,ACC,720.1,24.4,8.1
+TCU,Big 12,744.5,9,Georgia Tech,ACC,719.3,25.2,8.1
+TCU,Big 12,744.5,10,NC State,ACC,714.8,29.7,8.2
+TCU,Big 12,744.5,11,Michigan State,Big Ten,713.1,31.4,8.3
+TCU,Big 12,744.5,12,Missouri,SEC,778.2,33.7,8.4
+Tennessee,SEC,839.4,1,Penn State,Big Ten,853.7,14.3,7.8
+Tennessee,SEC,839.4,2,Florida State,ACC,810.8,28.6,8.2
+Tennessee,SEC,839.4,3,Miami,ACC,868.7,29.3,8.2
+Tennessee,SEC,839.4,4,Michigan,Big Ten,870.8,31.4,8.3
+Tennessee,SEC,839.4,5,USC,Big Ten,873.2,33.8,8.4
+Tennessee,SEC,839.4,6,North Carolina,ACC,786.9,52.5,8.9
+Tennessee,SEC,839.4,7,Nebraska,Big Ten,783.3,56.1,9.1
+Tennessee,SEC,839.4,8,Notre Dame,FBS Independents,901.6,62.2,9.2
+Tennessee,SEC,839.4,9,Clemson,ACC,913.4,74.0,9.6
+Tennessee,SEC,839.4,10,Oregon,Big Ten,919.0,79.6,9.8
+Tennessee,SEC,839.4,11,Wisconsin,Big Ten,757.7,81.7,9.9
+Tennessee,SEC,839.4,12,UCLA,Big Ten,757.2,82.2,9.9
+Texas,SEC,942.7,1,Oregon,Big Ten,919.0,23.7,8.1
+Texas,SEC,942.7,2,Clemson,ACC,913.4,29.3,8.2
+Texas,SEC,942.7,3,Ohio State,Big Ten,978.9,36.2,8.4
+Texas,SEC,942.7,4,Notre Dame,FBS Independents,901.6,41.1,8.6
+Texas,SEC,942.7,5,USC,Big Ten,873.2,69.4,9.5
+Texas,SEC,942.7,6,Michigan,Big Ten,870.8,71.8,9.5
+Texas,SEC,942.7,7,Miami,ACC,868.7,73.9,9.6
+Texas,SEC,942.7,8,Penn State,Big Ten,853.7,89.0,10.1
+Texas,SEC,942.7,9,Florida State,ACC,810.8,131.8,11.4
+Texas,SEC,942.7,10,North Carolina,ACC,786.9,155.7,12.1
+Texas,SEC,942.7,11,Nebraska,Big Ten,783.3,159.4,12.3
+Texas,SEC,942.7,12,Wisconsin,Big Ten,757.7,185.0,13.1
+Texas A&M,SEC,927.6,1,Oregon,Big Ten,919.0,8.6,7.6
+Texas A&M,SEC,927.6,2,Clemson,ACC,913.4,14.2,7.8
+Texas A&M,SEC,927.6,3,Notre Dame,FBS Independents,901.6,26.0,8.1
+Texas A&M,SEC,927.6,4,Ohio State,Big Ten,978.9,51.3,8.9
+Texas A&M,SEC,927.6,5,USC,Big Ten,873.2,54.4,9.0
+Texas A&M,SEC,927.6,6,Michigan,Big Ten,870.8,56.8,9.1
+Texas A&M,SEC,927.6,7,Miami,ACC,868.7,58.9,9.1
+Texas A&M,SEC,927.6,8,Penn State,Big Ten,853.7,74.0,9.6
+Texas A&M,SEC,927.6,9,Florida State,ACC,810.8,116.8,10.9
+Texas A&M,SEC,927.6,10,North Carolina,ACC,786.9,140.7,11.7
+Texas A&M,SEC,927.6,11,Nebraska,Big Ten,783.3,144.3,11.8
+Texas A&M,SEC,927.6,12,Wisconsin,Big Ten,757.7,170.0,12.6
+Texas Tech,Big 12,722.4,1,Stanford,ACC,720.1,2.3,7.4
+Texas Tech,Big 12,722.4,2,Georgia Tech,ACC,719.3,3.1,7.4
+Texas Tech,Big 12,722.4,3,SMU,ACC,726.4,4.0,7.4
+Texas Tech,Big 12,722.4,4,NC State,ACC,714.8,7.6,7.6
+Texas Tech,Big 12,722.4,5,Michigan State,Big Ten,713.1,9.3,7.6
+Texas Tech,Big 12,722.4,6,Louisville,ACC,709.9,12.5,7.7
+Texas Tech,Big 12,722.4,7,Iowa,Big Ten,706.2,16.2,7.8
+Texas Tech,Big 12,722.4,8,California,ACC,703.0,19.4,7.9
+Texas Tech,Big 12,722.4,9,Maryland,Big Ten,696.1,26.3,8.1
+Texas Tech,Big 12,722.4,10,Washington,Big Ten,750.4,28.0,8.2
+Texas Tech,Big 12,722.4,11,Virginia Tech,ACC,691.3,31.1,8.3
+Texas Tech,Big 12,722.4,12,Arkansas,SEC,753.9,31.5,8.3
+UCF,Big 12,683.7,1,Pittsburgh,ACC,685.0,1.3,7.4
+UCF,Big 12,683.7,2,Indiana,Big Ten,681.6,2.1,7.4
+UCF,Big 12,683.7,3,Minnesota,Big Ten,687.0,3.3,7.4
+UCF,Big 12,683.7,4,Purdue,Big Ten,688.4,4.7,7.5
+UCF,Big 12,683.7,5,Virginia Tech,ACC,691.3,7.6,7.6
+UCF,Big 12,683.7,6,Vanderbilt,SEC,675.7,8.0,7.6
+UCF,Big 12,683.7,7,Syracuse,ACC,674.6,9.1,7.6
+UCF,Big 12,683.7,8,Maryland,Big Ten,696.1,12.4,7.7
+UCF,Big 12,683.7,9,Northwestern,Big Ten,670.7,13.0,7.7
+UCF,Big 12,683.7,10,Rutgers,Big Ten,665.9,17.8,7.9
+UCF,Big 12,683.7,11,California,ACC,703.0,19.3,7.9
+UCF,Big 12,683.7,12,Iowa,Big Ten,706.2,22.5,8.0
+UCLA,Big Ten,757.2,1,Mississippi State,SEC,758.1,1.0,7.4
+UCLA,Big Ten,757.2,2,Arkansas,SEC,753.9,3.3,7.4
+UCLA,Big Ten,757.2,3,Kentucky,SEC,763.2,6.0,7.5
+UCLA,Big Ten,757.2,4,TCU,Big 12,744.5,12.6,7.7
+UCLA,Big Ten,757.2,5,Missouri,SEC,778.2,21.1,8.0
+UCLA,Big Ten,757.2,6,North Carolina,ACC,786.9,29.8,8.2
+UCLA,Big Ten,757.2,7,SMU,ACC,726.4,30.8,8.3
+UCLA,Big Ten,757.2,8,Texas Tech,Big 12,722.4,34.8,8.4
+UCLA,Big Ten,757.2,9,Stanford,ACC,720.1,37.0,8.5
+UCLA,Big Ten,757.2,10,Georgia Tech,ACC,719.3,37.9,8.5
+UCLA,Big Ten,757.2,11,Utah,Big 12,715.3,41.9,8.6
+UCLA,Big Ten,757.2,12,NC State,ACC,714.8,42.3,8.6
+USC,Big Ten,873.2,1,Florida,SEC,877.2,4.0,7.4
+USC,Big Ten,873.2,2,Miami,ACC,868.7,4.5,7.5
+USC,Big Ten,873.2,3,Oklahoma,SEC,879.1,5.9,7.5
+USC,Big Ten,873.2,4,Notre Dame,FBS Independents,901.6,28.3,8.2
+USC,Big Ten,873.2,5,LSU,SEC,906.0,32.8,8.3
+USC,Big Ten,873.2,6,Tennessee,SEC,839.4,33.8,8.4
+USC,Big Ten,873.2,7,Clemson,ACC,913.4,40.1,8.6
+USC,Big Ten,873.2,8,Auburn,SEC,821.7,51.5,8.9
+USC,Big Ten,873.2,9,Texas A&M,SEC,927.6,54.4,9.0
+USC,Big Ten,873.2,10,Florida State,ACC,810.8,62.4,9.3
+USC,Big Ten,873.2,11,South Carolina,SEC,804.0,69.2,9.5
+USC,Big Ten,873.2,12,Texas,SEC,942.7,69.4,9.5
+Utah,Big 12,715.3,1,NC State,ACC,714.8,0.5,7.3
+Utah,Big 12,715.3,2,Michigan State,Big Ten,713.1,2.2,7.4
+Utah,Big 12,715.3,3,Georgia Tech,ACC,719.3,4.0,7.4
+Utah,Big 12,715.3,4,Stanford,ACC,720.1,4.8,7.5
+Utah,Big 12,715.3,5,Louisville,ACC,709.9,5.4,7.5
+Utah,Big 12,715.3,6,Iowa,Big Ten,706.2,9.1,7.6
+Utah,Big 12,715.3,7,SMU,ACC,726.4,11.1,7.7
+Utah,Big 12,715.3,8,California,ACC,703.0,12.3,7.7
+Utah,Big 12,715.3,9,Maryland,Big Ten,696.1,19.2,7.9
+Utah,Big 12,715.3,10,Virginia Tech,ACC,691.3,24.0,8.1
+Utah,Big 12,715.3,11,Purdue,Big Ten,688.4,26.9,8.2
+Utah,Big 12,715.3,12,Minnesota,Big Ten,687.0,28.3,8.2
+Vanderbilt,SEC,675.7,1,Oklahoma State,Big 12,676.7,1.0,7.4
+Vanderbilt,SEC,675.7,2,West Virginia,Big 12,676.7,1.0,7.4
+Vanderbilt,SEC,675.7,3,Syracuse,ACC,674.6,1.1,7.4
+Vanderbilt,SEC,675.7,4,Arizona,Big 12,672.6,3.1,7.4
+Vanderbilt,SEC,675.7,5,Northwestern,Big Ten,670.7,5.0,7.5
+Vanderbilt,SEC,675.7,6,Indiana,Big Ten,681.6,5.9,7.5
+Vanderbilt,SEC,675.7,7,UCF,Big 12,683.7,8.0,7.6
+Vanderbilt,SEC,675.7,8,Pittsburgh,ACC,685.0,9.3,7.6
+Vanderbilt,SEC,675.7,9,Rutgers,Big Ten,665.9,9.8,7.6
+Vanderbilt,SEC,675.7,10,Minnesota,Big Ten,687.0,11.3,7.7
+Vanderbilt,SEC,675.7,11,Purdue,Big Ten,688.4,12.8,7.7
+Vanderbilt,SEC,675.7,12,Virginia Tech,ACC,691.3,15.6,7.8
+Virginia,ACC,655.6,1,Kansas State,Big 12,655.4,0.2,7.3
+Virginia,ACC,655.6,2,Illinois,Big Ten,656.5,0.9,7.3
+Virginia,ACC,655.6,3,Kansas,Big 12,658.7,3.2,7.4
+Virginia,ACC,655.6,4,Houston,Big 12,659.7,4.2,7.5
+Virginia,ACC,655.6,5,Cincinnati,Big 12,651.1,4.5,7.5
+Virginia,ACC,655.6,6,Rutgers,Big Ten,665.9,10.4,7.6
+Virginia,ACC,655.6,7,Northwestern,Big Ten,670.7,15.1,7.8
+Virginia,ACC,655.6,8,Arizona,Big 12,672.6,17.0,7.8
+Virginia,ACC,655.6,9,Iowa State,Big 12,638.0,17.6,7.9
+Virginia,ACC,655.6,10,Vanderbilt,SEC,675.7,20.1,7.9
+Virginia,ACC,655.6,11,Oklahoma State,Big 12,676.7,21.1,8.0
+Virginia,ACC,655.6,12,West Virginia,Big 12,676.7,21.2,8.0
+Virginia Tech,ACC,691.3,1,Purdue,Big Ten,688.4,2.9,7.4
+Virginia Tech,ACC,691.3,2,Minnesota,Big Ten,687.0,4.3,7.5
+Virginia Tech,ACC,691.3,3,Maryland,Big Ten,696.1,4.8,7.5
+Virginia Tech,ACC,691.3,4,UCF,Big 12,683.7,7.6,7.6
+Virginia Tech,ACC,691.3,5,Baylor,Big 12,700.6,9.3,7.6
+Virginia Tech,ACC,691.3,6,Indiana,Big Ten,681.6,9.7,7.6
+Virginia Tech,ACC,691.3,7,West Virginia,Big 12,676.7,14.6,7.8
+Virginia Tech,ACC,691.3,8,Oklahoma State,Big 12,676.7,14.6,7.8
+Virginia Tech,ACC,691.3,9,Iowa,Big Ten,706.2,14.9,7.8
+Virginia Tech,ACC,691.3,10,Vanderbilt,SEC,675.7,15.6,7.8
+Virginia Tech,ACC,691.3,11,Arizona,Big 12,672.6,18.7,7.9
+Virginia Tech,ACC,691.3,12,Northwestern,Big Ten,670.7,20.6,8.0
+Wake Forest,ACC,624.5,1,Iowa State,Big 12,638.0,13.5,7.7
+Wake Forest,ACC,624.5,2,Cincinnati,Big 12,651.1,26.5,8.1
+Wake Forest,ACC,624.5,3,Kansas State,Big 12,655.4,30.9,8.3
+Wake Forest,ACC,624.5,4,Illinois,Big Ten,656.5,31.9,8.3
+Wake Forest,ACC,624.5,5,Kansas,Big 12,658.7,34.2,8.4
+Wake Forest,ACC,624.5,6,Houston,Big 12,659.7,35.2,8.4
+Wake Forest,ACC,624.5,7,BYU,Big 12,586.5,38.0,8.5
+Wake Forest,ACC,624.5,8,Rutgers,Big Ten,665.9,41.4,8.6
+Wake Forest,ACC,624.5,9,Northwestern,Big Ten,670.7,46.2,8.8
+Wake Forest,ACC,624.5,10,Arizona,Big 12,672.6,48.1,8.8
+Wake Forest,ACC,624.5,11,Vanderbilt,SEC,675.7,51.2,8.9
+Wake Forest,ACC,624.5,12,Oklahoma State,Big 12,676.7,52.2,8.9
+Washington,Big Ten,750.4,1,Arkansas,SEC,753.9,3.4,7.4
+Washington,Big Ten,750.4,2,TCU,Big 12,744.5,5.9,7.5
+Washington,Big Ten,750.4,3,Mississippi State,SEC,758.1,7.7,7.6
+Washington,Big Ten,750.4,4,Kentucky,SEC,763.2,12.8,7.7
+Washington,Big Ten,750.4,5,SMU,ACC,726.4,24.0,8.1
+Washington,Big Ten,750.4,6,Missouri,SEC,778.2,27.8,8.2
+Washington,Big Ten,750.4,7,Texas Tech,Big 12,722.4,28.0,8.2
+Washington,Big Ten,750.4,8,Stanford,ACC,720.1,30.3,8.3
+Washington,Big Ten,750.4,9,Georgia Tech,ACC,719.3,31.1,8.3
+Washington,Big Ten,750.4,10,Utah,Big 12,715.3,35.1,8.4
+Washington,Big Ten,750.4,11,NC State,ACC,714.8,35.6,8.4
+Washington,Big Ten,750.4,12,North Carolina,ACC,786.9,36.5,8.5
+West Virginia,Big 12,676.7,1,Vanderbilt,SEC,675.7,1.0,7.4
+West Virginia,Big 12,676.7,2,Syracuse,ACC,674.6,2.1,7.4
+West Virginia,Big 12,676.7,3,Indiana,Big Ten,681.6,4.8,7.5
+West Virginia,Big 12,676.7,4,Northwestern,Big Ten,670.7,6.0,7.5
+West Virginia,Big 12,676.7,5,Pittsburgh,ACC,685.0,8.3,7.6
+West Virginia,Big 12,676.7,6,Minnesota,Big Ten,687.0,10.3,7.6
+West Virginia,Big 12,676.7,7,Rutgers,Big Ten,665.9,10.8,7.7
+West Virginia,Big 12,676.7,8,Purdue,Big Ten,688.4,11.7,7.7
+West Virginia,Big 12,676.7,9,Virginia Tech,ACC,691.3,14.6,7.8
+West Virginia,Big 12,676.7,10,Boston College,ACC,658.6,18.1,7.9
+West Virginia,Big 12,676.7,11,Maryland,Big Ten,696.1,19.4,7.9
+West Virginia,Big 12,676.7,12,Illinois,Big Ten,656.5,20.3,7.9
+Wisconsin,Big Ten,757.7,1,Mississippi State,SEC,758.1,0.5,7.3
+Wisconsin,Big Ten,757.7,2,Arkansas,SEC,753.9,3.8,7.4
+Wisconsin,Big Ten,757.7,3,Kentucky,SEC,763.2,5.6,7.5
+Wisconsin,Big Ten,757.7,4,TCU,Big 12,744.5,13.1,7.7
+Wisconsin,Big Ten,757.7,5,Missouri,SEC,778.2,20.6,8.0
+Wisconsin,Big Ten,757.7,6,North Carolina,ACC,786.9,29.3,8.2
+Wisconsin,Big Ten,757.7,7,SMU,ACC,726.4,31.2,8.3
+Wisconsin,Big Ten,757.7,8,Texas Tech,Big 12,722.4,35.2,8.4
+Wisconsin,Big Ten,757.7,9,Stanford,ACC,720.1,37.5,8.5
+Wisconsin,Big Ten,757.7,10,Georgia Tech,ACC,719.3,38.3,8.5
+Wisconsin,Big Ten,757.7,11,Utah,Big 12,715.3,42.4,8.6
+Wisconsin,Big Ten,757.7,12,NC State,ACC,714.8,42.8,8.6

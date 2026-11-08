@@ -1,0 +1,38 @@
+P4 teams in 2026: 68; missing talent: []
+Fit (FBS vs FBS 2016-2025 excl. 2020, n=6631): |spread| = 7.32 + 0.0310 * talent gap
+
+Median |spread| by talent gap bin:
+     gapBin  games  median_spread
+    [0, 25)   1029            7.0
+   [25, 50)    923            7.0
+   [50, 75)    807            7.5
+  [75, 100)    662            7.0
+ [100, 150)   1056            7.5
+ [150, 200)    645           10.0
+ [200, 300)    814           14.5
+[300, 1000)    695           20.5
+
+P4 non-conference games, 2021-2025, by opponent type:
+         games  per_season  with_line  median_spread  median_gap
+oppType                                                         
+FCS        280        56.0        273           37.5       626.4
+G5         504       100.8        504           20.5       278.2
+P4         197        39.4        197            6.5        76.5
+
+All P4 non-con games with a line, 2021-2025: median |spread| 21.5
+Share of P4 non-con games vs. P4 opponents, 2021-2025: 20.1%
+2026 P4 non-con games so far: 179; vs P4 39, G5 81, FCS 59; median |spread| 27.9
+
+Pool games (12 per team): median talent gap 18.9, median predicted |spread| 7.9, 90th pct predicted 9.5
+Actual 2021-2025 P4-vs-P4 non-con games already inside a 2026 pool: 82 of 197
+  median |spread| in-pool 4.1 vs out-of-pool 7.5
+
+Ohio State (5-yr talent 978.9): Georgia (17), Alabama (25), Texas (36), Texas A&M (51), Clemson (66), LSU (73), Notre Dame (77), Oklahoma (100), Florida (102), Miami (110), Tennessee (140), Auburn (157)
+
+Kentucky (5-yr talent 763.2): Wisconsin (6), UCLA (6), Washington (13), TCU (19), Nebraska (20), North Carolina (24), SMU (37), Texas Tech (41), Stanford (43), Georgia Tech (44), Florida State (48), Utah (48)
+
+LSU (5-yr talent 906.0): Notre Dame (4), Clemson (7), Oregon (13), USC (33), Michigan (35), Miami (37), Penn State (52), Ohio State (73), Florida State (95), North Carolina (119), Nebraska (123), Wisconsin (148)
+
+UCLA (5-yr talent 757.2): Mississippi State (1), Arkansas (3), Kentucky (6), TCU (13), Missouri (21), North Carolina (30), SMU (31), Texas Tech (35), Stanford (37), Georgia Tech (38), Utah (42), NC State (42)
+
+Indiana (5-yr talent 681.6): UCF (2), Pittsburgh (3), West Virginia (5), Oklahoma State (5), Vanderbilt (6), Syracuse (7), Arizona (9), Virginia Tech (10), Baylor (19), California (21), Houston (22), Kansas (23)
