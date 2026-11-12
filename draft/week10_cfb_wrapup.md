@@ -54,7 +54,7 @@ All week, the conversation was whether a loss would knock Notre Dame out of the 
 
 - **Lose once more and still win the ACC:** Miami is in. The Hurricanes are 6-0 in the ACC with home games left against Duke, Virginia Tech and Boston College, and they already own the tiebreaker over Wake Forest, 5-1 in the ACC entering the weekend and their closest challenger. Win the conference and the automatic bid is waiting.
 - **Lose only the ACC title game:** 11-2 and on the at-large bubble. Last year, the committee chair said Miami's head-to-head win was what moved the Hurricanes ahead of Notre Dame for the final at-large spot. That card now belongs to the Irish.
-- **Lose a regular-season game and the ACC title game:** at 10-3, Miami is almost certainly out. No team in the 12-team era has made the field as an at-large with three losses.
+- **Lose a regular-season game and the ACC title game:** at 10-3, Miami is on the wrong side of the bubble. It can happen: last year Alabama became the first three-loss team to get an at-large bid, at 10-3, and the committee seeded it ahead of 10-2 Miami. But that Alabama team had an SEC schedule behind it, and the committee just watched Miami lose the one game on its schedule that looked like that.
 
 Miami controls all of it. But a team that's 126th in FBS in pass-defense EPA doesn't have much margin for one more bad afternoon.
 
