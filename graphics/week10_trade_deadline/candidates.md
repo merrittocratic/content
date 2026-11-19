@@ -1,0 +1,4 @@
+candidate_1.png -- chart, standard. Kirk Cousins' fantasy points in each of nine games against the 20-point start line, with the model's 14-34% pre-game chance under every bar (5 of 9 cleared).
+candidate_2.png -- table (gt), standard. Cleared-line record vs. model-expected clears for Cousins, Kyler Murray, Carson Wentz, Keenan Allen, Josh Downs, Daniel Jones, Jonathan Taylor and Marvin Harrison Jr.; Cousins is 5 of 9 against 2.1 expected.
+candidate_3.png -- chart, standard. Jonathan Taylor's model start chance falling from 77% (Week 4) to 51% (Week 9), highlighted over Allen, Downs and Daniel Jones, none of whom topped 45%.
+candidate_4.png -- chart, WILDCARD (patchwork). Game-by-game fantasy-point heat grid for the Vikings QBs, the Colts offense and Harrison Jr., paired with an expected-vs-actual clear-rate dumbbell panel.

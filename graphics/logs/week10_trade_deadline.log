@@ -1,0 +1,13 @@
+Warning: this sign-in can end at any time from now until 2026-11-14. Renewing it does not move that date. Run claude auth login now, or use claude setup-token for unattended jobs.
+repo: boxscore-prophet (from frontmatter). Built 4 candidates in graphics/week10_trade_deadline/. Only source used: boxscore-prophet/output/10d_receipts_2026_w01..w09.csv.
+verified: Cousins cleared 20 pts in 5 of 9 games (W2,3,4,7,8); model start chance never above 34% (W6). Per-player model start chances and actual fantasy points for Allen, Downs, Jones, Taylor, Harrison Jr., Murray, Wentz.
+note: model receipts predate the trades; Allen/Downs/Cousins/Harrison are shown with the teams listed in the receipts.
+reuse: Cousins appeared earlier only in somethings_gotta_give (week 3 model-vs-market dumbbell); different angle.
+unverified claim: "Jacksonville paid a 2027 first-round pick and two second-rounders" and all other trade prices/picks -- no matching artifact found.
+unverified claim: "Jacksonville is 3rd in EPA per play allowed ... 21st in yards per play allowed (5.22)" and all team EPA/success-rate/ANY/A/sack-rate ranks -- no matching artifact found.
+unverified claim: "Allen ... 59th of 66 receivers ... separation ranks 100th of 117" and Downs/Worthy yards per target and separation ranks -- no matching artifact found.
+unverified claim: "Buckner had 4 sacks and 8 QB hits in seven Colts games" -- no matching artifact found.
+unverified claim: "Harrison Jr. 11 targets, 6 catches and 60 yards, on 19%, 21% and 46% of snaps" -- no matching artifact found (slate files carry only weighted snap share).
+unverified claim: "Jonathan Taylor ran for 69 yards on 21 carries" and Colts offensive EPA -0.06 to -0.33 / rushing yards allowed 126 to 182 -- no matching artifact found.
+unverified claim: Cousins "-sacked on just 3.3% of dropbacks", "+0.17 EPA per dropback" in Las Vegas, Murray -0.06 and Wentz -0.27 EPA per dropback -- not charted; the slate files hold rolling model inputs, not the draft's figures.
+unverified claim: spreads (Jacksonville -10.5), game totals (55.5), Simmons sacks/TFL, Bears turnover margin -- no matching artifact found.
