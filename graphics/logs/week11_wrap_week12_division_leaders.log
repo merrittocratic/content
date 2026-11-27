@@ -1,0 +1,21 @@
+repo: boxscore-prophet (from frontmatter). No graphics produced -- nothing in the draft could be verified against a boxscore-prophet artifact.
+
+What boxscore-prophet has: player-level fantasy outputs (start boards, boom boards, ECR gaps, ledgers, scored slates, movers) for QB/RB/WR/TE, plus a game slate with weather/venue only (10b_game_slate_2026_w11.csv). It has no team-level EPA, SRS, standings, division records, tiebreaker inputs, point differentials, strength of schedule, CPOE, or market spreads/totals.
+
+Every claim in the draft is a team-level or NFL-stat claim, so none have a matching artifact. No week-12 files exist yet either (latest outputs are w11).
+
+unverified claim: "Kansas City Chiefs are 8-2, 2nd in the NFL in net EPA" -- no matching artifact found.
+unverified claim: "12th in net EPA and 27th in yards per play" (Denver) -- no matching artifact found.
+unverified claim: Chiefs/Broncos common-game scores and tiebreaker walk-through (23-17, 38-24, 17-14, 30-16; 22-6, 30-27, 34-7, 20-3) -- no matching artifact found.
+unverified claim: "Kansas City has outscored opponents by 108 points and Denver by 26"; opponent win rates .564 / .388 / .391 -- no matching artifact found.
+unverified claim: Bears/Lions division record, Week 17 rematch, 7th SRS, net EPA +0.068 vs +0.066, 19 giveaways, QB EPA per dropback -- no matching artifact found.
+unverified claim: all SRS figures (49ers +10.5, Jaguars +9.8, Bills +9.2, Chiefs +7.9, Lions +5.9, Rams +4.8) -- no matching artifact found.
+unverified claim: all team EPA/yards-per-play/sack-rate/third-down/red-zone ranks and rates -- no matching artifact found.
+unverified claim: QB stats (Purdy 23 TD/5 INT, +5.7 CPOE; Burrow 74.2%, 29 TD, +6.5 CPOE; Allen 11 rush TD, -1.3 CPOE; Mahomes 6.3 aDOT; Lawrence 25-of-47; Williams +6.2 CPOE; Stafford +0.4 CPOE) -- no matching artifact found. (Burrow, Mahomes etc. appear in w11 start/boom boards, but only as fantasy start chances, which the draft does not cite.)
+unverified claim: Week 12 spreads/totals (Buffalo -3, Denver -3, Jacksonville -14.5, Bears -2.5, total 55.5, Bengals +10, Rams -2.5) -- no matching artifact found.
+unverified claim: Commanders 22-20 over Bengals, 150-32 rushing, 428-313 yards -- no matching artifact found.
+unverified claim: Giants (6-3-1) and Panthers (5-5) division leads, "neither a top-12 team" -- no matching artifact found.
+
+Reuse check: week6_wrap_week7_storylines already used the fantasy boards from this repo; no prior slug covers NFL team ratings or division races.
+
+Options for Steve: (1) retag the draft repo: none, (2) point it at a repo that holds nflverse team EPA/SRS/standings data (candidates: nfl-draft-model, shadow-leaderboard, if either has them -- I did not check), or (3) tell me which fantasy-board angle to build for the Week 11 or Week 12 players, if you want a graphic from this repo anyway.
