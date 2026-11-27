@@ -22,15 +22,11 @@ The defense tells the same story. Iowa allows 12.2 points per game, the fewest i
 
 What's still missing is the top of the schedule. Iowa's two best opponents are both 7-4, it hasn't played a team with eight or more wins, and it's 0-1 against SP+ top-25 teams. Every rating puts the Hawkeyes about where the committee does: 16th in SP+, 16th in ESPN's FPI, 13th in SRS (point margin adjusted for schedule) and 13th in the CFP rankings. They get there with the 44th-ranked roster in the recruiting talent composite, the lowest of the seven. That's impressive, but it's a lower-group resume.
 
-## You Can't Sit With Us!
+## Seat's Taken
 
 If the middle of Iowa's schedule is better than advertised, does that make all seven of these schedules about the same? No. By middle-game opponent win percentage, they split into three groups. Texas (.657) and Oregon (.643) are 5th and 8th in FBS in middle opponent win percentage. Alabama and Indiana are tied at .606, 23rd. Then Texas Tech, Iowa and Tennessee sit between .543 and .561, 49th to 63rd. The gap from top to bottom is about 1.6 standard deviations of the FBS spread. Trimming pulled Iowa up, but it didn't squeeze the groups together.
 
 The records are close, though: everyone is between 5-2 and 7-0 in the middle. The records look alike, and the schedules behind them don't.
-
-And one team doesn't look like anyone. Alabama is 7-0 in its middle games, winning by 29.9 points a game, with a net EPA of .398 per play, nearly double anyone else's. The catch is the ends. The Crimson Tide are 0-2 against their two best opponents, Georgia and Tennessee, and Tennessee's 26-10 win over Alabama in Knoxville is the best single win any of these teams outside Texas has.
-
-## Life Is Pain, Highness
 
 Here's the part I didn't expect. The middle records run the opposite way from the difficulty. Texas and Oregon have the two hardest middles, and they also have the worst middle records (both 5-2) and the smallest middle margins of the seven.
 
@@ -38,9 +34,9 @@ Texas' full resume is the best of the group. Its seven wins over winning teams l
 
 Oregon's middle has the highest average opponent SP+ of the seven (13.2), and the Ducks won those games by only 6.1 points a game, with losses to Oklahoma State and Illinois. Their 34.8 points per game overall drops to 29.3 in the middle once the 84-0 win over Portland State is gone. Oregon has the third-most talented roster in FBS by the recruiting composite, and three losses.
 
-## 'Tis But A Scratch
+Alabama is the opposite case: a middle-tier schedule, and results that don't look like anyone's. The Crimson Tide are 7-0 in their middle games, winning by 29.9 points a game, with a net EPA of .398 per play, nearly double anyone else's. The catch is the ends. They're 0-2 against their two best opponents, Georgia and Tennessee, and Tennessee's 26-10 win over Alabama in Knoxville is the best single win any of these teams outside Texas has.
 
-Texas Tech and Indiana both have a hole that the record covers up.
+Texas Tech and Indiana don't have Alabama's margin to hide behind, and both have a hole that the record covers up.
 
 Texas Tech is 11-1, but the best teams it has played are 8-3 Arizona and 8-3 Houston, and it beat them by eight and two. It scores 38.2 points a game (10th in FBS) and allows 23.4 (58th), gave up 48 to 5-6 West Virginia and lost by 13 at 6-5 Cincinnati. SRS has the Red Raiders 15th and FPI has them 14th, both behind their No. 9 AP ranking.
 
